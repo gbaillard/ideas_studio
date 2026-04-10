@@ -1,0 +1,1707 @@
+{
+  "1": {
+    "verdict": "acceptee",
+    "summary": "Les templates Canva sur Etsy sont un modele prouve avec des barrieres d'entree basses, mais les revenus max sont exageres pour un debutant.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-5000 EUR/mois realiste pour un shop actif. Le max de 15000 est atteignable mais rare."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva Pro suffit largement. Le workflow est simple et bien documente."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "100% faisable solo. Pas de stock, pas de logistique."},
+      {"criterion": "Marche reel", "ok": true, "text": "Marche sature mais la demande reste forte. La cle est le niching ultra-precis."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva Pro, Etsy, ChatGPT — tous existent et fonctionnent comme decrit."}
+    ]
+  },
+  "2": {
+    "verdict": "rejetee",
+    "summary": "Les chaines YouTube faceless IA sont massivement saturees et YouTube penalise activement le contenu IA generique depuis 2025.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le max de 20000 est de la pure fiction pour 99% des createurs. La plupart ne passent jamais la monetisation."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Les outils existent et fonctionnent. ElevenLabs, CapCut, Midjourney sont operationnels."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable seul avec les outils IA decrits."},
+      {"criterion": "Marche reel", "ok": false, "text": "Saturation extreme. YouTube reprime le contenu IA repetitif. RPM en chute pour ce format."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Tous les outils existent et font ce qui est promis."}
+    ]
+  },
+  "3": {
+    "verdict": "acceptee",
+    "summary": "Le micro-SaaS sur plateforme existante est un modele solide avec un cas reel documente. Necessite des competences dev.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-10000 EUR/mois est realiste. 23K est un outlier mais possible avec un bon product-market fit."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Faisable pour un developpeur. Le framework 6 etapes est sense."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un seul dev peut maintenir un micro-SaaS."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les plateformes en croissance ont toujours des gaps fonctionnels."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "TypeScript, React, Stripe, Vercel — stack classique et fiable."}
+    ]
+  },
+  "4": {
+    "verdict": "rejetee",
+    "summary": "Le format Reddit Stories est en voie de disparition. YouTube et TikTok suppriment activement ces chaines pour contenu repris sans valeur ajoutee.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le max de 12000 est irrealiste. Ces chaines generent rarement plus de 200-500 EUR/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Techniquement trivial a produire."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Ultra-simple a faire seul."},
+      {"criterion": "Marche reel", "ok": false, "text": "Format mourant. Les plateformes penalisent le contenu repetitif copie."},
+      {"criterion": "Outils disponibles", "ok": false, "text": "aitextspeak.com et automatsocial.com sont des sites de niche peu fiables, pas des outils etablis."}
+    ]
+  },
+  "5": {
+    "verdict": "acceptee",
+    "summary": "L'agence d'automatisation IA est un vrai business avec une forte demande. Mais c'est du service actif, pas du passif.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-20000 est credible avec 3-10 clients. Retainer model solide."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Make.com et n8n sont accessibles. La courbe d'apprentissage est raisonnable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo au debut. Le plafond arrive vite sans equipe."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les PME ont un besoin reel d'automatisation. La demande est authentique."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Make.com, n8n, Zapier — tous operationnels et bien documentes."}
+    ]
+  },
+  "6": {
+    "verdict": "rejetee",
+    "summary": "Les coloring books KDP sont ultra-satures. Amazon est inonde de livres IA de qualite mediocre. Les revenus annonces sont ceux des premiers entrants.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le max de 8000 est extremement rare. La majorite des livres vendent 0-5 copies/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "LitPal et Claude fonctionnent pour cette tache."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo, production rapide."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche sature. Amazon a durci les regles pour le contenu IA. La concurrence est ecrasante."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "LitPal.ai existe et fonctionne. Claude est operationnel."}
+    ]
+  },
+  "7": {
+    "verdict": "acceptee",
+    "summary": "Le POD via Etsy avec des designs niches reste viable grace a la strategie de cross-niching. Revenus modestes mais realistes.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-3000 EUR/mois est realiste avec un catalogue de 100+ designs."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Kittl, Printify, Canva — workflow simple et eprouve."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Entierement faisable solo. Printify gere la logistique."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les t-shirts niches trouvent toujours des acheteurs. Le cross-niching est une bonne strategie."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Tous les outils existent et sont fiables."}
+    ]
+  },
+  "8": {
+    "verdict": "rejetee",
+    "summary": "Les livres pour enfants generes par IA posent des problemes de qualite et Amazon restreint de plus en plus ce type de contenu.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le $7K documente est probablement un outlier ancien. La plupart font moins de 100$/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "LitPal peut generer les livres en 5 minutes comme promis."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Tres rapide a produire en solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les parents sont de plus en plus mefiants envers le contenu IA pour enfants. Amazon durcit les controles."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "LitPal fonctionne mais la qualite des illustrations IA est variable."}
+    ]
+  },
+  "9": {
+    "verdict": "acceptee",
+    "summary": "Les stickers digitaux GoodNotes restent un marche porteur avec une bonne marge. Le chiffre de 30K premiere annee est un outlier.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-3000 EUR/mois est realiste. 30K premiere annee est exceptionnel."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Playground, Canva et Google Drive — workflow accessible."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production entierement solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le digital planning continue de croitre. Audience fidele sur iPad."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Tous les outils sont operationnels et accessibles."}
+    ]
+  },
+  "10": {
+    "verdict": "acceptee",
+    "summary": "Les extensions Chrome monetisables sont un modele prouve. Le delai de 9-10 mois gratuits avant monetisation est realiste.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-10000 est credible. 20K-30K est possible mais pour les leaders du marche."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Developper une extension Chrome est accessible pour un dev JS."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un dev solo peut maintenir une extension Chrome."},
+      {"criterion": "Marche reel", "ok": true, "text": "Chrome Web Store est un canal de distribution gratuit avec des milliards d'utilisateurs."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "JS, AWS, ExtensionPay — stack standard et fiable."}
+    ]
+  },
+  "11": {
+    "verdict": "acceptee",
+    "summary": "Les chatbots IA pour PME locales sont un vrai business de service. Le stat de 62% d'appels sans reponse est credible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-10000 EUR/mois est realiste avec 5-15 clients a 200-500 EUR/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "GoHighLevel et Botpress sont des plateformes no-code fonctionnelles."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo avec les outils no-code. Le plafond est le temps de prospection."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les PME locales ont un vrai besoin. La prospection terrain reste necessaire."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "GoHighLevel, Voiceflow, Chatbase — tous fonctionnels."}
+    ]
+  },
+  "12": {
+    "verdict": "rejetee",
+    "summary": "Le wall art printable sur Etsy est extremement sature. PrintKK est un fournisseur parmi des dizaines et la differentiation est quasi impossible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le max de 5000 est optimiste. La majorite font 50-200$/mois dans ce marche sature."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + PrintKK fonctionnent comme decrit."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche ecrase par la concurrence. Des millions de listings wall art sur Etsy."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "PrintKK existe et fonctionne. Canva et Midjourney aussi."}
+    ]
+  },
+  "13": {
+    "verdict": "acceptee",
+    "summary": "La newsletter monetisee est un modele solide a long terme. L'Ad Network Beehiiv est un vrai avantage. Patience requise.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-8000 EUR/mois est realiste a partir de 5000+ abonnes. Les 3-6 mois pour les premiers revenus sont honnetes."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Beehiiv est une plateforme solide avec des outils integres."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Une personne peut gerer une newsletter hebdomadaire."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le marche de la newsletter est en croissance. La niche IA est particulierement porteuse."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Beehiiv, ChatGPT, Perplexity — tous fonctionnels."}
+    ]
+  },
+  "14": {
+    "verdict": "rejetee",
+    "summary": "Les word search books KDP sont satures. Le chiffre de 11K/mois est un cas isole ancien. La fenetre d'opportunite est fermee.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "11K/mois est un outlier extreme. La realite est 50-300$/mois pour la majorite."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Les generateurs de puzzles et Canva font le travail."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production tres rapide en solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Des milliers de word search books identiques sur Amazon. Le Q4 est le seul pic et tout le monde cible les memes dates."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "LitPal, Book Bolt et Canva fonctionnent."}
+    ]
+  },
+  "15": {
+    "verdict": "rejetee",
+    "summary": "La chaine LoFi YouTube IA est un marche domine par des acteurs etablis. Le delai de 6-12 mois et la comparaison a Lofi Girl sont trompeurs.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Comparer a Lofi Girl (3.5M$/an) est absurde. Une nouvelle chaine fera 50-300$/mois au mieux."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Suno, Midjourney, Runway fonctionnent pour ce cas."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable seul."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche domine par des chaines massives. Le contenu IA musical a des problemes de droits non resolus."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Suno AI fonctionne. OBS est gratuit. Les outils existent."}
+    ]
+  },
+  "16": {
+    "verdict": "acceptee",
+    "summary": "Les fichiers SVG pour Cricut/Silhouette ont une demande reelle de la communaute DIY. Niche moins saturee que le POD classique.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste avec un bon catalogue. 10K est pour les leaders."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le pipeline IA > vectorisation > Inkscape fonctionne."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production solo rapide une fois le workflow rode."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les crafters Cricut achetent massivement des SVGs. Marche moins sature que les templates."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Vectorizer.AI, Inkscape, Midjourney — tous operationnels."}
+    ]
+  },
+  "17": {
+    "verdict": "rejetee",
+    "summary": "Les pet portraits IA sur Etsy sont deja satures avec des milliers de listings. Styler.ai produit des resultats generiques facilement reproductibles par n'importe qui.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le 443K/mois est un listing exceptionnel ancien. Les nouveaux entrants font 100-500$/mois face a une concurrence massive."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Styler.ai fonctionne pour les transformations de style."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo, mais c'est du service semi-actif (chaque commande necessite un traitement)."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche sature. Des milliers de listings pet portrait IA sur Etsy. Barriere d'entree nulle = course vers le bas."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Styler.ai, Canva, Printify existent et fonctionnent."}
+    ]
+  },
+  "18": {
+    "verdict": "acceptee",
+    "summary": "Les clipart bundles IA sont viables avec une approche data-driven. Le 400K en 2 ans est un outlier mais l'approche Profit Tree est intelligente.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-4000 EUR/mois est realiste avec un catalogue etoffe."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney + Topaz + Canva — workflow eprouve."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production en batch faisable seul."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les cliparts sont utilises par des createurs, pas seulement des consommateurs finaux. Demande B2B indirecte."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Profit Tree, Midjourney, Topaz Gigapixel — tous existent."}
+    ]
+  },
+  "19": {
+    "verdict": "rejetee",
+    "summary": "Les UGC Ads IA sont un outil marketing, pas un business en soi. TopView/Sora 2 sont chers et les resultats IA sont detectables.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Les revenus annonces supposent d'avoir un produit a vendre. Ce n'est pas un business standalone."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "TopView et Sora 2 fonctionnent techniquement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable seul."},
+      {"criterion": "Marche reel", "ok": false, "text": "C'est un outil, pas un business. Les plateformes commencent a penaliser le contenu IA en publicite."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "TopView AI existe. Le terme 'Sora 2' est trompeur — TopView n'est pas Sora."}
+    ]
+  },
+  "20": {
+    "verdict": "acceptee",
+    "summary": "Les cartes de voeux printables sont un marche evergreen avec des pics saisonniers previsibles. Revenus modestes mais stables.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-2000 EUR/mois est realiste. Le Q4 peut tripler les ventes."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + Creative Fabrica — workflow ultra-simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Le plus simple de tous les produits Etsy."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les cartes printables se vendent constamment. Marche previsible."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva et Creative Fabrica sont fiables et accessibles."}
+    ]
+  },
+  "21": {
+    "verdict": "acceptee",
+    "summary": "Les puzzles POD via Printify ont des marges interessantes et un marche en croissance. Le chiffre de Lantern Press est inspire mais les produits physiques POD marchent.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-3000 EUR/mois est realiste avec un bon catalogue."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "DALL-E 3 + BigJPG + Printify — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo, Printify gere la logistique."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les puzzles sont un marche en croissance, surtout les designs artistiques."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "DALL-E 3, BigJPG (gratuit), Printify — tous operationnels."}
+    ]
+  },
+  "22": {
+    "verdict": "rejetee",
+    "summary": "La musique IA sur Spotify/Apple Music genere des revenus derisoires. Les plateformes retirent activement le contenu IA spam.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "200-3000 EUR est le range annonce mais la realite est 5-50$/mois pour la majorite. Les streams paient 0.003-0.005$/stream."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Suno + DistroKid fonctionnent comme decrit."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable seul en batch."},
+      {"criterion": "Marche reel", "ok": false, "text": "Spotify et Apple Music ont commence a retirer la musique IA non-originale. Les playlists IA sont penalisees."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Suno et DistroKid sont operationnels."}
+    ]
+  },
+  "23": {
+    "verdict": "rejetee",
+    "summary": "Le marche des prompts IA est en chute libre. Les LLM deviennent meilleurs a suivre des instructions simples, rendant les prompts optimises moins necessaires.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Les 2K$/mois par listing sont des chiffres 2023. Le marche s'est effondre depuis."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Creer et packager des prompts est trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Ultra-simple en solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les LLM evoluent trop vite. Un prompt optimise aujourd'hui est obsolete dans 3 mois."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Leonardo, ChatGPT, EverBee — tous existent."}
+    ]
+  },
+  "24": {
+    "verdict": "acceptee",
+    "summary": "Le service d'email copywriting IA est un vrai business de service. Les retainers sont credibles pour un copywriter competent.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-10000 EUR/mois est realiste avec 2-5 clients a 3-5K/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT aide a la redaction et a la personnalisation des DMs."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un copywriter solo peut gerer 3-5 clients actifs."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les createurs d'info-produits ont un besoin reel en email marketing."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "ChatGPT, Instagram — outils standards."}
+    ]
+  },
+  "25": {
+    "verdict": "acceptee",
+    "summary": "Les templates Notion premium sont un vrai business. Le cas $500K est un outlier mais la strategie gratuit > payant est solide.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste. 20K est pour les leaders avec audience YouTube."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Notion est gratuit et accessible. Le vrai defi est le design UX."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un createur solo peut gerer un template + communaute."},
+      {"criterion": "Marche reel", "ok": true, "text": "100M+ utilisateurs Notion. La marketplace est un canal de distribution puissant."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Notion, Gumroad, YouTube — tous fiables."}
+    ]
+  },
+  "26": {
+    "verdict": "acceptee",
+    "summary": "Les t-shirts a jeux de mots avec Nano Banana sont un angle creatif dans le POD. L'outil Google AI Studio est gratuit et puissant.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-5000 EUR/mois est realiste. Le 59-79K/mois cite est un produit viral exceptionnel."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Google AI Studio (Nano Banana) + Canva + Printify — workflow gratuit et efficace."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production rapide en solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les t-shirts humoristiques se vendent toujours. Le jeu de mots est un differenciateur."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Nano Banana via Google AI Studio est reel et gratuit."}
+    ]
+  },
+  "27": {
+    "verdict": "rejetee",
+    "summary": "Les livres de blagues KDP a 1K$/jour sont un cas isole non reproductible. Le marche KDP humour est sature de contenu IA mediocre.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1K$/jour avec 4 livres est un outlier extreme. La realite est 20-100$/mois par livre."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude + Canva + KDP — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo rapidement."},
+      {"criterion": "Marche reel", "ok": false, "text": "Amazon est inonde de livres de blagues IA. La qualite de l'humour IA reste mediocre."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude, Canva, Book Beam — tous existent."}
+    ]
+  },
+  "28": {
+    "verdict": "acceptee",
+    "summary": "Les vidéos histoires du soir sont un format sous-exploite avec un RPM correct. Le 0$ d'investissement est reellement possible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-10000 EUR/mois est realiste apres 6+ mois. Le 29K est un outlier mais le format 2h+ genere un bon watch time."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude + Leonardo AI + Clipchamp — tout est gratuit."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production longue mais faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le contenu pour s'endormir est en forte demande et peu sature."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Tous les outils sont gratuits et fonctionnels."}
+    ]
+  },
+  "29": {
+    "verdict": "rejetee",
+    "summary": "Les romans IA sur KDP sont un terrain mine legal et ethique. Amazon detecte et penalise de plus en plus le contenu IA long-forme.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500$/jour avec 1 roman IA est de la pure desinformation. Les reviews Amazon sont dures avec les romans IA."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude peut ecrire des chapitres mais la qualite narrative reste inferieure a un humain."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Techniquement faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Amazon exige la declaration IA et les lecteurs rejettent massivement les romans IA. Risque de ban."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude, Perplexity, Kindle Create — tous fonctionnels."}
+    ]
+  },
+  "30": {
+    "verdict": "rejetee",
+    "summary": "Les micro-influenceurs IA sur TikTok sont ethiquement douteux et les plateformes commencent a imposer la transparence IA.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-5000 est optimiste. Les IA influenceurs ont du mal a construire un engagement authentique."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Leonardo AI + Google VO3 fonctionnent techniquement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo mais chronophage."},
+      {"criterion": "Marche reel", "ok": false, "text": "TikTok impose de plus en plus la transparence IA. Les marques hesitent a sponsoriser des comptes IA."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Leonardo AI, VO3, CapCut, ElevenLabs — tous existent."}
+    ]
+  },
+  "31": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Sokoban est un concept solide — mecanique eprouvee, audience enfant claire, realisable en solo avec React Native.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste pour un jeu educatif bien positionne avec IAP/abo."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "React Native + Expo est un choix solide. Le sokoban est un jeu simple a implementer."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un dev solo peut construire et maintenir ce jeu."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le marche des jeux educatifs enfants est en croissance constante. Les parents paient pour du contenu de qualite."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native, Expo, Zustand — stack mature et fiable."}
+    ]
+  },
+  "32": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Mirror est simple a developper avec un concept unique. Revenus modestes mais faisable comme premier jeu.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-3000 EUR/mois est honnete pour un jeu educatif niche."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Puzzle de symetrie sur grille — techniquement trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable en 1-2 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Peu de jeux de symetrie pour enfants. Niche sous-exploitee."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + TypeScript — standard."}
+    ]
+  },
+  "33": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Tower est un format casual viral eprouve. Potentiel de monetisation via ads et cosmetics.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-8000 EUR/mois est realiste pour un jeu casual bien execute avec un potentiel viral."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Physique simplifiee + tap timing — faisable avec Reanimated."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Jeu simple, developable en 1-2 semaines."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les jeux tower stacking sont des classiques mobiles. Sessions courtes = fort engagement."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — performant pour ce type de jeu."}
+    ]
+  },
+  "34": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Sequences est educatif et generatif — contenu infini par algorithme. Bon rapport effort/valeur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-4000 EUR/mois est realiste pour un jeu educatif bien positionne."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Generation procedurale de sequences — algorithme simple a implementer."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable en 1-2 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les jeux de logique/patterns ont un public fidele chez les parents."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + TypeScript — standard."}
+    ]
+  },
+  "35": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Pipes est un classique du puzzle mobile. L'animation d'eau qui coule ajoute un element satisfaisant.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois pour un puzzle bien execute."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Rotation de tuiles + verification de connectivite — algorithme classique."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines de dev solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les puzzles pipe sont populaires et le format enfants est peu explore."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Zustand — adapte."}
+    ]
+  },
+  "36": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Tangram est un classique intemporel avec peu de bonnes implementations mobiles. Le drag-and-rotate est le principal defi technique.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le drag-and-drop avec rotation est un defi mais faisable avec gesture-handler."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le tangram est universellement connu et apprecie."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + SVG — adapte."}
+    ]
+  },
+  "37": {
+    "verdict": "rejetee",
+    "summary": "PERIPLO Maze est un concept trop generique. Des dizaines d'apps de labyrinthes enfants existent deja sur les stores avec des millions de telechargements.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "300-4000 EUR/mois est optimiste face a des apps de labyrinthes gratuites etablies."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Les algorithmes de generation de labyrinthes (DFS/Prim) sont bien documentes."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Apps de labyrinthes : marche generique et encombre. Peu de differentiation possible."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + TypeScript — standard."}
+    ]
+  },
+  "38": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Colors est un concept unique avec un bon potentiel educatif. L'aspect 'labo scientifique' est attractif pour les enfants.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-3000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le color blending RGB est trivial a implementer."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Peu de jeux de melange de couleurs pour enfants. Concept unique."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + TypeScript — standard."}
+    ]
+  },
+  "39": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Shadows est un concept tres simple et efficace pour les 3-6 ans. Production rapide, bonne valeur educative.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-3000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Matching d'objets a leurs silhouettes — trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "La reconnaissance visuelle est une competence cle prescolaire. Tres peu de concurrence."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Gemini Imagen — adapte."}
+    ]
+  },
+  "40": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Gears est un concept STEM attrayant avec un potentiel premium. Plus technique que les autres PERIPLO.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-6000 EUR/mois pour un jeu STEM de qualite. Les parents paient plus pour le STEM."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "La detection de contact entre cercles et la rotation proportionnelle sont faisables mais demandent plus d'effort."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo. Plus complexe que les autres."},
+      {"criterion": "Marche reel", "ok": true, "text": "Niche STEM enfants en forte croissance. Peu de jeux d'engrenages bien faits."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated + Gemini Imagen — adapte."}
+    ]
+  },
+  "81": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Memory avec paires associatives et theme voyages est une bonne evolution du classique. Fort potentiel educatif.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois pour un memory educatif premium."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le memory est simple a implementer. Les animations FlipCard sont classiques."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-4 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le memory est un jeu universel. Le twist educatif et les paires associatives sont differenciants."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — parfaitement adapte."}
+    ]
+  },
+  "82": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Intrus est un concept educatif solide avec generation dynamique. Le mode multi-critere est un vrai plus.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "La generation dynamique d'intrus par categorie est faisable algorithmiquement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "L'odd-one-out est un exercice prescolaire classique. Peu de bonnes apps dediees."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — standard."}
+    ]
+  },
+  "83": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Patterns avec themes culturels est un concept educatif a forte valeur. Le generateur algorithmique assure du contenu infini.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-6000 EUR/mois est ambitieux mais possible avec un bon marketing aupres des parents educateurs."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "La generation de patterns est algorithmiquement simple. Les patterns sonores ajoutent de la complexite."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo. Plus ambitieux que les autres."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les patterns sont un fondement des mathematiques. Forte valeur educative reconnue."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated + expo-av — adapte."}
+    ]
+  },
+  "84": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Balance est un concept unique avec physique Spring. Le mode Marchand est un excellent twist narratif.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "400-5000 EUR/mois est credible."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Les spring animations Reanimated sont adaptees. Le plus complexe est la physique realiste."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Concept quasi-unique sur mobile pour enfants. Fort potentiel de differentiation."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated + Skia — stack puissante."}
+    ]
+  },
+  "85": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Routes (Flow Connect) est base sur un mecanisme mega-prouve (100M+ downloads pour Flow Free). Le theme vehicules est un bon angle.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-8000 EUR/mois est ambitieux mais le genre est prouve a grande echelle."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le pathfinding et la generation de niveaux sont des problemes resolus."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Flow Free a prouve la demande. La version enfants avec theme vehicules est differenciante."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + gesture-handler — adapte."}
+    ]
+  },
+  "86": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Fuel (Water Sort adapt) est le plus simple a developer et le genre est constamment en top charts. Excellent rapport effort/potentiel.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-7000 EUR/mois est realiste. Le genre water sort est prouve en termes de monetisation."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Logique de pile LIFO — le plus simple de tous les jeux PERIPLO."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Water Sort Puzzle est constamment dans les top charts. La version enfants station-service est originale."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — parfait pour les animations de versement."}
+    ]
+  },
+  "87": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Tri est un excellent jeu Montessori-compatible. Le mode Critere mystere ajoute de la profondeur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "400-4000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Drag & drop vers des conteneurs — faisable avec gesture-handler."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le tri est un fondement Montessori. Les parents educateurs sont un marche premium."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + gesture-handler — adapte."}
+    ]
+  },
+  "88": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Detective (trouve les differences) est un classique avec le twist educatif villes du monde. La generation dynamique SVG est ambitieuse mais differenciante.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "400-5000 EUR/mois pour un jeu bien execute."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le composant double-image est classique. La generation dynamique SVG est le vrai defi technique."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo. La generation de contenu est le goulot."},
+      {"criterion": "Marche reel", "ok": true, "text": "Spot the difference est un genre tres populaire. La version educative est differenciante."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + gesture-handler — adapte."}
+    ]
+  },
+  "89": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Code est un concurrent de ScratchJr avec l'avantage des instructions 100% visuelles. Fort potentiel STEM premium.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-6000 EUR/mois pour un jeu de codage bien positionne. Les parents STEM paient premium."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le systeme de blocs visuels est faisable. Le moteur d'execution est le defi principal."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "4-5 semaines solo. Le plus complexe des PERIPLO."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le codage pour enfants est un marche en forte croissance. ScratchJr montre la voie."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + gesture-handler + Reanimated — stack adaptee."}
+    ]
+  },
+  "90": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Rythme avec instruments du monde est un concept musical original. L'aspect multi-culturel est un bon differenciateur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "400-5000 EUR/mois est realiste pour un jeu musical educatif."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Simon Says musical — logique simple. Le sourcing des sons est le defi."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les jeux musicaux pour enfants sont populaires. Les instruments du monde sont un angle original."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + expo-av — fonctionnel pour l'audio."}
+    ]
+  },
+  "91": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Pixel (Picross enfants) est un concept a forte retention avec une niche quasi-vide. Les joueurs Picross sont des clients tres fideles.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-7000 EUR/mois est ambitieux mais le genre Picross a des joueurs tres fideles."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le solver backtracking et la generation de puzzles sont des problemes connus."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Picross pour enfants est une niche quasi-vide. Fort potentiel."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — adapte."}
+    ]
+  },
+  "92": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Constellation base sur le test de Corsi est scientifiquement valide et visuellement attractif. Niche quasi-vide pour enfants.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "400-5000 EUR/mois est realiste pour un jeu a fondement scientifique."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Grille + illumination + memorisation — relativement simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Basé sur le test de Corsi valide. Niche vide pour enfants."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — standard."}
+    ]
+  },
+  "93": {
+    "verdict": "rejetee",
+    "summary": "PERIPLO Comptage est un fondamental prescolaire mais le marche est deja encombre par des apps etablies (Endless Numbers, Moose Math, Khan Academy Kids).",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "400-4000 EUR/mois est optimiste face a Khan Academy Kids (gratuit) et d'autres apps etablies."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Comptage interactif — simple a implementer."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Apps de comptage prescolaire : marche tres concurrence avec des acteurs gratuits massifs."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated + expo-av — adapte."}
+    ]
+  },
+  "94": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Number Bonds est un concept mathematique solide avec des mecaniques de jeu engageantes. Le mode Recettes du monde est original.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est credible."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Bulles flottantes + physique amusante — faisable avec Reanimated."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les number bonds sont enseignes dans toutes les ecoles. Outil complement apprecie des parents."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — adapte."}
+    ]
+  },
+  "95": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Taquin est un classique indémodable. La collection de cartes postales est un bon ajout motivationnel.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "400-5000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Sliding puzzle est bien documente. L'algorithme de solvabilite est connu."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le 15-puzzle est universellement connu. La version photos de lieux celebres ajoute de la valeur."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — standard."}
+    ]
+  },
+  "41": {
+    "verdict": "acceptee",
+    "summary": "Le service de headshots IA est un marche prouve avec HeadshotPro. La cle est le niching par profession.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-30000 EUR/mois est realiste pour un service bien positionne. 50K est pour les leaders."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Replicate API + fine-tuning Stable Diffusion/Flux — faisable pour un dev."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un dev solo peut construire et maintenir le service. La scalabilite est naturelle."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les headshots pro coutent 200-500$ en studio. A 29-69$ par session IA, la proposition de valeur est claire."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Replicate, Next.js, Stripe, Rewardful — tous existent."}
+    ]
+  },
+  "42": {
+    "verdict": "acceptee",
+    "summary": "Le virtual staging immobilier IA est un service a tres forte marge avec une demande reelle des agents. Le stat NAR de 81% est credible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-10000 EUR/mois est realiste avec 10-30 clients agents."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Virtual Staging AI a 1$/image — la marge est enorme."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. Le goulot est la prospection commerciale."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le staging physique coute 1000-5000$. Le staging IA a 20-50$/photo est une revolution."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Virtual Staging AI, Apply Design, Replicate — tous existent."}
+    ]
+  },
+  "43": {
+    "verdict": "acceptee",
+    "summary": "Le chatbot white-label pour PME est un modele de revente viable. La marge de 100-300% est realiste.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "4000-15000 EUR/mois est realiste avec 10-20 clients a 250-500/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Trillet et les plateformes similaires sont des solutions white-label fonctionnelles."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo avec un outil white-label. Le support client est le goulot."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le marche chatbot est en forte croissance. Les PME locales sont mal equipees."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Trillet, Robofy, Stammer AI — tous existent et offrent du white-label."}
+    ]
+  },
+  "44": {
+    "verdict": "acceptee",
+    "summary": "Un AI YouTube Script Generator est un SaaS valide. La pre-vente de 20K avant de coder est la bonne approche.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-20000 EUR/mois est realiste. 30K est un outlier (Subscribr)."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Laravel/Next.js + LLM APIs — stack classique pour un SaaS."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo avec le vibe coding."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les YouTubers cherchent constamment des outils pour ameliorer leurs scripts."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Laravel, Next.js, APIs LLM, Stripe — tous standard."}
+    ]
+  },
+  "45": {
+    "verdict": "rejetee",
+    "summary": "Chat PDF est un marche deja sature avec des dizaines de concurrents etablis. PDF.ai, ChatPDF, et d'autres dominent deja.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Les chiffres cites sont ceux des premiers entrants (2023). Un nouvel entrant aura du mal a se differencier."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "RAG + embeddings — faisable mais le marche est encombre."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un dev solo peut construire un Chat PDF."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche sature. ChatGPT et Claude integrent nativement l'upload de PDF. La need diminue."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "OpenAI, Pinecone, Supabase pgvector — tous existent."}
+    ]
+  },
+  "46": {
+    "verdict": "rejetee",
+    "summary": "Le content repurposing SaaS est tres concurrence avec Castmagic, Opus Clip, Descript, et d'autres. Difficile de se differencier.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Se positionner face a Castmagic ($1M ARR) est quasi impossible en solo."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Whisper + Claude + formats — faisable techniquement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo mais la concurrence est ecrasante."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche deja occupe par de nombreux acteurs finances. Opus Clip, Descript, Castmagic."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Whisper, Claude API, Stripe — tous existent."}
+    ]
+  },
+  "47": {
+    "verdict": "acceptee",
+    "summary": "L'extension Chrome organiseur de conversations IA est une micro-niche prouvee. Easy Folders a 3700$/mois MRR valide le concept.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-5000 EUR/mois est realiste et prouve par Easy Folders."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Extension Chrome manifest v3 — accessible pour un dev JS."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Maintenance minimale une fois developpee."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les conversations ChatGPT/Claude s'accumulent. Le besoin d'organisation est reel."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Chrome Extension API, LemonSqueezy — standards."}
+    ]
+  },
+  "48": {
+    "verdict": "rejetee",
+    "summary": "Doublonne avec l'idee 22 (Musique IA). Le deal de 3M$ de Telisha Jones est un cas isole non reproductible. Les plateformes penalisent la musique IA.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "300-5000 est tres optimiste. Le deal Telisha Jones est un cas marketing, pas une realite reproductible."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Suno + DistroKid fonctionnent."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Spotify retire activement la musique IA spam. Les royalties sont derisoires."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Suno Pro, DistroKid, AudioJungle — tous existent."}
+    ]
+  },
+  "49": {
+    "verdict": "rejetee",
+    "summary": "Les influenceurs virtuels IA sont ethiquement problematiques et les plateformes imposent la transparence. Le marche de 6-7B$ est pour les marques, pas les solopreneurs.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Les 200-2000 EUR/post necessitent 10K+ followers, ce qui est tres difficile avec un compte IA."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Les outils de generation IA sont fonctionnels."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo mais chronophage."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les marques hesitent a travailler avec des influenceurs IA. Les plateformes imposent la transparence."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, Higgsfield, Creatify — tous existent."}
+    ]
+  },
+  "50": {
+    "verdict": "acceptee",
+    "summary": "L'agence UGC Video IA est un service viable avec une vraie proposition de valeur (cout IA vs humain). Le modele retainer est solide.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-10000 EUR/mois est realiste avec 3-5 clients en retainer."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Arcads AI, MakeUGC — les outils d'UGC IA sont fonctionnels."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. Le goulot est la prospection."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les marques e-commerce ont un besoin massif de contenu video. Le cout IA est 10-50x moins cher."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Arcads AI, MakeUGC, Creatify — tous existent et fonctionnent."}
+    ]
+  },
+  "51": {
+    "verdict": "acceptee",
+    "summary": "Le vibe coding pour creer des micro-apps est le modele le plus prometteur de 2026. Les outils sont matures et la demande est reelle.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-10000 EUR/mois est realiste selon le produit et la niche."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Cursor, Claude Code, Bolt.new — les outils de vibe coding sont operationnels."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Le vibe coding reduit le temps de dev de 3 mois a 3 jours."},
+      {"criterion": "Marche reel", "ok": true, "text": "La demande de micro-apps ne fait que croitre. MIT Top 10 Breakthrough 2026."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Cursor, Replit Agent, Bolt.new, Claude Code — tous operationnels et en amelioration constante."}
+    ]
+  },
+  "52": {
+    "verdict": "acceptee",
+    "summary": "Le service de photo produit IA est un business de service solide avec des marges elevees. Le stat de 51.3% est credible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-8000 EUR/mois est realiste avec une clientele e-commerce."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Photoroom, Claid AI, Flair AI — les outils sont matures."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. Les outils batch permettent de traiter du volume."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les vendeurs e-commerce ont un besoin constant de photos produit. Le cout studio est prohibitif."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Photoroom (100M+ images/mois), Claid AI, Flair AI — tous matures."}
+    ]
+  },
+  "53": {
+    "verdict": "acceptee",
+    "summary": "La construction d'agents IA pour PME est un marche en explosion. La demande Fiverr +18347% est credible. La difficulte 4 est honnete.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-20000 EUR/mois est realiste avec des projets a 1-5K chacun."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "n8n, Make.com, APIs LLM — les outils d'orchestration sont matures."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo au debut. Necessite des competences techniques solides."},
+      {"criterion": "Marche reel", "ok": true, "text": "La demande d'agents IA est reelle et en explosion. Les PME n'ont pas les competences internes."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "n8n, Make.com, Relevance AI, OpenAI API, Claude API — tous fonctionnels."}
+    ]
+  },
+  "54": {
+    "verdict": "rejetee",
+    "summary": "Les cours en ligne avec avatars IA sont percus comme impersonnels. Les plateformes comme Udemy sont saturees et les acheteurs distinguent les cours IA.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1000-15000 est tres optimiste. Udemy moyenne est 30-100$/mois par cours. La concurrence gratuite (YouTube) est ecrasante."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Synthesia/HeyGen + Canva — workflow accessible."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les acheteurs de cours preferent un vrai instructeur. Les avatars IA reduisent la confiance et les reviews."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Synthesia, HeyGen, Canva, Payhip — tous fonctionnels."}
+    ]
+  },
+  "55": {
+    "verdict": "rejetee",
+    "summary": "Les livres illustres enfants IA sur KDP sont satures et Amazon durcit les regles. La qualite des illustrations IA est insuffisante pour des livres d'histoires.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-6000 EUR/mois est tres optimiste. La majorite font 0-100$/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Ohanashi AI et Midjourney fonctionnent mais la coherence des personnages sur 20-30 pages est difficile."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Amazon exige la declaration IA. Les parents sont mefiants. Marche sature de livres IA mediocres."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Ohanashi AI, KidsKDPAI, Midjourney — existent mais la coherence de style est un defi."}
+    ]
+  },
+  "56": {
+    "verdict": "acceptee",
+    "summary": "Les templates d'automatisation n8n/Make sont un digital product solide avec des cas documentes. Le marche est en forte croissance.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1500-10000 EUR/mois est realiste. Les cas a 3200$/mois et 47K/an sont documentes."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "n8n et Make.com sont des outils matures."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. La documentation video est le principal effort."},
+      {"criterion": "Marche reel", "ok": true, "text": "La demande d'automatisation no-code/low-code est en explosion."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "n8n, Make.com, Gumroad, Loom — tous existent."}
+    ]
+  },
+  "57": {
+    "verdict": "acceptee",
+    "summary": "Le SaaS de review de contrats pour freelances est une niche verticale bien definie avec une demande reelle.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-8000 EUR/mois est realiste pour un SaaS niche."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude API + PDF parsing — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Un dev solo peut construire et maintenir ce SaaS."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les freelances ont besoin de comprendre leurs contrats mais ne peuvent pas payer un avocat."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, Next.js, Supabase, Stripe — stack standard."}
+    ]
+  },
+  "58": {
+    "verdict": "acceptee",
+    "summary": "Le lead enrichment est un service B2B a forte valeur. Le positionnement 'PME que Clay ignore' est intelligent.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-12000 EUR/mois est realiste en service productise."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Apify, Claude API, n8n — pipeline faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo une fois le workflow automatise."},
+      {"criterion": "Marche reel", "ok": true, "text": "Clay ($30M ARR) et Apollo ($100M+ ARR) prouvent la demande. Les PME sont mal servies."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Apify, Clay, Apollo, n8n — tous fonctionnels."}
+    ]
+  },
+  "59": {
+    "verdict": "acceptee",
+    "summary": "Le SOP Generator IA est un concept innovant avec une demande B2B reelle. Le screen recording > SOP automatise est un bon flow.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-8000 EUR/mois est realiste pour un outil B2B."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Screen recording + Claude API — le defi est l'extraction de contexte depuis la video."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo mais ambitieux techniquement."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les agences et PME ont un besoin criant de documentation de processus."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, Loom API, Next.js — existent."}
+    ]
+  },
+  "60": {
+    "verdict": "acceptee",
+    "summary": "Le monitoring de concurrence IA est un SaaS B2B a forte valeur avec des signaux actionnables. Le scraping est le principal defi technique.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-8000 EUR/mois est realiste pour un SaaS B2B de veille."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Apify/Firecrawl + Claude API — pipeline faisable. Le scraping a large echelle est le defi."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo mais la maintenance des scrapers est chronophage."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les startups SaaS et agences ont besoin de veille concurrentielle. Le marche existe."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Apify, Firecrawl, Claude API, Resend — tous existent."}
+    ]
+  },
+  "61": {
+    "verdict": "acceptee",
+    "summary": "Le service de localisation video IA est un service a forte valeur avec Rask AI. Le cout est derisoire vs la valeur percue.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-8000 EUR/mois est realiste avec 20-50 videos/mois a 50-300$/video."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Rask AI fait le gros du travail automatiquement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. La relecture est le seul effort manuel."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les course creators et YouTubers internationaux ont un besoin reel de localisation."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Rask AI ($49-199/mois), ElevenLabs — fonctionnels."}
+    ]
+  },
+  "62": {
+    "verdict": "acceptee",
+    "summary": "Le kit marketing immobilier IA est une niche verticale bien definie. Les agents immo sont prets a payer pour gagner du temps.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-8000 EUR/mois est realiste pour un SaaS vertical."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude API + templates de generation — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les agents immobiliers depensent en marketing mais manquent de temps/competences."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, DALL-E, Next.js — tous existent."}
+    ]
+  },
+  "63": {
+    "verdict": "rejetee",
+    "summary": "Le marche des widgets de temoignages est deja sature. Testimonial.to, Senja, Shoutout font deja ce job. Difficile de se differencier.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1000-5000 EUR/mois est optimiste face a une concurrence etablie."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Widget JS embeddable — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Testimonial.to, Senja, Shoutout — le marche est deja encombre."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Next.js, Supabase, Claude API — standards."}
+    ]
+  },
+  "64": {
+    "verdict": "rejetee",
+    "summary": "Les micro-series IA faceless ont un cout de production eleve (Kling/Runway) et la qualite video IA reste insuffisante pour creer un engagement de serie.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1000-8000 est optimiste. La monetisation des Shorts/Reels est derisoire (0.01-0.05$/1000 vues)."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude + Kling/Runway + ElevenLabs — workflow faisable mais couteux."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production intensive mais faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "La qualite video IA reste detectable. La monetisation Shorts est infime. Le format serie est risque."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Kling 3.0, Runway Gen-4 existent mais coutent 20-100$/mois chacun."}
+    ]
+  },
+  "65": {
+    "verdict": "acceptee",
+    "summary": "Le Reddit Lead Finder est un micro-SaaS niche avec une demande reelle. Le monitoring de Reddit est sous-exploite.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1500-7000 EUR/mois est realiste pour un SaaS de prospection."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Reddit API + Claude API — pipeline faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Reddit est une mine de leads B2B. Les founders SaaS utilisent Reddit comme canal de vente."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Reddit API, Claude API, Next.js, Resend — tous existent."}
+    ]
+  },
+  "66": {
+    "verdict": "rejetee",
+    "summary": "La conversion podcast-to-course est un service trop niche avec un cycle de vente long. Peu de podcasters ont 20-50 episodes coherents a convertir.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "2000-10000 EUR/mois suppose un flux constant de clients. Le marche est trop etroit."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Whisper + Claude — faisable techniquement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Tres peu de podcasters veulent convertir leurs episodes en cours. Niche trop etroite."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Whisper API, Claude API, Teachable — tous existent."}
+    ]
+  },
+  "67": {
+    "verdict": "rejetee",
+    "summary": "L'optimiseur d'abonnements SaaS existe deja (Trim, Rocket Money, etc.). La connexion bancaire via Plaid ajoute de la complexite et des couts.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le marche est deja occupe par des acteurs finances (Rocket Money, Trim)."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Plaid API + Claude — faisable mais Plaid coute cher."},
+      {"criterion": "Echelle humaine", "ok": false, "text": "La connexion bancaire implique des obligations de conformite financiere complexes."},
+      {"criterion": "Marche reel", "ok": false, "text": "Rocket Money (achetee par Truebill) domine deja. Les banques ajoutent ces features nativement."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Plaid, Claude API — existent mais Plaid est couteux."}
+    ]
+  },
+  "68": {
+    "verdict": "acceptee",
+    "summary": "Les sites de review d'outils IA avec affiliation recurrente sont un modele eprouve. Les commissions de 30-40% recurrentes sont reelles.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste apres 6+ mois de SEO. Les commissions recurrentes s'accumulent."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "WordPress + SurferSEO — workflow de content marketing classique."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. Le goulot est la creation de contenu SEO de qualite."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les gens cherchent des comparatifs d'outils IA. La demande est reelle et en croissance."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "WordPress, SurferSEO, Ahrefs — tous existent et fonctionnent."}
+    ]
+  },
+  "69": {
+    "verdict": "rejetee",
+    "summary": "Doublonne avec l'idee 23 (Prompts IA Etsy). Meme probleme : marche en chute libre, LLMs deviennent plus simples a utiliser.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le marche des prompts se contracte. 200-5000 est tres optimiste en 2026."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Creer des prompts est trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Ultra-simple."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les LLMs evoluent et rendent les prompts avances moins necessaires. Marche en declin."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "ChatGPT, Midjourney, Canva — standards."}
+    ]
+  },
+  "70": {
+    "verdict": "acceptee",
+    "summary": "La newsletter IA niche automatisee est un bon modele. Le cas reel de 0 a 9781 abonnes et 13640$/mois en 12 mois est un bon benchmark.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-10000 EUR/mois est realiste avec les bons leviers (Beehiiv Boosts, sponsors)."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "n8n + Claude + Beehiiv — automatisation 90% est credible avec 30-60 min de relecture."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo grace a l'automatisation."},
+      {"criterion": "Marche reel", "ok": true, "text": "L'asymetrie d'information dans les niches pro est un bon angle. Demande reelle."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, n8n, Beehiiv, Twitter API — tous fonctionnels."}
+    ]
+  },
+  "71": {
+    "verdict": "rejetee",
+    "summary": "Les coloring books Bold & Easy par race animale sont deja satures sur KDP. La fenetre d'opportunite de 2024-2025 est fermee.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-4000 EUR/mois est optimiste. Le marche est inonde de livres similaires generes par IA."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney v7 + post-traitement — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production en batch faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Amazon est sature de 'bold and easy coloring books'. Les premiers entrants dominent, les nouveaux se noient."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney v7, Book Bolt, Canva — tous existent."}
+    ]
+  },
+  "72": {
+    "verdict": "acceptee",
+    "summary": "Les planners digitaux hyperlinkes pour GoodNotes sont un creneau premium avec des acheteurs prets a payer 15-25 EUR. Le niching est la cle.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "800-6000 EUR/mois est realiste pour un catalogue de planners premium."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + Keynote pour les hyperliens — workflow maitrise par les createurs."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. La creation d'un planner 440+ pages est chronophage mais une fois fait, c'est du passif."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le digital planning sur iPad est en croissance. Les niches specifiques (TDAH, freelance) sont sous-exploitees."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva Pro, Keynote, ChatGPT — tous existent."}
+    ]
+  },
+  "73": {
+    "verdict": "acceptee",
+    "summary": "Les templates Notion niche sont un produit digital zero-investissement avec une base d'utilisateurs massive. Bon complementaire a l'idee 25.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-3000 EUR/mois est realiste. 5000 est possible avec un bon marketing."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Notion est gratuit et accessible."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Zero investissement, faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "100M+ utilisateurs Notion. La demande de templates specialises est reelle."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Notion, ChatGPT, Canva, Loom — tous gratuits ou quasi."}
+    ]
+  },
+  "74": {
+    "verdict": "rejetee",
+    "summary": "Les templates Sheets/Excel sont un marche sature avec des milliers de templates gratuits sur Google et des concurrents comme Airtable qui rendent le format obsolete.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-5000 est optimiste. La concurrence gratuite (Google Templates, Microsoft Templates) est ecrasante."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT/Claude pour les formules complexes — tres utile."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo, zero investissement."},
+      {"criterion": "Marche reel", "ok": false, "text": "Google et Microsoft offrent des templates gratuits. Airtable et Notion remplacent les spreadsheets."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Google Sheets, Excel, Claude, Loom — tous standards."}
+    ]
+  },
+  "75": {
+    "verdict": "acceptee",
+    "summary": "Les templates funeraires editables sont une niche evergreen avec peu de concurrence qualitative. L'aspect emotionnel justifie un prix premium.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-4000 EUR/mois est realiste. Demande constante et previsible."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva Pro + Midjourney — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Besoin urgent, acheteur pret a payer, peu de concurrence qualitative."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva Pro, Midjourney, ChatGPT — tous existent."}
+    ]
+  },
+  "76": {
+    "verdict": "acceptee",
+    "summary": "Les bundles wedding stationery sont un best-seller Etsy perpetuel. Les pics saisonniers sont previsibles et la demande est forte.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "800-6000 EUR/mois est realiste, surtout pendant les pics janvier-juin."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva Pro + Midjourney — workflow maitrise."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le mariage est un marche gigantesque et les templates editables Canva sont en forte demande."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva Pro, Midjourney, ChatGPT — tous fonctionnels."}
+    ]
+  },
+  "77": {
+    "verdict": "rejetee",
+    "summary": "Les stickers 'Play Haus' Gen Z sont un trend ephemere. Le marche des stickers digitaux est deja sature et les tendances changent vite.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-5000 EUR/mois est optimiste pour un trend aesthetique."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney + Procreate — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les tendances esthetiques Gen Z changent chaque trimestre. Investir dans un style specifique est risque."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, Procreate, Canva — tous existent."}
+    ]
+  },
+  "78": {
+    "verdict": "acceptee",
+    "summary": "Les ebooks finance personnelle KDP sont une niche evergreen. La cle est le niching precis et l'expertise reelle.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-3000 EUR/mois est realiste pour un ebook bien positionne."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT/Claude + Canva — workflow standard pour les ebooks KDP."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "La finance personnelle est toujours recherchee. Les sous-niches specifiques sont viables."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude, Canva, Grammarly — tous existent."}
+    ]
+  },
+  "79": {
+    "verdict": "acceptee",
+    "summary": "Les journaux de sante mentale sont en forte demande. Les techniques CBT/DBT ajoutent de la credibilite et de la valeur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "400-4000 EUR/mois est realiste avec un bon SEO Amazon."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT + Canva — workflow simple pour des journaux guides."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "La sante mentale est un marche en croissance de 15%/an. La demande est authentique."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "ChatGPT, Canva, Midjourney — tous existent."}
+    ]
+  },
+  "80": {
+    "verdict": "rejetee",
+    "summary": "Les seamless patterns IA sont un marche de niche sature sur Creative Market. Les designers professionnels reconnaissent les patterns IA.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-4000 EUR/mois est optimiste. Les packs de patterns se vendent 15-25$ dans un marche encombre."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney --tile + Photoshop — fonctionnel."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Creative Market et Creative Fabrica sont inondes de patterns IA. Difficile de se demarquer."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, Photoshop, Illustrator — tous existent."}
+    ]
+  },
+  "96": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Origami est un concept original avec peu de bonnes implementations mobiles. Le pliage interactif est visuellement attractif.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois pour un jeu creatif bien execute."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Le systeme de pliage 2D est faisable mais techniquement ambitieux."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "L'origami est universellement apprecie. Peu de bonnes apps."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — adapte."}
+    ]
+  },
+  "97": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Laser est un puzzle STEM spectaculaire visuellement. Le raycasting 2D est faisable et le concept est attrayant.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois pour un jeu STEM de qualite."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Raycasting 2D + reflexions — algorithme classique et bien documente."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les jeux de miroirs/laser sont rares dans le segment enfants."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Canvas/SVG — adapte."}
+    ]
+  },
+  "98": {
+    "verdict": "rejetee",
+    "summary": "PERIPLO Domino necessite une physique de chute en chaine convaincante qui est difficile a realiser correctement en React Native 2D. Le resultat risque d'etre decevant.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "300-4000 EUR/mois est optimiste pour un jeu de dominos 2D sans la satisfaction de la 3D."},
+      {"criterion": "Faisabilite technique", "ok": false, "text": "La physique de chute en chaine est difficile a rendre satisfaisante en 2D. Les bons jeux de dominos sont en 3D."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les jeux de dominos 3D (Dominoes World) existent et sont bien plus satisfaisants visuellement."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — limité pour la physique de chute en chaine."}
+    ]
+  },
+  "99": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Mosaique est un concept art mathematique original. Le mode libre est un bon differenciateur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-3000 EUR/mois est honnete."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Formes geometriques + snap — faisable avec SVG."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les tessellations sont un sujet educatif sous-explore sur mobile."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + SVG — adapte."}
+    ]
+  },
+  "100": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Globe (GeoGuessr Kids) est un concept a fort potentiel educatif. Le globe interactif est attractif et la collection de cartes pays cree de la retention.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste pour un jeu geographique enfants."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Base de donnees pays + quiz — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo. Le contenu (50+ pays) est le gros du travail."},
+      {"criterion": "Marche reel", "ok": true, "text": "GeoGuessr a prouve la demande. La version enfants est peu exploree."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Gemini Imagen — adapte."}
+    ]
+  },
+  "101": {
+    "verdict": "rejetee",
+    "summary": "PERIPLO Trace est un marche tres concurrence. Des dizaines d'apps de tracage de lettres existent deja (Writing Wizard, LetterSchool, etc.).",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "300-3000 EUR/mois est optimiste face a une concurrence etablie et bien notee."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Path following + gesture detection — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Writing Wizard, LetterSchool, iTrace — le marche est deja encombre."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Gesture Handler — adapte."}
+    ]
+  },
+  "102": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Circuits est un concept STEM premium avec peu de bonnes implementations pour enfants. Le simulateur est visuellement gratifiant.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-6000 EUR/mois pour un jeu STEM de qualite. Les parents paient premium."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "La simulation de circuits est faisable mais le plus complexe des PERIPLO apres Code."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "L'electricite pour enfants est peu exploree sur mobile. Fort potentiel STEM."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Canvas — adapte."}
+    ]
+  },
+  "103": {
+    "verdict": "rejetee",
+    "summary": "PERIPLO Jardin est un concept sympathique mais le marche des jeux de jardinage enfants est deja occupe (Toca Nature, etc.) et la retention est faible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "300-4000 EUR/mois est optimiste pour un jeu de simulation sans mecaniques de puzzle."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Systeme de croissance de plantes — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-4 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Toca Nature, Grow Garden et d'autres existent deja. La differentiation est faible."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated + Gemini Imagen — adapte."}
+    ]
+  },
+  "104": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Potions est un concept deduction/experimentation original. Le carnet de recettes et la progression sont de bons mecanismes de retention.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-4000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Systeme combinatoire — simple algorithmiquement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le theme potions magiques est attrayant pour les enfants. Peu de jeux de deduction combinatoire."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + TypeScript — standard."}
+    ]
+  },
+  "105": {
+    "verdict": "acceptee",
+    "summary": "PERIPLO Fractions est un concept educatif solide. La decoupe tactile est un mecanisme intuitif pour apprendre les fractions.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-3000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Decoupe tactile + SVG — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les fractions sont l'un des sujets les plus difficiles en maths elementaires. Fort besoin educatif."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + SVG — adapte."}
+    ]
+  },
+  "106": {
+    "verdict": "rejetee",
+    "summary": "PERIPLO Maestro est ambitieux mais le Web Audio API sur React Native est problematique. GarageBand et d'autres dominent le creneau.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "300-4000 EUR/mois est optimiste face a GarageBand (gratuit) et Chrome Music Lab (gratuit)."},
+      {"criterion": "Faisabilite technique", "ok": false, "text": "Le Web Audio API sur React Native est instable. La latence audio est un defi majeur."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3 semaines solo mais les problemes audio complexifient le debug."},
+      {"criterion": "Marche reel", "ok": false, "text": "Chrome Music Lab est gratuit et fait ce job. GarageBand est sur tous les iPad."},
+      {"criterion": "Outils disponibles", "ok": false, "text": "Web Audio API sur React Native est instable et peu documente pour ce cas d'usage."}
+    ]
+  },
+  "107": {
+    "verdict": "rejetee",
+    "summary": "PERIPLO Whack est un concept trop simple avec un faible potentiel de retention. Le whack-a-mole educatif manque de profondeur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "200-3000 EUR/mois est optimiste pour un jeu aussi simple."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Trivial a implementer."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1 semaine solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Trop simple pour retenir les utilisateurs. Le whack-a-mole est vu comme un mini-jeu, pas un produit standalone."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "React Native + Reanimated — standard."}
+    ]
+  },
+  "108": {
+    "verdict": "acceptee",
+    "summary": "Les soundscapes YouTube sont un format a fort RPM avec un watch time enorme. Le 40-60K/mois est un outlier mais le modele est prouve.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-20000 EUR/mois est realiste pour une chaine bien etablie. 60K est un outlier."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Suno AI + image statique + assemblage — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Les videos 8-12h sont longues a produire mais le format est repetable."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le contenu pour dormir/se relaxer est en forte demande. Le watch time de 8h genere un revenu massif."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Suno AI, ElevenLabs, Canva, CapCut — tous existent."}
+    ]
+  },
+  "109": {
+    "verdict": "acceptee",
+    "summary": "YouTube Personal Finance Faceless est le format au RPM le plus eleve ($20-40+). Le defi est la qualite des scripts et la duree pour atteindre la monetisation.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-20000 EUR/mois est realiste pour une chaine monetisee. Le RPM finance est reel. 30K est un outlier."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT + ElevenLabs + stock footage — workflow faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo mais la recherche de sujets et la qualite des scripts sont cles."},
+      {"criterion": "Marche reel", "ok": true, "text": "La finance personnelle est un sujet evergreen avec un RPM eleve."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "ChatGPT, ElevenLabs, CapCut, Midjourney — tous existent."}
+    ]
+  },
+  "110": {
+    "verdict": "acceptee",
+    "summary": "Les documentaires IA sont un format evergreen avec un bon potentiel. La croissance 16x des chaines science/animees est credible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-15000 EUR/mois est realiste pour une chaine etablie."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT + Midjourney + ElevenLabs — workflow complet."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Production intensive (15-30 min de video) mais faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le contenu documentaire est evergreen et bien monetise."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Tous les outils IA de production video existent et fonctionnent."}
+    ]
+  },
+  "111": {
+    "verdict": "acceptee",
+    "summary": "Les histoires de trahison narrees sont un format a fort engagement. Le RPM de $12.82 et la croissance 21x sont credibles pour ce genre.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-15000 EUR/mois est realiste pour une chaine active. 25K est un outlier."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT + ElevenLabs + Midjourney — workflow eprouve."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-5 videos/semaine est intense mais faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le format story-time est addictif et le genre trahison/vengeance a une audience massive."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "ChatGPT, ElevenLabs, Midjourney, CapCut — tous fonctionnels."}
+    ]
+  },
+  "112": {
+    "verdict": "rejetee",
+    "summary": "Les chaines quiz YouTube faceless sont saturees et le RPM est bas. L'engagement via commentaires est faible en pratique.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1000-10000 EUR/mois est tres optimiste. Le RPM quiz est faible ($3-5)."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "ChatGPT + Canva + CapCut — trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Ultra-simple."},
+      {"criterion": "Marche reel", "ok": false, "text": "Des centaines de chaines quiz existent. L'engagement est en realite faible."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Tous les outils sont standards."}
+    ]
+  },
+  "113": {
+    "verdict": "acceptee",
+    "summary": "Les puzzle books large print pour seniors sont une niche en or avec quasi aucune offre pour certains types (Kakuro). Fort potentiel de serie.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-8000 EUR/mois est realiste avec un catalogue de 20+ livres en serie."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Python pour la generation de puzzles + Canva pour les couvertures — workflow automatise."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. Les scripts Python generent du contenu en volume."},
+      {"criterion": "Marche reel", "ok": true, "text": "36 635 recherches/mois pour 'kakuro' avec quasi aucune offre large print. Niche reelle."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Python, Claude, Canva — tous standards."}
+    ]
+  },
+  "114": {
+    "verdict": "acceptee",
+    "summary": "Les templates Canva par metier rare sont une strategie de long tail intelligente avec quasi zero concurrence sur les micro-niches.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-6000 EUR/mois est realiste avec un catalogue de 10+ metiers."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva Pro — le plus simple possible."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines de production solo par metier."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les metiers de niche (doula, pet groomer, tattoo artist) ont tres peu de templates dedies."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva Pro, ChatGPT — standards."}
+    ]
+  },
+  "115": {
+    "verdict": "acceptee",
+    "summary": "Les health trackers specialises sont un besoin reel avec peu de concurrence sur Etsy. La niche medicale justifie un prix premium.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-4000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva Pro + ChatGPT — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines solo par condition."},
+      {"criterion": "Marche reel", "ok": true, "text": "Score concurrence 2-3/10 sur Etsy. Besoin reel des patients chroniques."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva Pro, ChatGPT — standards."}
+    ]
+  },
+  "116": {
+    "verdict": "acceptee",
+    "summary": "Les travel planners par destination sont un produit scalable avec peu de concurrence. Chaque destination = nouveau produit.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-5000 EUR/mois est realiste avec 20+ destinations."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + ChatGPT + Notion — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines par destination en solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Score concurrence 2/10 sur Etsy. Les voyageurs cherchent des planners specifiques."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva, ChatGPT, Notion — tous standards."}
+    ]
+  },
+  "117": {
+    "verdict": "acceptee",
+    "summary": "Les supports visuels pour enfants neurodivergents sont un besoin enorme avec une offre minuscule. Fort impact social + revenus.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-6000 EUR/mois est realiste. Le marche est sous-desservi."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + Midjourney + ChatGPT — faisable mais necessite de la recherche sur les besoins reels."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo pour les premiers packs."},
+      {"criterion": "Marche reel", "ok": true, "text": "Besoin enorme, offre minuscule. Les parents et educateurs cherchent activement ces ressources."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva, Midjourney, ChatGPT — tous existent."}
+    ]
+  },
+  "118": {
+    "verdict": "acceptee",
+    "summary": "Les planners hyper-niches par hobby sont un produit zero-investissement avec des communautes passionnees. Moins de 20 listings chacun = opportunite.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-3000 EUR/mois est realiste avec un bon catalogue."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + ChatGPT — le plus simple possible."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1 semaine par hobby en solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les communautes hobby sont passionnees et paient pour du contenu specialise."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva Pro, ChatGPT — standards."}
+    ]
+  },
+  "119": {
+    "verdict": "acceptee",
+    "summary": "Le Voice AI Agent pour dentistes est une niche verticale precise avec un modele de retainer mensuel. La prospection locale est la cle.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-15000 EUR/mois est realiste avec 5-15 cabinets a 500-1500/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Vapi/Bland AI + Cal.com + Twilio — stack fonctionnelle."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. La configuration initiale est le gros du travail."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les cabinets dentaires perdent des patients a cause des appels manques. Le besoin est reel."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Vapi, Bland AI, Cal.com, Twilio — tous existent."}
+    ]
+  },
+  "120": {
+    "verdict": "acceptee",
+    "summary": "L'agent de triage email IA est un besoin reel des managers. Le defi est l'integration API Gmail/Outlook et la confidentialite des donnees.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-10000 EUR/mois est realiste pour un SaaS B2B de productivite."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude API + Gmail/Outlook API — faisable. La confidentialite des donnees est un enjeu."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo mais la conformite RGPD ajoute du travail."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les managers sont submerges d'emails. Le besoin de triage intelligent est reel."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, Gmail API, n8n — tous existent."}
+    ]
+  },
+  "121": {
+    "verdict": "rejetee",
+    "summary": "Doublonne avec l'idee 46 (Content Repurposing). Meme probleme de saturation avec Castmagic, Opus Clip, etc.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Le marche est deja sature de services de repurposing IA."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude + Whisper + Canva — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Trop de concurrents. Castmagic, Opus Clip, Descript, et maintenant des dizaines de clones."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, Whisper, Canva API, Make.com — tous existent."}
+    ]
+  },
+  "122": {
+    "verdict": "acceptee",
+    "summary": "Le WhatsApp Business Agent francophone est un marche sous-exploite. Le positionnement francophone est un bon differenciateur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-10000 EUR/mois est realiste avec 5-20 PME clientes."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "WhatsApp Business API + Claude + n8n — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Le marche francophone est sous-equipe en chatbots WhatsApp. Bon timing."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "WhatsApp Business API, Claude API, n8n, Twilio — tous existent."}
+    ]
+  },
+  "123": {
+    "verdict": "acceptee",
+    "summary": "Doublonne partiel avec l'idee 56, mais le positionnement 'AI Agent Marketplace' est different. Le cas reel a 3200$/mois passif est credible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1500-10000 EUR/mois est realiste avec un bon catalogue."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "n8n, Make.com, MindStudio — outils matures."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "La demande de templates d'agents IA est en explosion."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "n8n, Make.com, Gumroad — tous existent."}
+    ]
+  },
+  "124": {
+    "verdict": "acceptee",
+    "summary": "Le forecasting d'inventaire FBA est un SaaS B2B a forte valeur pour les vendeurs Amazon. Niche technique mais le TAM est important.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-15000 EUR/mois est realiste pour un SaaS FBA."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Amazon SP-API + Claude + Python — faisable pour un dev data."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. Necessite des competences en data science."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les vendeurs FBA perdent de l'argent avec des ruptures de stock ou du surstock. Besoin reel."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, Amazon SP-API, Python — tous existent."}
+    ]
+  },
+  "125": {
+    "verdict": "acceptee",
+    "summary": "La formation sur les agents IA est un modele tres rentable avec la demande explosive. Le format cours + communaute Skool est eprouve.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-20000 EUR/mois est realiste pour un cours bien positionne avec une communaute payante."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Loom + Claude + Skool — outils accessibles."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. La communaute est le seul element chronophage."},
+      {"criterion": "Marche reel", "ok": true, "text": "La demande de formation en IA agents est reelle (+18347% Fiverr)."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Loom, Claude, Skool, Stripe — tous existent."}
+    ]
+  },
+  "126": {
+    "verdict": "acceptee",
+    "summary": "Le flip de micro-apps est un modele interessant. Construire et vendre sur Acquire.com est un pipeline reproductible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-15000 EUR/mois si le pipeline de creation/vente est regulier."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude Code + Cursor + Supabase — stack de vibe coding eprouvee."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. Le vibe coding reduit le temps de dev."},
+      {"criterion": "Marche reel", "ok": true, "text": "Acquire.com et MicroAcquire ont un marche actif de micro-SaaS."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude Code, Cursor, Supabase, Vercel — tous matures."}
+    ]
+  },
+  "127": {
+    "verdict": "acceptee",
+    "summary": "Les Chrome Extensions IA construites avec vibe coding sont le quick win ultime. 1-3 jours de dev, distribution gratuite, monetisation freemium.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1000-10000 EUR/mois est realiste pour une extension utile."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude Code + Chrome Extension APIs — faisable meme pour un non-dev."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-3 jours de dev solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Chrome Web Store est un canal de distribution gratuit avec des milliards d'utilisateurs."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude Code, Chrome Extension APIs — tous existent."}
+    ]
+  },
+  "128": {
+    "verdict": "acceptee",
+    "summary": "Le SaaS vertical niche construit avec vibe coding est le modele le plus solide a long terme. La validation client avant dev est essentielle.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-20000 EUR/mois est realiste pour un SaaS B2B vertical."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude Code + Next.js + Supabase — stack mature."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "4-8 semaines solo pour le MVP."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les industries avec des logiciels vieillissants sont une mine d'or."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude Code, Next.js, Supabase, Stripe — tous matures."}
+    ]
+  },
+  "129": {
+    "verdict": "rejetee",
+    "summary": "RapidAPI est un marketplace avec des millions d'APIs. La decouverte est quasi impossible et les prix sont tires vers le bas par la concurrence gratuite.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1000-8000 est optimiste. La majorite des APIs sur RapidAPI font 0-50$/mois. La concurrence gratuite est massive."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude Code + FastAPI — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-4 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "RapidAPI est sature. Les devs trouvent des alternatives open-source gratuites pour la plupart des cas d'usage."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude Code, FastAPI, RapidAPI — tous existent."}
+    ]
+  },
+  "130": {
+    "verdict": "acceptee",
+    "summary": "Les outils internes sur mesure avec vibe coding sont le service le plus rentable de la liste. La demo live en 30 min est un killer argument de vente.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-15000 EUR/mois est realiste avec 1-3 projets/mois."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude Code + Cursor — le vibe coding rend la livraison en 1-3 jours credible."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. La demo live de 30 min est faisable."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les PME avec des processus manuels sont partout. La demande est reelle et constante."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude Code, Cursor, Bolt.new, Retool — tous matures."}
+    ]
+  },
+  "131": {
+    "verdict": "rejetee",
+    "summary": "Cloner un SaaS populaire est un piege classique. Le SaaS original a des annees d'avance en features, support et SEO. Les clones echouent presque toujours.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1000-8000 est optimiste. Les clones SaaS sont rarement viables face a l'original + ses alternatives etablies."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude Code + Next.js + Supabase — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-4 semaines solo pour le MVP."},
+      {"criterion": "Marche reel", "ok": false, "text": "L'original va copier vos features ou baisser ses prix. Pas de moat defensable."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude Code, Next.js, Supabase — matures."}
+    ]
+  },
+  "132": {
+    "verdict": "acceptee",
+    "summary": "ReturnFlow pour Shopify est un vrai gap de marche. Loop Returns fait 20M ARR mais rien pour les petits stores.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-12000 EUR/mois est realiste pour une app Shopify bien positionnee."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Shopify API + Next.js + Supabase — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "6-8 semaines solo. L'integration Shopify est le principal defi."},
+      {"criterion": "Marche reel", "ok": true, "text": "Loop Returns ne sert pas les petits stores. Le gap de marche est reel."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Shopify API, Next.js, Claude API — tous existent."}
+    ]
+  },
+  "133": {
+    "verdict": "acceptee",
+    "summary": "MCP Bridge est extremement bien positionne sur une tendance explosive. Le cas de 21st.dev a 10K MRR en 6 semaines est credible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-25000 EUR/mois est ambitieux mais le marche MCP est en explosion."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "TypeScript + MCP SDK Anthropic + Cloudflare Workers — stack moderne et adaptee."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "6-10 semaines solo. Necessite des competences dev avancees."},
+      {"criterion": "Marche reel", "ok": true, "text": "MCP est en croissance de 85% MoM. Le protocole est pousse par Anthropic et adopte par l'ecosysteme."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "MCP SDK, Cloudflare Workers, TypeScript — tous existent et sont bien documentes."}
+    ]
+  },
+  "134": {
+    "verdict": "rejetee",
+    "summary": "TestimonialBox est un doublonne de l'idee 63. Le marche est deja sature par Testimonial.to, Senja, VideoAsk, etc.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Difficile de se differencier face aux concurrents etablis."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Widget JS + dashboard — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "3-5 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche sature. Testimonial.to, Senja, VideoAsk dominient."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Next.js, Supabase, Stripe — standards."}
+    ]
+  },
+  "135": {
+    "verdict": "acceptee",
+    "summary": "LandlordLite pour petits proprietaires est un SaaS B2C avec un marche enorme (7.5M logements locatifs FR). Le segment 1-10 biens est mal servi.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-12000 EUR/mois est realiste pour un SaaS locatif."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Next.js + Supabase + Claude API — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "6-10 semaines solo pour le MVP."},
+      {"criterion": "Marche reel", "ok": true, "text": "7.5M logements locatifs en France. Les petits proprietaires n'ont pas de logiciel adapte."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Next.js, Supabase, Claude API, Stripe — tous existent."}
+    ]
+  },
+  "136": {
+    "verdict": "acceptee",
+    "summary": "ContractScan est similaire a l'idee 57 mais cible les PME plutot que les freelances. Les deux niches sont viables en parallele.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-12000 EUR/mois pour un SaaS d'analyse de contrats PME."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude API + PDF parsing — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "5-8 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les PME signent des contrats sans les comprendre completement. Le besoin est universel."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, Next.js, PDF parsing — tous existent."}
+    ]
+  },
+  "137": {
+    "verdict": "acceptee",
+    "summary": "MeetingBrief est un SaaS de productivite B2B avec un use case clair et repetitif. Le briefing pre-meeting est un pain point reel des sales.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-12000 EUR/mois pour un SaaS B2B sales."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Calendrier API + LinkedIn + Claude API — le scraping LinkedIn est le defi."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "5-8 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les equipes sales preparent mal leurs meetings. Le briefing automatique est a forte valeur."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, LinkedIn, CRM APIs — existent mais LinkedIn API est restrictive."}
+    ]
+  },
+  "138": {
+    "verdict": "rejetee",
+    "summary": "WaitlistBuzz est un produit trop simple avec des alternatives gratuites (LaunchRock, Gleam, Viral Loops). Le marche est sature.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "1000-5000 EUR/mois est optimiste. LaunchRock et Viral Loops existent deja."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Landing page + referral system — trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "LaunchRock, Gleam, Viral Loops — alternatives gratuites ou peu cheres existent."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Next.js, Supabase — standards."}
+    ]
+  },
+  "139": {
+    "verdict": "rejetee",
+    "summary": "BookkeeperBot entre en concurrence avec des solutions massives (Pennylane, Indy, QuickBooks). La comptabilite implique des obligations legales complexes.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Se positionner face a Pennylane et QuickBooks est quasi impossible en solo."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "OCR + Claude API — faisable techniquement."},
+      {"criterion": "Echelle humaine", "ok": false, "text": "La conformite comptable et fiscale est un cauchemar pour un solopreneur."},
+      {"criterion": "Marche reel", "ok": false, "text": "Pennylane, Indy, QuickBooks, Sage — le marche est deja encombre et reglemente."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "OCR, Claude API — existent mais ne suffisent pas pour la conformite."}
+    ]
+  },
+  "140": {
+    "verdict": "acceptee",
+    "summary": "Le GEO (Generative Engine Optimization) est un nouveau service a forte demande. Tres peu d'experts en 2026, ce qui cree une fenetre d'opportunite.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "3000-15000 EUR/mois est realiste pour un service de consulting GEO."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "L'expertise GEO est encore emergente. Se former est le principal investissement."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo comme consultant/freelance."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les moteurs IA (Perplexity, ChatGPT search) deviennent des sources de trafic. La demande GEO est reelle."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Perplexity, Ahrefs, Surfer SEO — les outils SEO classiques s'adaptent."}
+    ]
+  },
+  "141": {
+    "verdict": "acceptee",
+    "summary": "Le studio de creatives publicitaires IA est un service a forte demande pour l'e-commerce. Le stat +329% YoY sur Upwork est credible.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-10000 EUR/mois est realiste avec des packs mensuels."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney + Canva + CapCut — workflow maitrise."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les marques e-commerce ont un besoin constant de creatives fraiches."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, DALL-E, Canva, CapCut — tous existent."}
+    ]
+  },
+  "142": {
+    "verdict": "acceptee",
+    "summary": "Le consulting EU AI Act est un service premium avec un timing parfait (applicable 2026). Le marche est naissant avec peu de concurrence.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-20000 EUR/mois est realiste pour du consulting compliance a $2-10K/audit."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "La formation juridique est le principal investissement. Claude aide a l'analyse."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo en consulting. Le goulot est l'expertise juridique."},
+      {"criterion": "Marche reel", "ok": true, "text": "L'EU AI Act entre en vigueur en 2026. Toutes les entreprises utilisant l'IA doivent se conformer."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, templates juridiques, Notion — adaptes."}
+    ]
+  },
+  "143": {
+    "verdict": "acceptee",
+    "summary": "L'optimisation de listings e-commerce IA est un service simple a lancer avec une forte demande. Bon point d'entree pour un solopreneur.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "1500-8000 EUR/mois est realiste avec un bon volume de clients."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude API + Helium 10 — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. 1-2 semaines pour lancer."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les vendeurs e-commerce ont besoin d'aide SEO. La demande est constante."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude API, Helium 10, Canva — tous existent."}
+    ]
+  },
+  "144": {
+    "verdict": "acceptee",
+    "summary": "Les video avatars pour Sales sont un service B2B innovant avec un taux de reponse 3x. HeyGen et Synthesia sont des outils matures.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "2000-10000 EUR/mois est realiste avec 2-5 equipes sales clientes."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "HeyGen/Synthesia + Claude pour les scripts — workflow operationnel."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo avec les APIs batch de HeyGen."},
+      {"criterion": "Marche reel", "ok": true, "text": "La prospection video personnalisee est un trend fort. Le taux de reponse 3x est credible."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "HeyGen, Synthesia, Claude, Loom — tous matures."}
+    ]
+  },
+  "145": {
+    "verdict": "acceptee",
+    "summary": "L'agence de dev vibe coding est probablement le service le plus rentable de toute la liste. La livraison en 48-72h est un killer avantage.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "5000-25000 EUR/mois est realiste avec 2-5 projets/mois a 2-10K chacun."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude Code + Cursor — le vibe coding rend la productivite 10x possible."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. La rapidite de livraison est l'argument de vente."},
+      {"criterion": "Marche reel", "ok": true, "text": "Les PME ont un besoin constant de dev web/app. La rapidite de livraison est un differenciateur massif."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude Code, Cursor, Bolt.new, Next.js, Supabase — tous matures."}
+    ]
+  },
+  "146": {
+    "verdict": "rejetee",
+    "summary": "Les coques de telephone POD sont un marche ultra-sature avec des marges faibles. Les modeles changent chaque annee, rendant les designs obsoletes.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-6000 EUR/mois est optimiste. Les marges reelles sont faibles apres les frais de plateforme."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney + Printful — workflow standard."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Marche ultra-sature sur Redbubble et Etsy. Les nouveaux modeles rendent les designs obsoletes."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, Ideogram, Printful — tous existent."}
+    ]
+  },
+  "147": {
+    "verdict": "rejetee",
+    "summary": "Doublonne avec l'idee 21 (Puzzles IA POD). Meme produit, memes outils, meme marche. Pas de valeur ajoutee.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "Doublonne de l'idee 21."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Meme workflow que l'idee 21."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Doublonne sans differentiation."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, DALL-E, Printify — memes outils."}
+    ]
+  },
+  "148": {
+    "verdict": "rejetee",
+    "summary": "Les vetements bebe personnalises sur Etsy sont un marche deja sature avec des milliers de vendeurs. La personnalisation prenom rend le business actif, pas passif.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-7000 est optimiste. Les marges reelles sont reduites par la competition sur le prix et les frais Etsy/Printful."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney + Canva + Printful — workflow standard."},
+      {"criterion": "Echelle humaine", "ok": false, "text": "Chaque commande personnalisee necessite un traitement manuel. Ce n'est pas du passif."},
+      {"criterion": "Marche reel", "ok": false, "text": "Des milliers de vendeurs de bodies personnalises sur Etsy. Course vers le bas sur les prix."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, Canva, Printful — tous existent."}
+    ]
+  },
+  "149": {
+    "verdict": "rejetee",
+    "summary": "Les desk mats gaming sont un marche de niche sature sur Etsy et Amazon. Les marques chinoises dominent avec des prix imbattables.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "500-5000 EUR/mois est optimiste face a la concurrence chinoise sur Amazon."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Midjourney + Printful — faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Amazon est inonde de desk mats a bas prix. Difficile de concurrencer les prix chinois."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Midjourney, Stable Diffusion, Printful — tous existent."}
+    ]
+  },
+  "150": {
+    "verdict": "acceptee",
+    "summary": "Les guides IA par profession sont un excellent format KDP evergreen. Chaque profession = nouveau livre dans une serie scalable.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "500-6000 EUR/mois est realiste avec un catalogue de 10+ guides."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude/ChatGPT + Canva — workflow standard."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo. 2-4 semaines par guide."},
+      {"criterion": "Marche reel", "ok": true, "text": "Chaque profession cherche comment utiliser l'IA. La demande est en explosion."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude, ChatGPT, Canva, Kindle Create — tous existent."}
+    ]
+  },
+  "151": {
+    "verdict": "acceptee",
+    "summary": "Les workbooks sante mentale ADHD/Anxiete sont en croissance de 15%/an. La combinaison CBT + journaling est fondee sur des preuves.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-5000 EUR/mois est realiste. Similaire a l'idee 79 mais avec un angle workbook."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude + Canva — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "Faisable solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "La sante mentale et ADHD sont des sujets en forte croissance. La demande est authentique."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude, Canva, ChatGPT — tous existent."}
+    ]
+  },
+  "152": {
+    "verdict": "rejetee",
+    "summary": "Les carnets de sante animaux par race sont un produit a faible valeur ajoutee. Les veterinaires offrent des carnets et les apps (Petly, PetDesk) les remplacent.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "200-3000 EUR/mois est optimiste. Le revenu par livre est tres faible et le volume necessaire est enorme."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + Midjourney — production en batch faisable."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines pour 20-50 races en production batch."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les veterinaires donnent des carnets de sante. Les apps PetDesk et Petly sont gratuites. Faible valeur ajoutee."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva, Midjourney — standards."}
+    ]
+  },
+  "153": {
+    "verdict": "acceptee",
+    "summary": "Les journaux pour moments de vie difficiles sont une niche emotionnelle avec peu de concurrence (< 100 resultats). Forte valeur percue.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": true, "text": "300-4000 EUR/mois est realiste."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Claude + Canva — workflow simple."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "2-3 semaines solo."},
+      {"criterion": "Marche reel", "ok": true, "text": "Concurrence < 100 resultats par niche. Forte valeur emotionnelle = prix premium."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Claude, Canva — standards."}
+    ]
+  },
+  "154": {
+    "verdict": "rejetee",
+    "summary": "Les albums de collection de stickers KDP sont un produit no-content a tres faible valeur ajoutee. Les revenus sont derisoires.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "200-3000 EUR/mois est optimiste pour des albums de pages quasi-blanches."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva + Midjourney — trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1-2 semaines solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Les albums de stickers physiques existent en grande surface a des prix derisoires. Pas de valeur ajoutee."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva, Midjourney — standards."}
+    ]
+  },
+  "155": {
+    "verdict": "rejetee",
+    "summary": "Les carnets d'entretien maison sont un produit a tres faible valeur ajoutee. Des apps gratuites font mieux.",
+    "details": [
+      {"criterion": "Credibilite revenus", "ok": false, "text": "200-2000 EUR/mois est optimiste pour un produit aussi basique."},
+      {"criterion": "Faisabilite technique", "ok": true, "text": "Canva — trivial."},
+      {"criterion": "Echelle humaine", "ok": true, "text": "1 semaine solo."},
+      {"criterion": "Marche reel", "ok": false, "text": "Des apps gratuites (Centriq, HomeZada) font mieux. Le format papier est obsolete pour ce besoin."},
+      {"criterion": "Outils disponibles", "ok": true, "text": "Canva — standard."}
+    ]
+  }
+}
