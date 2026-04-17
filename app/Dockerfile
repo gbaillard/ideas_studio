@@ -5,18 +5,22 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-COPY <<'EOF' /etc/nginx/conf.d/default.conf
-server {
-    listen 80;
-    server_name localhost;
-    root /usr/share/nginx/html;
-    index index.html;
+FROM node:20-alpine
+WORKDIR /app
 
-    location / {
-        try_files $uri $uri/ /index.html;
-    }
-}
-EOF
+# Install only production dependencies (Express + better-sqlite3)
+COPY package*.json ./
+RUN npm ci --omit=dev
+
+# Copy built frontend + server code
+COPY --from=build /app/dist ./dist
+COPY server/ ./server/
+
+# Data volume for SQLite persistence
+RUN mkdir -p /app/data
+VOLUME /app/data
+ENV DATA_DIR=/app/data
+ENV PORT=80
+
 EXPOSE 80
+CMD ["node", "server/index.js"]

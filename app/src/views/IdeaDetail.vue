@@ -1,7 +1,11 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
+import { marked } from 'marked'
 import ideas from '../data/ideas.json'
+import { api } from '../api.js'
+
+marked.setOptions({ breaks: true, gfm: true })
 
 const props = defineProps({ id: Number })
 const router = useRouter()
@@ -11,12 +15,16 @@ const newComment = ref('')
 const comments = ref([])
 const status = ref('nouveau')
 const feasibility = ref(null)
+const briefNotes = ref([])
+const newBriefNote = ref('')
+const loading = ref(true)
+const showBrief = true
 
 const statusConfig = {
   'nouveau':    { label: 'Nouveau',    color: '#8b8d97', icon: '&#9679;' },
   'acceptee':   { label: 'Acceptee',   color: '#22c55e', icon: '&#10003;' },
   'rejetee':    { label: 'Rejetee',    color: '#ef4444', icon: '&#10007;' },
-  'en-cours':   { label: 'En cours',   color: '#6366f1', icon: '&#9654;' },
+  'en-etude':   { label: 'En Etude de projet', color: '#6366f1', icon: '&#128269;' },
   'en-attente': { label: 'En attente', color: '#f59e0b', icon: '&#9208;' },
   'abandonnee': { label: 'Abandonnee', color: '#ef4444', icon: '&#9632;' },
   'publiee':    { label: 'Publiee',    color: '#22c55e', icon: '&#9733;' },
@@ -59,31 +67,49 @@ const difficultyPercent = computed(() => {
   return (idea.value.difficulty / 5) * 100
 })
 
-onMounted(() => {
-  const saved = localStorage.getItem(`idea-${props.id}-comments`)
-  if (saved) comments.value = JSON.parse(saved)
-  const savedStatus = localStorage.getItem(`idea-${props.id}-status`)
-  if (savedStatus) status.value = savedStatus
-  else status.value = idea.value?.feasibility?.verdict === 'acceptee' ? 'acceptee'
-    : idea.value?.feasibility?.verdict === 'rejetee' ? 'rejetee' : 'nouveau'
-  const savedFeasibility = localStorage.getItem(`idea-${props.id}-feasibility`)
-  if (savedFeasibility) feasibility.value = JSON.parse(savedFeasibility)
-  else if (idea.value?.feasibility) feasibility.value = idea.value.feasibility
-})
+async function loadData() {
+  loading.value = true
+  try {
+    const [commentsData, statusData, feasibilityData, briefData] = await Promise.all([
+      api.getComments(props.id),
+      api.getStatus(props.id),
+      api.getFeasibility(props.id),
+      api.getBrief(props.id),
+    ])
+    comments.value = commentsData
+    if (statusData.status) {
+      status.value = statusData.status
+    } else {
+      status.value = idea.value?.feasibility?.verdict === 'acceptee' ? 'acceptee'
+        : idea.value?.feasibility?.verdict === 'rejetee' ? 'rejetee' : 'nouveau'
+    }
+    feasibility.value = feasibilityData || idea.value?.feasibility || null
+    briefNotes.value = briefData
+  } catch {
+    // Fallback to ideas.json data if API fails
+    status.value = idea.value?.feasibility?.verdict === 'acceptee' ? 'acceptee'
+      : idea.value?.feasibility?.verdict === 'rejetee' ? 'rejetee' : 'nouveau'
+    feasibility.value = idea.value?.feasibility || null
+  }
+  loading.value = false
+}
 
-function addComment() {
+onMounted(loadData)
+
+// Reload data when navigating between ideas
+watch(() => props.id, loadData)
+
+async function addComment() {
   if (!newComment.value.trim()) return
-  comments.value.push({
-    text: newComment.value.trim(),
-    date: new Date().toISOString().split('T')[0] + ' ' + new Date().toTimeString().slice(0, 5),
-  })
-  localStorage.setItem(`idea-${props.id}-comments`, JSON.stringify(comments.value))
+  const date = new Date().toISOString().split('T')[0] + ' ' + new Date().toTimeString().slice(0, 5)
+  const result = await api.addComment(props.id, newComment.value.trim(), date)
+  comments.value.push(result)
   newComment.value = ''
 }
 
-function updateStatus(e) {
+async function updateStatus(e) {
   status.value = e.target.value
-  localStorage.setItem(`idea-${props.id}-status`, status.value)
+  await api.setStatus(props.id, status.value)
 }
 
 function formatMoney(n) {
@@ -96,9 +122,41 @@ function youtubeId(url) {
   return m ? m[1] : null
 }
 
-function deleteComment(index) {
+async function deleteComment(index) {
+  const comment = comments.value[index]
+  await api.deleteComment(props.id, comment.id)
   comments.value.splice(index, 1)
-  localStorage.setItem(`idea-${props.id}-comments`, JSON.stringify(comments.value))
+}
+
+async function addBriefNote() {
+  if (!newBriefNote.value.trim()) return
+  const date = new Date().toISOString().split('T')[0] + ' ' + new Date().toTimeString().slice(0, 5)
+  const result = await api.addBriefNote(props.id, newBriefNote.value.trim(), 'Guillaume', date)
+  briefNotes.value.push(result)
+  newBriefNote.value = ''
+}
+
+async function deleteBriefNote(index) {
+  const note = briefNotes.value[index]
+  await api.deleteBriefNote(props.id, note.id)
+  briefNotes.value.splice(index, 1)
+}
+
+function renderMarkdown(text) {
+  if (!text) return ''
+  return marked.parse(text)
+}
+
+async function exportIdeaData() {
+  const data = await api.exportIdea(props.id)
+  data.ideaName = idea.value?.name
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `idea-${props.id}-${idea.value?.name?.replace(/[^a-zA-Z0-9]/g, '_')}.json`
+  a.click()
+  URL.revokeObjectURL(url)
 }
 
 function formatCommentDate(dateStr) {
@@ -269,14 +327,43 @@ function goToIdea(id) {
       </div>
     </div>
 
+    <!-- Brief de projet -->
+    <div class="section brief-section" v-if="showBrief">
+      <h2>&#128203; Brief de projet</h2>
+      <p class="brief-description">
+        Zone d'echange pour preparer le lancement du projet. Les notes accumulees ici serviront de prompt pour demarrer le developpement.
+      </p>
+      <div v-if="briefNotes.length === 0" class="comments-empty">
+        <span class="comments-empty-icon">&#128221;</span>
+        <span>Aucune note. Commence a decrire ta vision du projet, les contraintes, le public cible...</span>
+      </div>
+      <div v-for="(note, i) in briefNotes" :key="note.id || i" class="comment brief-note">
+        <div class="comment-header">
+          <div class="comment-avatar" :class="note.author === 'Guillaume' ? '' : 'avatar-agent'">{{ note.author === 'Guillaume' ? 'G' : 'A' }}</div>
+          <div class="comment-meta">
+            <span class="comment-author">{{ note.author }}</span>
+            <span class="comment-date">{{ formatCommentDate(note.date) }}</span>
+          </div>
+          <button class="comment-delete" @click="deleteBriefNote(i)" title="Supprimer">&#10005;</button>
+        </div>
+        <div class="comment-text markdown-content" v-html="renderMarkdown(note.text)"></div>
+      </div>
+      <div class="comment-form">
+        <textarea v-model="newBriefNote" placeholder="Decris ta vision, tes contraintes, le public cible, le business model..." @keydown.ctrl.enter="addBriefNote"></textarea>
+        <button class="btn comment-btn" @click="addBriefNote">
+          &#10148; Ajouter une note
+        </button>
+      </div>
+    </div>
+
     <!-- Commentaires -->
     <div class="section comments-section">
-      <h2>&#128172; Commentaires pour Byte</h2>
+      <h2>&#128172; Commentaires</h2>
       <div v-if="comments.length === 0" class="comments-empty">
         <span class="comments-empty-icon">&#128221;</span>
         <span>Aucun commentaire. Ajoute tes notes ici pour que je les retrouve.</span>
       </div>
-      <div v-for="(c, i) in comments" :key="i" class="comment">
+      <div v-for="(c, i) in comments" :key="c.id || i" class="comment">
         <div class="comment-header">
           <div class="comment-avatar">G</div>
           <div class="comment-meta">
@@ -285,14 +372,17 @@ function goToIdea(id) {
           </div>
           <button class="comment-delete" @click="deleteComment(i)" title="Supprimer">&#10005;</button>
         </div>
-        <div class="comment-text">{{ c.text }}</div>
+        <div class="comment-text markdown-content" v-html="renderMarkdown(c.text)"></div>
       </div>
       <div class="comment-form">
-        <textarea v-model="newComment" placeholder="Ecris un commentaire / une note pour Byte..." @keydown.ctrl.enter="addComment"></textarea>
+        <textarea v-model="newComment" placeholder="Ecris un commentaire / une note..." @keydown.ctrl.enter="addComment"></textarea>
         <button class="btn comment-btn" @click="addComment">
           &#10148; Ajouter
         </button>
       </div>
+      <button class="btn export-btn" @click="exportIdeaData" title="Exporter toutes les donnees de cette idee (commentaires, brief, statut)">
+        &#128190; Exporter les donnees
+      </button>
     </div>
 
     <!-- Navigation entre idees -->

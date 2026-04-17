@@ -1,6 +1,7 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import ideas from '../data/ideas.json'
+import { api } from '../api.js'
 
 const search = ref('')
 const categoryFilter = ref('')
@@ -8,19 +9,28 @@ const difficultyFilter = ref('')
 const sortBy = ref('rating')
 const passiveFilter = ref('')
 const statusFilter = ref('')
+const statusMap = ref({})
 
 const statusConfig = {
   'nouveau':    { label: 'Nouveau',    color: '#8b8d97' },
   'acceptee':   { label: 'Acceptee',   color: '#22c55e' },
   'rejetee':    { label: 'Rejetee',    color: '#ef4444' },
-  'en-cours':   { label: 'En cours',   color: '#6366f1' },
+  'en-etude':   { label: 'En Etude de projet', color: '#6366f1' },
   'en-attente': { label: 'En attente', color: '#f59e0b' },
   'abandonnee': { label: 'Abandonnee', color: '#ef4444' },
   'publiee':    { label: 'Publiee',    color: '#22c55e' },
 }
 
+onMounted(async () => {
+  try {
+    statusMap.value = await api.getAllStatuses()
+  } catch {
+    // API not available — statuses will fallback to ideas.json
+  }
+})
+
 function getIdeaStatus(id) {
-  const saved = localStorage.getItem(`idea-${id}-status`)
+  const saved = statusMap.value[id]
   if (saved) return saved
   const idea = ideas.find(i => i.id === id)
   if (idea?.feasibility?.verdict === 'acceptee') return 'acceptee'
@@ -97,6 +107,7 @@ function formatMoney(n) {
 </script>
 
 <template>
+  <div class="dashboard-view">
   <div class="category-pills">
     <button
       class="cat-pill"
@@ -149,37 +160,56 @@ function formatMoney(n) {
     {{ filteredIdeas.length }} idee{{ filteredIdeas.length > 1 ? 's' : '' }} trouvee{{ filteredIdeas.length > 1 ? 's' : '' }}
   </p>
 
-  <div class="ideas-grid">
-    <router-link
-      v-for="idea in filteredIdeas"
-      :key="idea.id"
-      :to="`/idea/${idea.id}`"
-      class="idea-card"
-      :class="'idea-card--' + idea.category"
-    >
-      <div class="card-header">
-        <h3>{{ idea.name }}</h3>
-        <span class="status-dot" :style="{ background: statusConfig[getIdeaStatus(idea.id)]?.color }"
-          :title="statusConfig[getIdeaStatus(idea.id)]?.label"></span>
-      </div>
-
-      <p class="description">{{ idea.description }}</p>
-
-      <div class="meta">
-        <span class="badge category">{{ categoryLabels[idea.category] || idea.category }}</span>
-        <span class="badge revenue">${{ formatMoney(idea.revenueMin) }}-{{ formatMoney(idea.revenueMax) }}/mois</span>
-        <span class="badge invest">{{ idea.investMin }}-{{ idea.investMax }}EUR</span>
-        <span class="badge time">{{ idea.timeToRevenue }}</span>
-        <span v-if="idea.passive" class="badge passive">Passif</span>
-      </div>
-
-      <div class="rating">
-        <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= idea.rating }">&#9733;</span>
-      </div>
-
-      <div class="tags">
-        <span v-for="tag in idea.tags.slice(0, 5)" :key="tag" class="tag">#{{ tag }}</span>
-      </div>
-    </router-link>
+  <div class="table-container">
+    <table class="ideas-table">
+      <thead>
+        <tr>
+          <th class="th-status">Statut</th>
+          <th class="th-name">Nom</th>
+          <th class="th-category">Categorie</th>
+          <th class="th-revenue">Revenu/mois</th>
+          <th class="th-invest">Invest.</th>
+          <th class="th-difficulty">Diff.</th>
+          <th class="th-time">Delai</th>
+          <th class="th-type">Type</th>
+          <th class="th-rating">Note</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          v-for="idea in filteredIdeas"
+          :key="idea.id"
+          class="idea-row"
+          :class="'idea-row--' + idea.category"
+          @click="$router.push(`/idea/${idea.id}`)"
+        >
+          <td class="td-status">
+            <span class="status-badge" :class="'status-badge--' + getIdeaStatus(idea.id)">
+              {{ statusConfig[getIdeaStatus(idea.id)]?.label }}
+            </span>
+          </td>
+          <td class="td-name">{{ idea.name }}</td>
+          <td class="td-category">
+            <span class="badge category" :class="'badge--' + idea.category">{{ categoryLabels[idea.category] || idea.category }}</span>
+          </td>
+          <td class="td-revenue">
+            <span class="badge revenue">${{ formatMoney(idea.revenueMin) }}-{{ formatMoney(idea.revenueMax) }}</span>
+          </td>
+          <td class="td-invest">{{ idea.investMin }}-{{ idea.investMax }}€</td>
+          <td class="td-difficulty">
+            <span v-for="n in 5" :key="n" class="diff-dot" :class="{ active: n <= idea.difficulty }"></span>
+          </td>
+          <td class="td-time">{{ idea.timeToRevenue }}</td>
+          <td class="td-type">
+            <span v-if="idea.passive" class="badge passive">Passif</span>
+            <span v-else class="badge active-type">Actif</span>
+          </td>
+          <td class="td-rating">
+            <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= idea.rating }">&#9733;</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   </div>
 </template>

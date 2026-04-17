@@ -35,3 +35,12 @@ yarn-error.log*
 
 # Claude Code local state
 .claude/
+.aidesigner/*
+!.aidesigner/.gitkeep
+
+# Paperclip MCP config (may contain API keys — managed locally)
+.mcp.json
+.mcp.json.bak-*
+
+# SQLite runtime data (bind-mounted to /Volumes/T500/PROJECT/VOLUME/ideas-studio)
+app/data/
