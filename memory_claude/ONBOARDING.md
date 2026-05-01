@@ -27,9 +27,10 @@ Série 12 : idées 100% agent-opérées (IDs 265-284).
 - **Stack** : Vue 3 + Vite (frontend) + Express.js + better-sqlite3 (backend)
 - **Ports** : 8090 (Vite dev) + 3000 (backend dev) / 40300 (Docker prod)
 - **API** : REST /api/* (comments, status, brief, feasibility, export, migration)
-- **DB** : SQLite dans `/app/data/ideas-studio.db` (bind mount → `/Volumes/T500/PROJECT/VOLUME/ideas-studio/`)
+- **DB** : SQLite dans `/app/data/ideas-studio.db` (bind mount → `/Volumes/T500/PROJECT/VOLUMES/IDEAS_STUDIO/db-data/`, chemin canonique ILUSIO `AGENTS.md §11`)
 - **Features** : Dashboard tableau, filtres catégorie/difficulté/statut/recherche, page détail avec feasibility, commentaires SQLite, brief de projet, export JSON, navigation prev/next
 - **Statuts** : Nouveau/Acceptée/Rejetée/En Etude de projet/En attente/Abandonnée/Publiée
 - **Dev** : `cd app && npm run dev:server & npm run dev -- --port 8090`
-- **Docker** : `docker run -d --name ideas-studio --restart unless-stopped -p 40300:80 -v /Volumes/T500/PROJECT/VOLUME/ideas-studio:/app/data ideas-studio`
-- **Rebuild** : `cd app && docker build -t ideas-studio . && docker rm -f ideas-studio && docker run -d --name ideas-studio --restart unless-stopped -p 40300:80 -v /Volumes/T500/PROJECT/VOLUME/ideas-studio:/app/data ideas-studio`
+- **Docker** : `docker run -d --name ideas-studio --restart unless-stopped -p 40300:80 -v /Volumes/T500/PROJECT/VOLUMES/IDEAS_STUDIO/db-data:/app/data ideas-studio`
+- **Rebuild** : `cd app && docker build -t ideas-studio . && docker rm -f ideas-studio && docker run -d --name ideas-studio --restart unless-stopped -p 40300:80 -v /Volumes/T500/PROJECT/VOLUMES/IDEAS_STUDIO/db-data:/app/data ideas-studio`
+- **⚠️ Ne jamais utiliser** `/Volumes/T500/PROJECT/VOLUME/ideas-studio/` (singulier, tiret) — ancien chemin, provoque perte de données (incident ILU-158)

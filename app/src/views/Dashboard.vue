@@ -2,214 +2,147 @@
 import { ref, computed, onMounted } from 'vue'
 import ideas from '../data/ideas.json'
 import { api } from '../api.js'
+import { filters, resetFilters, hasActiveFilters } from '../stores/filters.js'
+import { CATEGORY_LABELS, STATUS_KEYS, STATUS_LABELS, resolveStatus } from '../constants.js'
+import TopBar from '../components/TopBar.vue'
+import IdeaRow from '../components/IdeaRow.vue'
 
-const search = ref('')
-const categoryFilter = ref('')
-const difficultyFilter = ref('')
-const sortBy = ref('rating')
-const passiveFilter = ref('')
-const statusFilter = ref('')
 const statusMap = ref({})
-
-const statusConfig = {
-  'nouveau':    { label: 'Nouveau',    color: '#8b8d97' },
-  'acceptee':   { label: 'Acceptee',   color: '#22c55e' },
-  'rejetee':    { label: 'Rejetee',    color: '#ef4444' },
-  'en-etude':   { label: 'En Etude de projet', color: '#6366f1' },
-  'en-attente': { label: 'En attente', color: '#f59e0b' },
-  'abandonnee': { label: 'Abandonnee', color: '#ef4444' },
-  'publiee':    { label: 'Publiee',    color: '#22c55e' },
-}
 
 onMounted(async () => {
   try {
     statusMap.value = await api.getAllStatuses()
   } catch {
-    // API not available — statuses will fallback to ideas.json
+    // API unavailable — fallback to ideas.json feasibility
   }
 })
 
 function getIdeaStatus(id) {
-  const saved = statusMap.value[id]
-  if (saved) return saved
   const idea = ideas.find(i => i.id === id)
-  if (idea?.feasibility?.verdict === 'acceptee') return 'acceptee'
-  if (idea?.feasibility?.verdict === 'rejetee') return 'rejetee'
-  return 'nouveau'
+  return resolveStatus(idea, statusMap.value)
 }
-
-const categories = [...new Set(ideas.map(i => i.category))]
-const categoryLabels = {
-  'print-on-demand': 'Print on Demand',
-  'youtube': 'YouTube / Video',
-  'micro-saas': 'Micro-SaaS',
-  'kdp': 'Livres KDP',
-  'services': 'Services / Freelance',
-  'apps': 'Apps Mobiles',
-  'games': 'Jeux Enfants PERIPLO'
-}
-
-const categoryCounts = computed(() => {
-  const counts = {}
-  ideas.forEach(i => {
-    counts[i.category] = (counts[i.category] || 0) + 1
-  })
-  return counts
-})
 
 const filteredIdeas = computed(() => {
   let result = [...ideas]
 
-  if (search.value) {
-    const q = search.value.toLowerCase()
+  if (filters.search) {
+    const q = filters.search.toLowerCase()
     result = result.filter(i =>
       i.name.toLowerCase().includes(q) ||
-      i.description.toLowerCase().includes(q) ||
-      i.tags.some(t => t.includes(q))
+      i.description?.toLowerCase().includes(q) ||
+      i.tags?.some(t => t.toLowerCase().includes(q))
     )
   }
+  if (filters.category) result = result.filter(i => i.category === filters.category)
+  if (filters.difficulty) result = result.filter(i => i.difficulty <= Number(filters.difficulty))
+  if (filters.passive === 'passive') result = result.filter(i => i.passive)
+  else if (filters.passive === 'active') result = result.filter(i => !i.passive)
+  if (filters.status) result = result.filter(i => getIdeaStatus(i.id) === filters.status)
+  if (filters.ratingMin) result = result.filter(i => (i.rating ?? 0) >= Number(filters.ratingMin))
 
-  if (categoryFilter.value) {
-    result = result.filter(i => i.category === categoryFilter.value)
-  }
-
-  if (difficultyFilter.value) {
-    result = result.filter(i => i.difficulty <= Number(difficultyFilter.value))
-  }
-
-  if (passiveFilter.value === 'passive') {
-    result = result.filter(i => i.passive)
-  } else if (passiveFilter.value === 'active') {
-    result = result.filter(i => !i.passive)
-  }
-
-  if (statusFilter.value) {
-    result = result.filter(i => getIdeaStatus(i.id) === statusFilter.value)
-  }
-
-  if (sortBy.value === 'rating') {
-    result.sort((a, b) => b.rating - a.rating)
-  } else if (sortBy.value === 'revenue') {
-    result.sort((a, b) => b.revenueMax - a.revenueMax)
-  } else if (sortBy.value === 'difficulty') {
-    result.sort((a, b) => a.difficulty - b.difficulty)
-  } else if (sortBy.value === 'invest') {
-    result.sort((a, b) => a.investMin - b.investMin)
-  }
+  if (filters.sortBy === 'rating') result.sort((a, b) => b.rating - a.rating)
+  else if (filters.sortBy === 'revenue') result.sort((a, b) => b.revenueMax - a.revenueMax)
+  else if (filters.sortBy === 'difficulty') result.sort((a, b) => a.difficulty - b.difficulty)
+  else if (filters.sortBy === 'invest') result.sort((a, b) => a.investMin - b.investMin)
 
   return result
 })
 
-function formatMoney(n) {
-  if (n >= 1000) return (n / 1000).toFixed(0) + 'K'
-  return n + ''
-}
+const crumbs = computed(() => {
+  const base = ['Ideas Studio']
+  if (filters.category) base.push(CATEGORY_LABELS[filters.category] || filters.category)
+  else base.push('Toutes')
+  return base
+})
 </script>
 
 <template>
-  <div class="dashboard-view">
-  <div class="category-pills">
+  <TopBar :crumbs="crumbs" />
+
+  <div class="filter-bar">
+    <div class="filter-bar-group">
+      <label class="filter-inline">
+        <span class="filter-inline-label">Statut</span>
+        <select v-model="filters.status" class="filter-select">
+          <option value="">Tous</option>
+          <option v-for="k in STATUS_KEYS" :key="k" :value="k">{{ STATUS_LABELS[k] }}</option>
+        </select>
+      </label>
+      <label class="filter-inline">
+        <span class="filter-inline-label">Difficulté</span>
+        <select v-model="filters.difficulty" class="filter-select">
+          <option value="">Toute</option>
+          <option value="1">≤ 1/5 (facile)</option>
+          <option value="2">≤ 2/5</option>
+          <option value="3">≤ 3/5</option>
+          <option value="4">≤ 4/5</option>
+        </select>
+      </label>
+      <label class="filter-inline">
+        <span class="filter-inline-label">Type</span>
+        <select v-model="filters.passive" class="filter-select">
+          <option value="">Passif + Actif</option>
+          <option value="passive">Passif</option>
+          <option value="active">Actif</option>
+        </select>
+      </label>
+      <label class="filter-inline">
+        <span class="filter-inline-label">Note min.</span>
+        <select v-model="filters.ratingMin" class="filter-select">
+          <option value="">Toute</option>
+          <option value="3">≥ 3.0</option>
+          <option value="4">≥ 4.0</option>
+          <option value="4.5">≥ 4.5</option>
+          <option value="5">= 5.0</option>
+        </select>
+      </label>
+      <label class="filter-inline">
+        <span class="filter-inline-label">Tri</span>
+        <select v-model="filters.sortBy" class="filter-select">
+          <option value="rating">Note</option>
+          <option value="revenue">Revenu max</option>
+          <option value="difficulty">Difficulté</option>
+          <option value="invest">Investissement</option>
+        </select>
+      </label>
+    </div>
     <button
-      class="cat-pill"
-      :class="{ active: categoryFilter === '' }"
-      @click="categoryFilter = ''"
+      v-if="hasActiveFilters()"
+      type="button"
+      class="filter-clear-inline"
+      @click="resetFilters()"
     >
-      Toutes <span class="pill-count">{{ ideas.length }}</span>
-    </button>
-    <button
-      v-for="c in categories"
-      :key="c"
-      class="cat-pill"
-      :class="['cat-pill--' + c, { active: categoryFilter === c }]"
-      @click="categoryFilter = c"
-    >
-      {{ categoryLabels[c] || c }} <span class="pill-count">{{ categoryCounts[c] || 0 }}</span>
+      Réinitialiser
     </button>
   </div>
 
-  <div class="filters">
-    <input v-model="search" placeholder="Rechercher une idee..." />
-    <select v-model="categoryFilter">
-      <option value="">Toutes categories</option>
-      <option v-for="c in categories" :key="c" :value="c">{{ categoryLabels[c] || c }}</option>
-    </select>
-    <select v-model="difficultyFilter">
-      <option value="">Toute difficulte</option>
-      <option value="1">Facile (1/5)</option>
-      <option value="2">Facile-Moyen (1-2/5)</option>
-      <option value="3">Jusqu'a moyen (1-3/5)</option>
-    </select>
-    <select v-model="passiveFilter">
-      <option value="">Passif + Actif</option>
-      <option value="passive">Passif uniquement</option>
-      <option value="active">Actif uniquement</option>
-    </select>
-    <select v-model="statusFilter">
-      <option value="">Tous statuts</option>
-      <option v-for="(cfg, key) in statusConfig" :key="key" :value="key">{{ cfg.label }}</option>
-    </select>
-    <select v-model="sortBy">
-      <option value="rating">Trier par note</option>
-      <option value="revenue">Trier par revenu max</option>
-      <option value="difficulty">Trier par facilite</option>
-      <option value="invest">Trier par investissement</option>
-    </select>
+  <div class="list-toolbar">
+    <span class="list-toolbar-label">{{ filteredIdeas.length }} idées</span>
   </div>
 
-  <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">
-    {{ filteredIdeas.length }} idee{{ filteredIdeas.length > 1 ? 's' : '' }} trouvee{{ filteredIdeas.length > 1 ? 's' : '' }}
-  </p>
-
-  <div class="table-container">
-    <table class="ideas-table">
-      <thead>
-        <tr>
-          <th class="th-status">Statut</th>
-          <th class="th-name">Nom</th>
-          <th class="th-category">Categorie</th>
-          <th class="th-revenue">Revenu/mois</th>
-          <th class="th-invest">Invest.</th>
-          <th class="th-difficulty">Diff.</th>
-          <th class="th-time">Delai</th>
-          <th class="th-type">Type</th>
-          <th class="th-rating">Note</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          v-for="idea in filteredIdeas"
-          :key="idea.id"
-          class="idea-row"
-          :class="'idea-row--' + idea.category"
-          @click="$router.push(`/idea/${idea.id}`)"
-        >
-          <td class="td-status">
-            <span class="status-badge" :class="'status-badge--' + getIdeaStatus(idea.id)">
-              {{ statusConfig[getIdeaStatus(idea.id)]?.label }}
-            </span>
-          </td>
-          <td class="td-name">{{ idea.name }}</td>
-          <td class="td-category">
-            <span class="badge category" :class="'badge--' + idea.category">{{ categoryLabels[idea.category] || idea.category }}</span>
-          </td>
-          <td class="td-revenue">
-            <span class="badge revenue">${{ formatMoney(idea.revenueMin) }}-{{ formatMoney(idea.revenueMax) }}</span>
-          </td>
-          <td class="td-invest">{{ idea.investMin }}-{{ idea.investMax }}€</td>
-          <td class="td-difficulty">
-            <span v-for="n in 5" :key="n" class="diff-dot" :class="{ active: n <= idea.difficulty }"></span>
-          </td>
-          <td class="td-time">{{ idea.timeToRevenue }}</td>
-          <td class="td-type">
-            <span v-if="idea.passive" class="badge passive">Passif</span>
-            <span v-else class="badge active-type">Actif</span>
-          </td>
-          <td class="td-rating">
-            <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= idea.rating }">&#9733;</span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="list-header">
+    <span class="lh-status">Statut</span>
+    <span class="lh-cat" aria-hidden="true"></span>
+    <span class="lh-title">Nom</span>
+    <span class="lh-meta">
+      <span class="m-revenue">Revenu</span>
+      <span class="m-invest">Invest.</span>
+      <span class="m-time">Délai</span>
+      <span class="m-type">Type</span>
+      <span class="m-difficulty">Difficulté</span>
+      <span class="m-rating">Note</span>
+    </span>
   </div>
+
+  <div class="list-scroll">
+    <IdeaRow
+      v-for="idea in filteredIdeas"
+      :key="idea.id"
+      :idea="idea"
+      :status="getIdeaStatus(idea.id)"
+    />
+    <div v-if="filteredIdeas.length === 0" class="list-empty">
+      Aucune idée ne correspond aux filtres.
+    </div>
   </div>
 </template>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SaaS factures freelance | IDEAS STUDIO</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+        .glass-panel {
+            background: #17181C;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 8px;
+        }
+        .kbd-hint {
+            font-size: 10px;
+            padding: 2px 4px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 4px;
+            color: #908f9e;
+            margin-left: 6px;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#5e6ad2",
+                        "on-primary-fixed-variant": "#2e3aa2",
+                        "surface-container-lowest": "#0d0e0f",
+                        "on-secondary": "#292d53",
+                        "inverse-on-surface": "#303032",
+                        "outline": "#908f9e",
+                        "error-container": "#93000a",
+                        "on-surface-variant": "#c6c5d5",
+                        "tertiary-fixed": "#ffddbb",
+                        "inverse-primary": "#4854bb",
+                        "on-primary": "#121f8b",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-fixed": "#2b1700",
+                        "secondary": "#c0c3f2",
+                        "background": "#121315",
+                        "on-secondary-fixed-variant": "#3f446b",
+                        "on-background": "#e3e2e3",
+                        "tertiary": "#ffb867",
+                        "on-primary-fixed": "#000965",
+                        "surface-container-low": "#1b1c1d",
+                        "secondary-fixed": "#dfe0ff",
+                        "primary-fixed": "#dfe0ff",
+                        "surface-container-high": "#292a2b",
+                        "tertiary-fixed-dim": "#ffb867",
+                        "surface": "#121315",
+                        "secondary-container": "#42466e",
+                        "surface-tint": "#bdc2ff",
+                        "on-surface": "#e3e2e3",
+                        "primary": "#bdc2ff",
+                        "on-secondary-fixed": "#13183d",
+                        "on-tertiary-container": "#fffaf8",
+                        "primary-fixed-dim": "#bdc2ff",
+                        "surface-bright": "#38393a",
+                        "outline-variant": "#454652",
+                        "surface-container-highest": "#343536",
+                        "inverse-surface": "#e3e2e3",
+                        "on-tertiary": "#482900",
+                        "tertiary-container": "#a56500",
+                        "secondary-fixed-dim": "#c0c3f2",
+                        "on-tertiary-fixed-variant": "#673d00",
+                        "error": "#ffb4ab",
+                        "on-error": "#690005",
+                        "surface-variant": "#343536",
+                        "surface-container": "#1f2021",
+                        "surface-dim": "#121315",
+                        "on-secondary-container": "#b1b5e3",
+                        "on-primary-container": "#fdfaff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-surface text-on-surface overflow-x-hidden">
+<!-- SideNavBar -->
+<aside class="w-[240px] h-screen fixed left-0 top-0 bg-[#0F1011] flex flex-col py-6 px-4 gap-2 font-['Inter'] text-[13px] tracking-tight antialiased z-50">
+<div class="flex items-center gap-3 px-2 mb-8">
+<div class="w-8 h-8 rounded bg-primary-container flex items-center justify-center text-white font-bold text-lg tracking-tighter">I</div>
+<div>
+<div class="text-lg font-bold tracking-tighter text-white">IDEAS STUDIO</div>
+<div class="text-[10px] text-outline uppercase tracking-widest font-semibold">Pro Workspace</div>
+</div>
+</div>
+<nav class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 font-medium hover:text-white hover:bg-[#1F2021] transition-colors duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+                Dashboard
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-[#BDC2FF] font-semibold bg-[#1F2021] rounded-lg" href="#">
+<span class="material-symbols-outlined">rocket_launch</span>
+                Micro-SaaS
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 font-medium hover:text-white hover:bg-[#1F2021] transition-colors duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">search</span>
+                Research
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 font-medium hover:text-white hover:bg-[#1F2021] transition-colors duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">auto_awesome</span>
+                Strategy
+            </a>
+<div class="mt-auto">
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 font-medium hover:text-white hover:bg-[#1F2021] transition-colors duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">settings</span>
+                    Settings
+                </a>
+</div>
+</nav>
+</aside>
+<!-- Main Content Wrapper -->
+<main class="ml-[240px] min-h-screen">
+<!-- TopNavBar -->
+<header class="h-[48px] fixed top-0 right-0 w-[calc(100%-240px)] bg-[#0F1011] border-b border-white/10 flex items-center justify-between px-6 z-40 font-['Inter'] text-[13px] tracking-tight">
+<div class="flex items-center gap-2">
+<span class="text-outline">Dashboard / Micro-SaaS /</span>
+<span class="text-[#E6E8EB] font-medium">SaaS factures freelance</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="bg-primary-container/10 text-primary px-2 py-0.5 rounded text-[11px] font-semibold border border-primary-container/20">En étude</span>
+<div class="h-4 w-px bg-white/10 mx-1"></div>
+<div class="flex items-center gap-2">
+<button class="text-outline hover:text-on-surface transition-all flex items-center gap-1.5 px-2 py-1">
+<span class="material-symbols-outlined text-[16px]">ios_share</span> Export
+                    </button>
+<button class="text-outline hover:text-on-surface transition-all flex items-center gap-1.5 px-2 py-1">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span> Prev
+                    </button>
+<button class="text-outline hover:text-on-surface transition-all flex items-center gap-1.5 px-2 py-1">
+                        Next <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+<div class="flex items-center gap-3 ml-4">
+<span class="material-symbols-outlined text-outline cursor-pointer hover:text-on-surface">search</span>
+<span class="material-symbols-outlined text-outline cursor-pointer hover:text-on-surface">notifications</span>
+<span class="material-symbols-outlined text-outline cursor-pointer hover:text-on-surface">account_circle</span>
+</div>
+</div>
+</header>
+<!-- Content Area -->
+<div class="pt-[80px] pb-24 flex justify-center px-6">
+<div class="max-width-[960px] w-full space-y-8">
+<!-- Hero Section -->
+<div class="space-y-4">
+<h1 class="text-[22px] font-semibold text-on-background tracking-tight">SaaS factures freelance</h1>
+<p class="text-[15px] text-[#8B8F98] leading-relaxed max-w-2xl">Solution de facturation automatisée et ultra-légère conçue spécifiquement pour les indépendants en micro-entreprise, intégrant la gestion de la TVA et les relances automatiques.</p>
+<div class="flex flex-wrap items-center gap-2">
+<span class="bg-surface-container-high px-3 py-1 rounded text-[11px] font-medium border border-white/5">Micro-SaaS</span>
+<span class="bg-surface-container-high px-3 py-1 rounded text-[11px] font-medium border border-white/5">$2K-8K/mois</span>
+<span class="bg-surface-container-high px-3 py-1 rounded text-[11px] font-medium border border-white/5">50-200€/mois</span>
+<span class="bg-surface-container-high px-3 py-1 rounded text-[11px] font-medium border border-white/5">2-4 semaines</span>
+<span class="bg-surface-container-high px-3 py-1 rounded text-[11px] font-medium border border-white/5 flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">all_inclusive</span> Passif</span>
+<div class="flex items-center gap-1 ml-2 text-tertiary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-outline/30">star</span>
+<span class="text-[11px] font-bold text-outline ml-1">4/5</span>
+</div>
+<span class="text-[11px] font-medium text-outline ml-2">Difficulté 3/5</span>
+</div>
+</div>
+<!-- Section 1: Étude de Faisabilité -->
+<section class="glass-panel p-6 space-y-4">
+<div class="flex items-center justify-between">
+<h2 class="text-xs font-bold uppercase tracking-widest text-outline">Étude de Faisabilité</h2>
+<span class="flex items-center gap-2 text-[#4ADE80] text-[12px] font-semibold">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Acceptée
+                        </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-12">
+<div class="flex items-center justify-between py-2 border-b border-white/5">
+<span class="text-[13px] text-on-surface-variant">Marché saturé</span>
+<span class="text-[13px] font-medium">modéré</span>
+</div>
+<div class="flex items-center justify-between py-2 border-b border-white/5">
+<span class="text-[13px] text-on-surface-variant">Différenciation possible</span>
+<span class="text-[13px] font-medium">oui</span>
+</div>
+<div class="flex items-center justify-between py-2 border-b border-white/5">
+<span class="text-[13px] text-on-surface-variant">Tech stack maîtrisée</span>
+<span class="text-[13px] font-medium">oui</span>
+</div>
+<div class="flex items-center justify-between py-2 border-b border-white/5">
+<span class="text-[13px] text-on-surface-variant">Budget dans les clous</span>
+<span class="text-[13px] font-medium">oui</span>
+</div>
+</div>
+<div class="pt-2 text-[11px] text-outline italic">Dernière mise à jour : 2026-04-10</div>
+</section>
+<!-- Section 2: Pourquoi cette idée -->
+<section class="glass-panel p-6">
+<h2 class="text-xs font-bold uppercase tracking-widest text-outline mb-6">Analyse de Rentabilité</h2>
+<div class="grid grid-cols-3 gap-8">
+<div class="space-y-3">
+<div class="flex justify-between text-[13px]">
+<span class="text-on-surface-variant">Revenu potentiel</span>
+<span class="font-bold text-primary">$2K-8K</span>
+</div>
+<div class="h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary-container w-[65%]"></div>
+</div>
+</div>
+<div class="space-y-3">
+<div class="flex justify-between text-[13px]">
+<span class="text-on-surface-variant">Complexité technique</span>
+<span class="font-bold text-primary">3/5</span>
+</div>
+<div class="h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary-container w-[60%]"></div>
+</div>
+</div>
+<div class="space-y-3">
+<div class="flex justify-between text-[13px]">
+<span class="text-on-surface-variant">Nature du revenu</span>
+<span class="font-bold text-primary flex items-center gap-1">Passif <span class="material-symbols-outlined text-[14px]">all_inclusive</span></span>
+</div>
+<div class="h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary-container w-[85%]"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Process Étape par Étape -->
+<section class="glass-panel p-6">
+<h2 class="text-xs font-bold uppercase tracking-widest text-outline mb-6">Processus de Lancement</h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-6 h-6 rounded bg-primary-container/20 text-primary flex items-center justify-center text-[12px] font-bold">1</span>
+<div>
+<h4 class="text-[14px] font-semibold mb-1">Ciblage &amp; Étude de niche</h4>
+<p class="text-[13px] text-outline">Identifier les besoins spécifiques des freelances tech VS créatifs.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-6 h-6 rounded bg-primary-container/20 text-primary flex items-center justify-center text-[12px] font-bold">2</span>
+<div>
+<h4 class="text-[14px] font-semibold mb-1">Architecture du MVP</h4>
+<p class="text-[13px] text-outline">Mise en place de la génération de PDF et stockage cloud sécurisé.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-6 h-6 rounded bg-primary-container/20 text-primary flex items-center justify-center text-[12px] font-bold">3</span>
+<div>
+<h4 class="text-[14px] font-semibold mb-1">Intégration Stripe Billing</h4>
+<p class="text-[13px] text-outline">Configuration des abonnements et paiements par carte.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-6 h-6 rounded bg-primary-container/20 text-primary flex items-center justify-center text-[12px] font-bold">4</span>
+<div>
+<h4 class="text-[14px] font-semibold mb-1">Marketing de contenu</h4>
+<p class="text-[13px] text-outline">Publication de guides sur la micro-entreprise et la gestion fiscale.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-6 h-6 rounded bg-primary-container/20 text-primary flex items-center justify-center text-[12px] font-bold">5</span>
+<div>
+<h4 class="text-[14px] font-semibold mb-1">Beta fermée</h4>
+<p class="text-[13px] text-outline">Onboarding de 10 freelances pilotes pour itérer sur l'UX.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-6 h-6 rounded bg-primary-container/20 text-primary flex items-center justify-center text-[12px] font-bold">6</span>
+<div>
+<h4 class="text-[14px] font-semibold mb-1">Lancement Public</h4>
+<p class="text-[13px] text-outline">Product Hunt et campagnes ciblées sur Twitter/X.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4 & 5: Grilles Outils et Plateformes -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<section class="glass-panel p-6">
+<h2 class="text-xs font-bold uppercase tracking-widest text-outline mb-4">Tech Stack</h2>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium flex items-center gap-2">Vue.js</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium flex items-center gap-2">Supabase</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium flex items-center gap-2">Stripe</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium flex items-center gap-2">Tailwind</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium flex items-center gap-2">Vercel</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium flex items-center gap-2">Figma</span>
+</div>
+</section>
+<section class="glass-panel p-6">
+<h2 class="text-xs font-bold uppercase tracking-widest text-outline mb-4">Distribution</h2>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium">Product Hunt</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium">IndieHackers</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium">Twitter</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium">Landing page</span>
+<span class="bg-surface-container px-3 py-1.5 rounded-lg border border-white/5 text-[12px] font-medium">Directories SaaS</span>
+</div>
+</section>
+</div>
+<!-- Section 6: Tags -->
+<div class="flex flex-wrap gap-2">
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#fintech</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#freelance</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#saas</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#invoicing</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#france</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#microentreprise</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#automation</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-[#17181C] border border-white/5 text-outline">#passiveincome</span>
+</div>
+<!-- Section 7: Brief de Projet -->
+<section class="space-y-6">
+<h2 class="text-xs font-bold uppercase tracking-widest text-outline">Brief de Projet</h2>
+<div class="space-y-4">
+<div class="glass-panel p-4">
+<div class="flex items-start gap-3 mb-3">
+<div class="w-8 h-8 rounded bg-primary/20 flex items-center justify-center text-primary font-bold">G</div>
+<div>
+<div class="text-[13px] font-bold text-on-surface">Guillaume D.</div>
+<div class="text-[11px] text-outline">12 Avr 2026</div>
+</div>
+</div>
+<div class="text-[13px] text-on-surface-variant leading-relaxed">
+                                L'idée est de simplifier l'expérience au maximum. Un bouton "Envoyer Facture" qui génère automatiquement le PDF basé sur un template minimaliste et l'envoie par email via Postmark.
+                            </div>
+</div>
+<div class="glass-panel p-4">
+<div class="flex items-start gap-3 mb-3">
+<div class="w-8 h-8 rounded bg-tertiary/20 flex items-center justify-center text-tertiary font-bold">A</div>
+<div>
+<div class="text-[13px] font-bold text-on-surface">Adrien M.</div>
+<div class="text-[11px] text-outline">14 Avr 2026</div>
+</div>
+</div>
+<div class="text-[13px] text-on-surface-variant leading-relaxed">
+                                On pourrait ajouter un dashboard de prévision de CA pour la déclaration URSSAF. C'est le pain point #1 des freelances en France.
+                            </div>
+</div>
+</div>
+<div class="space-y-3 pt-2">
+<textarea class="w-full bg-surface-container border border-white/10 rounded-lg p-3 text-[13px] text-on-surface focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all outline-none min-h-[100px]" placeholder="Décris ta vision..."></textarea>
+<div class="flex justify-between items-center">
+<span class="text-[11px] text-outline">Supporte le Markdown</span>
+<button class="bg-primary-container text-on-primary-container px-4 py-2 rounded-lg text-[13px] font-semibold flex items-center gap-2 hover:opacity-90 transition-all">
+<span class="material-symbols-outlined text-[16px]">add</span> Ajouter une note
+                            </button>
+</div>
+</div>
+</section>
+<!-- Section 8: Commentaires -->
+<section class="space-y-6 border-t border-white/5 pt-8">
+<div class="flex items-center justify-between">
+<h2 class="text-xs font-bold uppercase tracking-widest text-outline">Espace de discussion</h2>
+<button class="text-outline hover:text-on-surface text-[12px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">download</span> Exporter les données
+                        </button>
+</div>
+<div class="space-y-6">
+<!-- Comment 1 -->
+<div class="flex gap-4 group">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest border border-white/5 flex items-center justify-center text-[11px] font-bold text-outline">JD</div>
+<div class="flex-1 space-y-1">
+<div class="flex items-center gap-2">
+<span class="text-[13px] font-bold">Jean-David</span>
+<span class="text-[11px] text-outline">il y a 2h</span>
+</div>
+<div class="text-[13px] text-on-surface-variant leading-relaxed">
+                                    Pour la partie facturation, j'ai commencé à regarder l'API Stripe Invoicing :
+                                    <div class="my-3 p-3 bg-surface-container-lowest rounded border border-white/5 font-mono text-[12px] text-primary/80 overflow-x-auto">
+                                        const invoice = await stripe.invoices.create({<br/>
+                                          customer: 'cus_123',<br/>
+                                          auto_advance: true<br/>
+                                        });
+                                    </div>
+                                    C'est super robuste mais les frais sont un peu élevés pour un petit SaaS.
+                                </div>
+</div>
+</div>
+<!-- Comment 2 -->
+<div class="flex gap-4">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest border border-white/5 flex items-center justify-center text-[11px] font-bold text-outline">ML</div>
+<div class="flex-1 space-y-1">
+<div class="flex items-center gap-2">
+<span class="text-[13px] font-bold">Marie Laurent</span>
+<span class="text-[11px] text-outline">il y a 5h</span>
+</div>
+<div class="text-[13px] text-on-surface-variant leading-relaxed">
+                                    N'oubliez pas les obligations RGPD pour le stockage des données bancaires des clients finaux.
+                                </div>
+</div>
+</div>
+<!-- Add Comment -->
+<div class="flex gap-4 pt-4">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest border border-white/5 flex items-center justify-center text-[11px] font-bold text-outline">MO</div>
+<div class="flex-1 space-y-3">
+<textarea class="w-full bg-surface-container border border-white/5 rounded-lg p-3 text-[13px] text-on-surface focus:border-primary-container outline-none min-h-[60px]" placeholder="Ton message..."></textarea>
+<button class="bg-surface-container-high text-on-surface px-4 py-2 rounded-lg text-[13px] font-semibold flex items-center gap-2 hover:bg-surface-bright transition-all">
+<span class="material-symbols-outlined text-[16px]">send</span> Ajouter
+                                </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Navigation Bas de page -->
+<div class="grid grid-cols-2 gap-4 pt-12">
+<div class="glass-panel p-4 cursor-pointer hover:bg-surface-container transition-all group">
+<div class="text-[10px] text-outline font-bold uppercase tracking-widest mb-1">Précédent</div>
+<div class="text-[14px] font-semibold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-outline group-hover:-translate-x-1 transition-transform">arrow_back</span>
+                            Boilerplate Next.js SEO
+                        </div>
+</div>
+<div class="glass-panel p-4 cursor-pointer hover:bg-surface-container transition-all text-right group">
+<div class="text-[10px] text-outline font-bold uppercase tracking-widest mb-1">Suivant</div>
+<div class="text-[14px] font-semibold text-on-surface flex items-center justify-end gap-2">
+                            Widget Dashboard Notion
+                            <span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</body></html>

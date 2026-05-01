@@ -51,4 +51,22 @@ db.exec(`
   CREATE INDEX IF NOT EXISTS idx_brief_idea ON idea_brief_notes(idea_id);
 `)
 
+// --- Idempotent migrations ---
+function hasColumn(table, column) {
+  const rows = db.prepare(`PRAGMA table_info(${table})`).all()
+  return rows.some(r => r.name === column)
+}
+
+if (!hasColumn('idea_comments', 'author')) {
+  db.exec(`ALTER TABLE idea_comments ADD COLUMN author TEXT NOT NULL DEFAULT 'user'`)
+}
+
+if (!hasColumn('idea_brief_notes', 'author')) {
+  db.exec(`ALTER TABLE idea_brief_notes ADD COLUMN author TEXT NOT NULL DEFAULT 'user'`)
+}
+
+// Backfill: existing NULL/empty authors → 'user' on both tables
+db.prepare(`UPDATE idea_comments SET author = 'user' WHERE author IS NULL OR author = ''`).run()
+db.prepare(`UPDATE idea_brief_notes SET author = 'user' WHERE author IS NULL OR author = ''`).run()
+
 export default db

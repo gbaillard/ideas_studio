@@ -42,5 +42,5 @@ yarn-error.log*
 .mcp.json
 .mcp.json.bak-*
 
-# SQLite runtime data (bind-mounted to /Volumes/T500/PROJECT/VOLUME/ideas-studio)
+# SQLite runtime data (bind-mounted to /Volumes/T500/PROJECT/VOLUMES/IDEAS_STUDIO/db-data — AGENTS.md §11)
 app/data/

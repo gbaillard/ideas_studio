@@ -1,13 +1,10 @@
 <script setup>
-import { computed, onMounted } from 'vue'
+import { onMounted } from 'vue'
+import Sidebar from './components/Sidebar.vue'
 import ideas from './data/ideas.json'
 import { api } from './api.js'
+import { filters } from './stores/filters.js'
 
-const totalIdeas = computed(() => ideas.length)
-const totalTutorials = computed(() => ideas.filter(i => i.tutorial).length)
-const totalCategories = computed(() => new Set(ideas.map(i => i.category)).size)
-
-// One-time migration from localStorage to SQLite backend
 onMounted(async () => {
   if (localStorage.getItem('ideas-studio-migrated')) return
 
@@ -38,7 +35,6 @@ onMounted(async () => {
 
   try {
     await api.migrate(toMigrate)
-    // Clean up localStorage after successful migration
     for (const idea of ideas) {
       localStorage.removeItem(`idea-${idea.id}-status`)
       localStorage.removeItem(`idea-${idea.id}-comments`)
@@ -54,15 +50,10 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="header">
-    <router-link to="/" style="text-decoration:none">
-      <h1>IDEAS STUDIO</h1>
-    </router-link>
-    <div class="stats">
-      <span>{{ totalIdeas }} idees</span>
-      <span>{{ totalTutorials }} tutoriels</span>
-      <span>{{ totalCategories }} categories</span>
-    </div>
+  <div class="app-shell">
+    <Sidebar :category-filter="filters.category" @update:category-filter="filters.category = $event" />
+    <main class="app-main">
+      <router-view />
+    </main>
   </div>
-  <router-view />
 </template>

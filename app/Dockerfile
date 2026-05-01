@@ -12,9 +12,10 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci --omit=dev
 
-# Copy built frontend + server code
+# Copy built frontend + server code + ideas.json (used by backend for agent-feed)
 COPY --from=build /app/dist ./dist
 COPY server/ ./server/
+COPY src/data/ideas.json ./src/data/ideas.json
 
 # Data volume for SQLite persistence
 RUN mkdir -p /app/data

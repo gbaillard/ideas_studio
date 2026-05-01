@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ideas Studio — Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        'app-bg': '#08090A',
+                        'surface': '#0F1011',
+                        'elevated': '#17181C',
+                        'border-subtle': 'rgba(255,255,255,0.06)',
+                        'border-default': 'rgba(255,255,255,0.10)',
+                        'text-primary': '#E6E8EB',
+                        'text-secondary': '#8B8F98',
+                        'text-muted': '#6C707D',
+                        'accent': '#5E6AD2',
+                        'accent-hover': '#6E7ADD',
+                        'success': '#4CB782',
+                        'warning': '#F2994A',
+                        'danger': '#EB5757'
+                    },
+                    spacing: {
+                        'sidebar': '240px',
+                        'header': '48px'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #08090A;
+            color: #E6E8EB;
+            -webkit-font-smoothing: antialiased;
+            letter-spacing: -0.01em;
+        }
+        .material-symbols-outlined {
+            font-size: 14px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .sidebar-item-active::before {
+            content: '';
+            position: absolute;
+            left: -12px;
+            top: 6px;
+            bottom: 6px;
+            width: 2px;
+            background-color: #5E6AD2;
+            border-radius: 0 2px 2px 0;
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="flex h-screen overflow-hidden">
+<!-- SIDEBAR -->
+<aside class="w-[240px] bg-[#0F1011] border-r border-white/10 flex flex-col h-full fixed left-0 top-0 z-20">
+<!-- Header -->
+<div class="px-3 py-4 flex items-center justify-between">
+<div class="flex items-center gap-2 overflow-hidden">
+<div class="w-5 h-5 bg-[#5E6AD2] rounded flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-white !text-[12px]">lightbulb</span>
+</div>
+<div class="flex flex-col leading-tight min-w-0">
+<span class="text-[13px] font-semibold text-[#E6E8EB] truncate">Ideas Studio</span>
+<span class="text-[11px] text-[#8B8F98]">294 idées</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[#8B8F98] cursor-pointer hover:text-white">unfold_more</span>
+</div>
+<div class="flex-1 overflow-y-auto no-scrollbar px-3 space-y-6">
+<!-- Workspace -->
+<div>
+<p class="px-3 py-2 text-[11px] font-medium text-[#6C707D] uppercase tracking-wider">Workspace</p>
+<div class="space-y-[1px]">
+<div class="relative group cursor-pointer flex items-center justify-between px-3 h-[28px] bg-white/10 text-[#E6E8EB] rounded transition-colors sidebar-item-active">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#5E6AD2]">inbox</span>
+<span class="text-[13px] font-medium">Inbox</span>
+</div>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined">format_list_bulleted</span>
+<span class="text-[13px]">All Ideas</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">294</span>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined">star</span>
+<span class="text-[13px]">Favorites</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Categories -->
+<div>
+<p class="px-3 py-2 text-[11px] font-medium text-[#6C707D] uppercase tracking-wider">Catégories</p>
+<div class="space-y-[1px]">
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#4CB782]"></div>
+<span class="text-[13px]">Print on Demand</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">42</span>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#EB5757]"></div>
+<span class="text-[13px]">YouTube</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">12</span>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#5E6AD2]"></div>
+<span class="text-[13px]">Micro-SaaS</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">89</span>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#F2994A]"></div>
+<span class="text-[13px]">Ecommerce</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">31</span>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#8B8F98]"></div>
+<span class="text-[13px]">Newsletter</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">56</span>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#5E6AD2]"></div>
+<span class="text-[13px]">Digital Tools</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">24</span>
+</div>
+<div class="group cursor-pointer flex items-center justify-between px-3 h-[28px] text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#4CB782]"></div>
+<span class="text-[13px]">Local Service</span>
+</div>
+<span class="text-[11px] text-[#6C707D]">18</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="mt-auto border-t border-white/5 p-3 space-y-1">
+<div class="flex items-center gap-2 px-3 h-[32px] hover:bg-white/5 rounded cursor-pointer transition-colors group">
+<img class="w-5 h-5 rounded-full object-cover" data-alt="Professional portrait of a young male entrepreneur with a friendly expression and short dark hair in high-key lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_gTbNVZMq1wr7-US0feeCqK2cL0pu_jnHpIyXj9hxvcio5iJfceDUTx7ImStjYEy_lRm48Ec3xHXSO7_05Aiadx8cv_UgwSq0ZHF4pjGbLab85R7MtYWp1SNG0RXtA_OLvnJ-LRpYVixDzbZLO0eCxI93qTGy8wqARR1rgDxVwgdDnyXnLuvbhGp8n2P8g3ey8rb0gl4LMtVOAGunPpaDGrIft8suu6B-WOurM2-n0Hpi6wW-TnBjtE8QWMUPAlE_OqcAd74Rdgqc"/>
+<span class="text-[13px] text-[#E6E8EB] font-medium flex-1">Guillaume</span>
+<span class="material-symbols-outlined text-[#8B8F98] group-hover:text-white">settings</span>
+</div>
+</div>
+</aside>
+<!-- MAIN CONTENT AREA -->
+<main class="flex-1 ml-[240px] flex flex-col h-screen bg-[#08090A]">
+<!-- HEADER -->
+<header class="h-12 border-b border-white/10 flex items-center justify-between px-4 shrink-0 bg-[#0F1011]">
+<div class="flex items-center gap-2 text-[13px]">
+<span class="text-[#8B8F98]">Ideas Studio</span>
+<span class="text-[#6C707D]">/</span>
+<span class="text-[#E6E8EB] font-medium">All</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="h-7 px-2.5 bg-[#5E6AD2] hover:bg-[#6E7ADD] text-white text-[12px] font-medium rounded transition-colors">
+                    + New
+                </button>
+<div class="h-7 w-[160px] bg-white/5 border border-white/5 rounded flex items-center justify-between px-2 cursor-pointer group hover:border-white/10">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#8B8F98] !text-[14px]">search</span>
+<span class="text-[#8B8F98] text-[12px]">Search</span>
+</div>
+<span class="text-[#6C707D] text-[10px] font-medium bg-white/5 px-1 rounded">⌘K</span>
+</div>
+<button class="h-7 px-2 flex items-center gap-2 bg-transparent hover:bg-white/5 text-[#8B8F98] text-[12px] rounded border border-white/5 transition-colors">
+<span class="material-symbols-outlined !text-[14px]">tune</span>
+                    Filter
+                </button>
+</div>
+</header>
+<!-- TOOLBAR -->
+<div class="h-9 flex items-center justify-between px-4 border-b border-white/5 bg-[#08090A] shrink-0">
+<span class="text-[11px] text-[#6C707D] font-medium uppercase tracking-wider">294 ideas</span>
+<div class="flex items-center gap-1 cursor-pointer text-[#8B8F98] hover:text-[#E6E8EB]">
+<span class="text-[11px] font-medium uppercase tracking-wider">Sort by rating</span>
+<span class="material-symbols-outlined !text-[12px]">expand_more</span>
+</div>
+</div>
+<!-- LIST ROWS -->
+<div class="flex-1 overflow-y-auto no-scrollbar">
+<div class="min-w-[1000px]">
+<!-- Row 1 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#4CB782] !text-[14px] shrink-0">check_circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#5E6AD2]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">AI-Powered Content Repurposing tool for LinkedIn</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$1,200/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€500</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">3 days</span>
+<span class="w-[60px] text-[12px] text-success">Passif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.8</span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#5E6AD2] !text-[14px] shrink-0">circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#EB5757]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Daily Shorts Channel: Automation Niche</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$4,500/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€0</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">7 days</span>
+<span class="w-[60px] text-[12px] text-warning">Actif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.2</span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#8B8F98] !text-[14px] shrink-0">circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#4CB782]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Personalized Minimalist Coffee Mugs (POD)</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$800/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€150</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">1 day</span>
+<span class="w-[60px] text-[12px] text-success">Passif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">3.9</span>
+</div>
+</div>
+<!-- Row 4 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#EB5757] !text-[14px] shrink-0">cancel</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#F2994A]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Drop-servicing Agency for Shopify SEO</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$2,000/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€200</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">5 days</span>
+<span class="w-[60px] text-[12px] text-warning">Actif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">3.5</span>
+</div>
+</div>
+<!-- Row 5 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#4CB782] !text-[14px] shrink-0">send</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#8B8F98]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Micro-Newsletter for Indie Hackers</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$300/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€0</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">4 days</span>
+<span class="w-[60px] text-[12px] text-success">Passif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.5</span>
+</div>
+</div>
+<!-- Row 6 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#F2994A] !text-[14px] shrink-0">pause_circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#5E6AD2]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Extension Chrome: Autofill for Freelance portals</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$1,500/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€400</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">10 days</span>
+<span class="w-[60px] text-[12px] text-success">Passif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.1</span>
+</div>
+</div>
+<!-- Row 7 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#4CB782] !text-[14px] shrink-0">check_circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#4CB782]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Luxury Pet Portraits Digital Download</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$1,100/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€80</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">2 days</span>
+<span class="w-[60px] text-[12px] text-success">Passif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.7</span>
+</div>
+</div>
+<!-- Row 8 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#5E6AD2] !text-[14px] shrink-0">circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#EB5757]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">AI Stock Photo Faceless Channel</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$6,000/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€0</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">14 days</span>
+<span class="w-[60px] text-[12px] text-warning">Actif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.4</span>
+</div>
+</div>
+<!-- Row 9 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#8B8F98] !text-[14px] shrink-0">circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#F2994A]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Local Lead Gen for Solar Installers</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$3,500/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€600</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">20 days</span>
+<span class="w-[60px] text-[12px] text-warning">Actif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">3.8</span>
+</div>
+</div>
+<!-- Row 10 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#4CB782] !text-[14px] shrink-0">check_circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#5E6AD2]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">SaaS: Boilerplate for Next.js Starters</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$400/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€0</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">2 days</span>
+<span class="w-[60px] text-[12px] text-success">Passif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.9</span>
+</div>
+</div>
+<!-- Row 11 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#4CB782] !text-[14px] shrink-0">send</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#4CB782]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Cleaning Service Directory for Paris</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$1,800/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€350</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">12 days</span>
+<span class="w-[60px] text-[12px] text-warning">Actif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.0</span>
+</div>
+</div>
+<!-- Row 12 -->
+<div class="h-9 flex items-center px-4 border-b border-white/5 hover:bg-white/[0.04] cursor-pointer group transition-colors">
+<span class="material-symbols-outlined text-[#5E6AD2] !text-[14px] shrink-0">circle</span>
+<div class="w-5 flex justify-center shrink-0">
+<div class="w-2 h-2 rounded-full bg-[#8B8F98]"></div>
+</div>
+<span class="text-[13px] text-[#E6E8EB] flex-1 truncate ml-1">Paid Community for High-Ticket Closers</span>
+<div class="flex items-center gap-6 shrink-0 ml-4">
+<span class="w-[80px] text-[12px] text-[#8B8F98]">$12,000/mo</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">€1,200</span>
+<span class="w-[60px] text-[12px] text-[#8B8F98]">30 days</span>
+<span class="w-[60px] text-[12px] text-warning">Actif</span>
+<span class="w-[40px] text-[12px] text-[#8B8F98] text-right">4.3</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- FAB Overlay (Hidden as per logic unless main canvas intent) -->
+<div class="fixed bottom-6 right-6 z-50">
+<button class="w-12 h-12 rounded-full bg-[#5E6AD2] text-white flex items-center justify-center shadow-lg hover:bg-[#6E7ADD] transition-transform active:scale-95">
+<span class="material-symbols-outlined !text-[24px]">add</span>
+</button>
+</div>
+</body></html>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ideas Studio - Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        'app-bg': '#08090A',
+                        'surface': '#0F1011',
+                        'elevated': '#17181C',
+                        'border-subtle': 'rgba(255,255,255,0.06)',
+                        'border-default': 'rgba(255,255,255,0.10)',
+                        'text-primary': '#E6E8EB',
+                        'text-secondary': '#8B8F98',
+                        'text-muted': '#6C707D',
+                        'accent': '#5E6AD2',
+                        'accent-hover': '#6E7ADD',
+                        'status-success': '#4CB782',
+                        'status-warning': '#F2994A',
+                        'status-danger': '#EB5757'
+                    },
+                    fontSize: {
+                        'xxs': '11px',
+                        'xs': '12px',
+                        'sm': '13px'
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; letter-spacing: -0.01em; }
+        .material-symbols-outlined { font-size: 16px; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; }
+        .table-row-hover:hover { background-color: rgba(255,255,255,0.04); }
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+    </style>
+</head>
+<body class="bg-app-bg text-text-primary h-screen overflow-hidden flex">
+<!-- SideNavBar (Shared Component Strategy) -->
+<aside class="fixed left-0 top-0 h-full w-[240px] border-r border-[#17181C] bg-[#0F1011] flex flex-col py-2 px-3 z-50">
+<!-- Brand Header -->
+<div class="flex items-center gap-2 px-2 py-3 mb-2">
+<div class="w-6 h-6 bg-accent rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-[14px]" data-icon="lightbulb" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+</div>
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-[#E6E8EB] tracking-tight">Ideas Studio</span>
+<span class="text-xxs text-[#8B8F98]">294 idées · 7 catégories</span>
+</div>
+</div>
+<!-- Navigation Section: WORKSPACE -->
+<div class="mb-6">
+<label class="text-xxs font-medium text-text-muted px-2 mb-1 block tracking-wider">WORKSPACE</label>
+<nav class="space-y-[2px]">
+<a class="flex items-center gap-2 px-2 h-7 rounded bg-white/5 text-[#E6E8EB] font-medium transition-colors relative" href="#">
+<div class="absolute left-0 w-[2px] h-4 bg-accent rounded-r"></div>
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="text-sm">Dashboard</span>
+</a>
+<a class="flex items-center gap-2 px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+<span class="text-sm">Brief</span>
+</a>
+<a class="flex items-center gap-2 px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+<span class="text-sm">Recherche</span>
+</a>
+</nav>
+</div>
+<!-- Navigation Section: CATÉGORIES -->
+<div class="flex-1 overflow-y-auto">
+<label class="text-xxs font-medium text-text-muted px-2 mb-1 block tracking-wider">CATÉGORIES</label>
+<nav class="space-y-[2px]">
+<a class="flex items-center justify-between px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors group" href="#">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-status-success"></div>
+<span class="text-sm">Print on Demand</span>
+</div>
+<span class="text-xxs text-text-muted group-hover:text-text-secondary">42</span>
+</a>
+<a class="flex items-center justify-between px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors group" href="#">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-status-danger"></div>
+<span class="text-sm">YouTube</span>
+</div>
+<span class="text-xxs text-text-muted group-hover:text-text-secondary">28</span>
+</a>
+<a class="flex items-center justify-between px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors group" href="#">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-accent"></div>
+<span class="text-sm">Micro-SaaS</span>
+</div>
+<span class="text-xxs text-text-muted group-hover:text-text-secondary">15</span>
+</a>
+<a class="flex items-center justify-between px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors group" href="#">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-status-warning"></div>
+<span class="text-sm">Livres KDP</span>
+</div>
+<span class="text-xxs text-text-muted group-hover:text-text-secondary">64</span>
+</a>
+<a class="flex items-center justify-between px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors group" href="#">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-blue-400"></div>
+<span class="text-sm">Services</span>
+</div>
+<span class="text-xxs text-text-muted group-hover:text-text-secondary">31</span>
+</a>
+<a class="flex items-center justify-between px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors group" href="#">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-purple-400"></div>
+<span class="text-sm">Apps Mobiles</span>
+</div>
+<span class="text-xxs text-text-muted group-hover:text-text-secondary">12</span>
+</a>
+<a class="flex items-center justify-between px-2 h-7 rounded text-[#8B8F98] hover:bg-white/[0.04] hover:text-[#E6E8EB] transition-colors group" href="#">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-pink-400"></div>
+<span class="text-sm">Jeux Enfants</span>
+</div>
+<span class="text-xxs text-text-muted group-hover:text-text-secondary">102</span>
+</a>
+</nav>
+</div>
+<!-- Footer Profile -->
+<div class="mt-auto border-t border-border-subtle pt-2 flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<img alt="Guillaume" class="w-6 h-6 rounded-full object-cover" data-alt="professional portrait of a creative professional man with short hair and modern glasses in a minimalist studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9nlEFq0awNLxf8yWdCs77G8NB3FaLexGmTJnkkQTqm14TyypX0c_sg9PcMqays-LQPlal1HH0CRVAXUkxD9KNKZspAScMjZFyCEr0mt6DQbm-tAT80z1uzw91-_D-HMxzO0uac1u5Dc25ImK__AQzDoZxwwthW9qxuwbPTh06JiWmq-H_53WWVtV6eZmDpDhyKjtMe4Dt0cvhI7Wmds9fmL7L_r9Fms7jHEvUDyWve6DUqXgASVj8D1wepXLiAU3Z7oK2Gn9I3jgJ"/>
+<span class="text-sm text-text-secondary">Guillaume</span>
+</div>
+<button class="p-1 rounded hover:bg-white/5 text-text-muted">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 ml-[240px] flex flex-col h-full bg-app-bg">
+<!-- TopNavBar (Shared Component Strategy) -->
+<header class="h-[48px] border-b border-white/[0.06] bg-[#08090A]/80 backdrop-blur-md flex items-center justify-between px-4 sticky top-0 z-40">
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2 text-sm text-text-muted">
+<span class="hover:text-text-primary cursor-pointer">Dashboard</span>
+<span class="text-xxs">/</span>
+<span class="text-text-primary font-medium">All Ideas</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<!-- Search Mockup -->
+<div class="flex items-center gap-2 px-2 py-1 bg-elevated border border-border-default rounded w-[240px] group transition-all focus-within:ring-2 focus-within:ring-accent/24">
+<span class="material-symbols-outlined text-text-muted" data-icon="search">search</span>
+<span class="text-sm text-text-muted flex-1">Recherche</span>
+<span class="text-xxs bg-white/5 border border-white/10 px-1 rounded text-text-muted">/</span>
+</div>
+<button class="flex items-center gap-1.5 px-3 h-7 bg-accent hover:bg-accent-hover text-white text-sm font-medium rounded transition-colors">
+<span class="material-symbols-outlined text-[16px]" data-icon="add">add</span>
+                    New idea
+                </button>
+<div class="flex items-center gap-1">
+<button class="w-7 h-7 flex items-center justify-center rounded hover:bg-white/5 text-text-muted">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="w-7 h-7 flex items-center justify-center rounded hover:bg-white/5 text-text-muted">
+<span class="material-symbols-outlined" data-icon="more_horiz">more_horiz</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Filter Row -->
+<div class="flex items-center gap-2 px-4 py-3 border-b border-border-subtle overflow-x-auto no-scrollbar">
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-accent text-white text-sm font-medium">All Ideas</button>
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-white/5 hover:bg-white/10 text-text-secondary text-sm font-medium">Print on Demand</button>
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-white/5 hover:bg-white/10 text-text-secondary text-sm font-medium">YouTube</button>
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-white/5 hover:bg-white/10 text-text-secondary text-sm font-medium">Micro-SaaS</button>
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-white/5 hover:bg-white/10 text-text-secondary text-sm font-medium">Livres KDP</button>
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-white/5 hover:bg-white/10 text-text-secondary text-sm font-medium">Services</button>
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-white/5 hover:bg-white/10 text-text-secondary text-sm font-medium">Apps Mobiles</button>
+<button class="whitespace-nowrap px-3 h-7 rounded-full bg-white/5 hover:bg-white/10 text-text-secondary text-sm font-medium">Jeux Enfants</button>
+</div>
+<!-- Toolbar / Sub-filters -->
+<div class="flex items-center justify-between px-4 h-10 border-b border-border-subtle bg-app-bg/50">
+<div class="flex items-center gap-4">
+<span class="text-sm font-medium text-text-secondary">294 ideas</span>
+<div class="h-4 w-[1px] bg-border-subtle"></div>
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-1.5 text-xs text-text-muted hover:text-text-primary">
+<span class="material-symbols-outlined text-[14px]" data-icon="bar_chart">bar_chart</span>
+                        Difficulty
+                        <span class="material-symbols-outlined text-[14px]" data-icon="expand_more">expand_more</span>
+</button>
+<button class="flex items-center gap-1.5 text-xs text-text-muted hover:text-text-primary">
+<span class="material-symbols-outlined text-[14px]" data-icon="toll">toll</span>
+                        Passive + Active
+                        <span class="material-symbols-outlined text-[14px]" data-icon="expand_more">expand_more</span>
+</button>
+<button class="flex items-center gap-1.5 text-xs text-text-muted hover:text-text-primary">
+<span class="material-symbols-outlined text-[14px]" data-icon="check_circle">check_circle</span>
+                        Status
+                        <span class="material-symbols-outlined text-[14px]" data-icon="expand_more">expand_more</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-1.5 text-xs text-text-muted hover:text-text-primary">
+<span class="material-symbols-outlined text-[14px]" data-icon="sort">sort</span>
+                    Sort
+                    <span class="material-symbols-outlined text-[14px]" data-icon="expand_more">expand_more</span>
+</button>
+</div>
+</div>
+<!-- Data Table -->
+<div class="flex-1 overflow-auto">
+<table class="w-full text-left border-collapse min-w-[1000px]">
+<thead class="sticky top-0 bg-app-bg z-10">
+<tr class="h-9 border-b border-border-default">
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider w-[100px]">STATUS</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider min-w-[200px]">NAME</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider">CATEGORY</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider">REVENUE</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider">INVEST</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider">DIFF</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider">DELAI</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider">TYPE</th>
+<th class="px-4 text-xxs font-medium text-text-muted uppercase tracking-wider">RATING</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border-subtle">
+<!-- Row 1 -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-status-success/10 text-status-success text-xxs font-medium">Acceptée</span></td>
+<td class="px-4 text-text-primary font-medium">Stickers cats holographic POD</td>
+<td class="px-4 text-text-secondary">Print on Demand</td>
+<td class="px-4 text-text-secondary">800€/m</td>
+<td class="px-4 text-text-secondary">50€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">2 sem.</td>
+<td class="px-4"><span class="text-status-success text-xs font-medium">Passif</span></td>
+<td class="px-4">
+<div class="flex text-status-warning">
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+</div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-accent/10 text-accent text-xxs font-medium">En étude</span></td>
+<td class="px-4 text-text-primary font-medium">App méditation kids Sleepy</td>
+<td class="px-4 text-text-secondary">Apps Mobiles</td>
+<td class="px-4 text-text-secondary">2400€/m</td>
+<td class="px-4 text-text-secondary">400€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">2 mois</td>
+<td class="px-4"><span class="text-status-success text-xs font-medium">Passif</span></td>
+<td class="px-4">
+<div class="flex text-status-warning">
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-blue-500/10 text-blue-400 text-xxs font-medium">Nouveau</span></td>
+<td class="px-4 text-text-primary font-medium">SaaS factures freelance EasyTax</td>
+<td class="px-4 text-text-secondary">Micro-SaaS</td>
+<td class="px-4 text-text-secondary">1500€/m</td>
+<td class="px-4 text-text-secondary">120€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">1 mois</td>
+<td class="px-4"><span class="text-status-success text-xs font-medium">Passif</span></td>
+<td class="px-4">
+<div class="flex text-status-warning">
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+</div>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-status-warning/10 text-status-warning text-xxs font-medium">En attente</span></td>
+<td class="px-4 text-text-primary font-medium">YouTube Faceless : AI News</td>
+<td class="px-4 text-text-secondary">YouTube</td>
+<td class="px-4 text-text-secondary">3000€/m</td>
+<td class="px-4 text-text-secondary">200€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">3 sem.</td>
+<td class="px-4"><span class="text-status-danger text-xs font-medium">Actif</span></td>
+<td class="px-4">
+<div class="flex text-status-warning">
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+</div>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-status-danger/10 text-status-danger text-xxs font-medium">Rejetée</span></td>
+<td class="px-4 text-text-primary font-medium">Crypto Tracking Tool v2</td>
+<td class="px-4 text-text-secondary">Micro-SaaS</td>
+<td class="px-4 text-text-secondary">0€</td>
+<td class="px-4 text-text-secondary">1000€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">4 mois</td>
+<td class="px-4"><span class="text-status-danger text-xs font-medium">Actif</span></td>
+<td class="px-4">
+<div class="flex text-status-warning">
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+</div>
+</td>
+</tr>
+<!-- Row 6 -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-400 text-xxs font-medium">Publiée</span></td>
+<td class="px-4 text-text-primary font-medium">Carnet coloriage dinosaures</td>
+<td class="px-4 text-text-secondary">Livres KDP</td>
+<td class="px-4 text-text-secondary">1200€/m</td>
+<td class="px-4 text-text-secondary">20€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">1 sem.</td>
+<td class="px-4"><span class="text-status-success text-xs font-medium">Passif</span></td>
+<td class="px-4">
+<div class="flex text-status-warning">
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</td>
+</tr>
+<!-- Row 7 -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-status-success/10 text-status-success text-xxs font-medium">Acceptée</span></td>
+<td class="px-4 text-text-primary font-medium">Coaching SEO Freelance</td>
+<td class="px-4 text-text-secondary">Services</td>
+<td class="px-4 text-text-secondary">4500€/m</td>
+<td class="px-4 text-text-secondary">0€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">Immédiat</td>
+<td class="px-4"><span class="text-status-danger text-xs font-medium">Actif</span></td>
+<td class="px-4">
+<div class="flex text-status-warning">
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[12px]" data-icon="star">star</span>
+</div>
+</td>
+</tr>
+<!-- Repeated rows for density -->
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-blue-500/10 text-blue-400 text-xxs font-medium">Nouveau</span></td>
+<td class="px-4 text-text-primary font-medium">Journal de bord gratitude</td>
+<td class="px-4 text-text-secondary">Livres KDP</td>
+<td class="px-4 text-text-secondary">600€/m</td>
+<td class="px-4 text-text-secondary">15€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">1 sem.</td>
+<td class="px-4"><span class="text-status-success text-xs font-medium">Passif</span></td>
+<td class="px-4"><div class="flex text-status-warning"><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star">star</span></div></td>
+</tr>
+<tr class="h-9 table-row-hover text-sm">
+<td class="px-4"><span class="px-1.5 py-0.5 rounded bg-accent/10 text-accent text-xxs font-medium">En étude</span></td>
+<td class="px-4 text-text-primary font-medium">YouTube Horror Stories</td>
+<td class="px-4 text-text-secondary">YouTube</td>
+<td class="px-4 text-text-secondary">1800€/m</td>
+<td class="px-4 text-text-secondary">80€</td>
+<td class="px-4">
+<div class="flex gap-0.5">
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-accent"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+<div class="w-1 h-1 rounded-full bg-border-default"></div>
+</div>
+</td>
+<td class="px-4 text-text-secondary">2 sem.</td>
+<td class="px-4"><span class="text-status-danger text-xs font-medium">Actif</span></td>
+<td class="px-4"><div class="flex text-status-warning"><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[12px]" data-icon="star">star</span></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</main>
+<!-- Contextual FAB (Supressed for Dashboard but kept for layout integrity check) -->
+<!-- Suppressed according to mandate for focused table-heavy view -->
+</body></html>

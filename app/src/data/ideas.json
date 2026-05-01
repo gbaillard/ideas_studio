@@ -22226,5 +22226,4313 @@
       ],
       "date": "2026-04-12"
     }
+  },
+  {
+    "id": 295,
+    "name": "Phonics Coach IA 1:1 (3-6 ans)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 500,
+    "revenueMax": 8000,
+    "passive": true,
+    "timeToRevenue": "2-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Coach IA vocal qui écoute l'enfant décoder syllabes/mots avec feedback temps réel. Rapport hebdo parent. Sub 9,99€/mo. [Prix cible : 9,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "lecture",
+      "phonics",
+      "ia",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 296,
+    "name": "Lecteur dyslexie-friendly adaptatif (6-12)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 30,
+    "investMax": 120,
+    "revenueMin": 500,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "3-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Lecteur ebook avec police OpenDyslexic, surlignage syllabique synchronisé, voix humaine. Bibliothèque croissante. Marché 10-15% enfants concernés. [Prix cible : 12,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "lecture",
+      "dyslexie",
+      "accessibilite",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 297,
+    "name": "Bibliothèque contes narrés par prénom enfant (2-5)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 1000,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "100-500 contes audio où le héros est remplacé par le prénom de l'enfant (concatenation audio). Marché Wonderbly papier validé. [Prix cible : 29,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "lecture",
+      "contes",
+      "personnalisation",
+      "audio"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 298,
+    "name": "Vocabulaire par thèmes passion - dinos/espace/etc (4-8)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "50-80 mots par thème (dinos, espace, chevaliers, licornes) en mini-jeux association. Packs IAP 3,99€ chacun. [Prix cible : 3,99€/pack]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "lecture",
+      "vocabulaire",
+      "iap",
+      "packs"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 299,
+    "name": "Sight-words flashcards gamifiées (4-7)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Sight-words Dolch/Fry apprentissage par SRS gamifié. Canal enseignants recommandé. Export flashcards papier. [Prix cible : 6,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "lecture",
+      "flashcards",
+      "srs",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 300,
+    "name": "Coach anxiété maths méthode Singapour (6-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 150,
+    "revenueMin": 1000,
+    "revenueMax": 12000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Méthode Singapour digitale : concret-imagé-abstrait. Désamorce la peur des maths. Segment homeschool premium. [Prix cible : 11,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "maths",
+      "singapour",
+      "anxiete",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 301,
+    "name": "Résolveur devoirs maths + explications parents (7-14)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 1000,
+    "revenueMax": 15000,
+    "passive": true,
+    "timeToRevenue": "2-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Photomath-like avec explications adaptées aux parents (\"comment aider mon enfant ?\"). Différenciation vs Photomath pur. [Prix cible : 7,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "maths",
+      "photomath",
+      "parents",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 302,
+    "name": "Tables de multiplication boss fights (6-10)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 500,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Boss fights progressifs par table. Diagnostic initial, parcours ciblant les tables faibles. Pic d'achat CE2-CM1. [Prix cible : 4,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "maths",
+      "multiplication",
+      "one-time",
+      "gamified"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 303,
+    "name": "Fraction-sense manipulation tactile (7-11)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "100% manipulation visuelle (pizza, barres choco). Mur des fractions = moment d'achat parents. [Prix cible : 5,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "maths",
+      "fractions",
+      "manipulation",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 304,
+    "name": "Escape rooms logique par niveau (8-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 500,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Série d'escape rooms progressifs (1-2/mois), énigmes logiques/spatiales. Classement famille. [Prix cible : 6,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "logique",
+      "escape-room",
+      "sub",
+      "famille"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 305,
+    "name": "Labo chimie virtuelle sans danger (8-14)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 800,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "100+ expériences chimie en WebGL. Conforme programme collège. Alternative Mel Science kits physiques. [Prix cible : 8,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "sciences",
+      "chimie",
+      "stem",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 306,
+    "name": "Nature ID plantes/insectes kids quiz (5-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 500,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "2-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Seek/iNaturalist kid-friendly avec Pokédex vivant et badges. Peut s'appuyer sur APIs PlantNet/iNat. [Prix cible : 4,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "sciences",
+      "nature",
+      "id",
+      "freemium"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 307,
+    "name": "Anatomie 3D interactive enfants (6-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 50,
+    "investMax": 150,
+    "revenueMin": 500,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Corps humain 3D interactif avec narration. Curriculum SVT. Tinybop Human Body vieillit. [Prix cible : 7,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "sciences",
+      "anatomie",
+      "3d",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 308,
+    "name": "Météorologue junior stations + expériences (7-11)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Simulateur météo + défis prédiction via API réelle. Journal météo. Homeschool friendly. [Prix cible : 19,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "sciences",
+      "meteo",
+      "stem",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 309,
+    "name": "Espace & astronomie storytelling narré (5-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "20-30 voyages narrés système solaire + AR constellations. Tie-in possible Periplo Constellation. [Prix cible : 6,99€ + DLC]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "sciences",
+      "espace",
+      "astronomie",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 310,
+    "name": "Dessine-avec-moi tutos IA coach (5-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 500,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Tutos dessin pas-à-pas + IA qui analyse dessin enfant et suggère traits. Draw So Cute spirit interactif. [Prix cible : 6,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "arts",
+      "dessin",
+      "ia",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 311,
+    "name": "Bricolage papier hebdo box digitale (4-9)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 1000,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Bricolage papier/découpage hebdo téléchargeable. Alternative numérique Pandacraft 12€/mois. [Prix cible : 8,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "arts",
+      "bricolage",
+      "box",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 312,
+    "name": "Studio musical enfant pads + tutos (6-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 300,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Composition simplifiée : loops, beats, tutos 5min. Packs sons thématiques. Incredibox leader à dépasser. [Prix cible : 9,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "arts",
+      "musique",
+      "composition",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 313,
+    "name": "Stop motion pour enfants avec storyboards (7-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Stop motion simplifié : onion skin, storyboards modèles, export vidéo partageable. [Prix cible : 5,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "arts",
+      "stop-motion",
+      "video",
+      "freemium"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 314,
+    "name": "Atelier BD planches + bulles + héros (6-11)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Création BD : cases, bulles, personnages pré-dessinés ou photos. Mode collab parent/enfant. Export PDF. [Prix cible : 4,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "arts",
+      "bd",
+      "creation",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 315,
+    "name": "Bibliothèque émotions 0-10 avec activités (3-8)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 800,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "30+ émotions en histoires + activités ciblées. Parent prescrit en situation. Post-COVID santé mentale. [Prix cible : 7,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "emotions",
+      "bienetre",
+      "sub",
+      "storytelling"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 316,
+    "name": "Journal gratitude visuel enfant (6-12)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "\"3 bonnes choses par jour\" avec stickers, dessin ou photo. Timeline annuelle exportable. [Prix cible : 4,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "emotions",
+      "journal",
+      "gratitude",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 317,
+    "name": "Compagnon anxiété école rituels matin (5-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 500,
+    "revenueMax": 7000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Rituels visuels matin/soir pour enfants anxieux. Phobie scolaire = segment willingness to pay élevé. [Prix cible : 9,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "emotions",
+      "anxiete",
+      "ecole",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 318,
+    "name": "Gestion colère outils visuels + parents (4-9)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Thermomètre colère, respiration animée, coin calme virtuel. Guide parent joint. [Prix cible : 7,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "emotions",
+      "colere",
+      "parentalite",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 319,
+    "name": "Deuil / séparation storytelling (4-10)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Bibliothèque événements difficiles : deuil, divorce, déménagement. Moment de crise = achat immédiat. [Prix cible : 6,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "emotions",
+      "deuil",
+      "storytelling",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 320,
+    "name": "Histoires IA personnalisées héros=enfant (3-8)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 150,
+    "revenueMin": 1500,
+    "revenueMax": 20000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "GPT + TTS qualité générent histoires uniques chaque soir, enfant = héros. Différenciation IA 2026 forte. [Prix cible : 9,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "bedtime",
+      "ia",
+      "histoires",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 321,
+    "name": "Sons de sommeil + histoires voix humaine (2-7)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 60,
+    "investMax": 250,
+    "revenueMin": 2000,
+    "revenueMax": 25000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Histoires narrées acteurs + sons ambiance. Moshi leader à 59$/an prouve marché. [Prix cible : 39,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "bedtime",
+      "sons",
+      "narration",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 322,
+    "name": "Séries interactives à épisodes hebdo (4-9)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 80,
+    "investMax": 300,
+    "revenueMin": 800,
+    "revenueMax": 12000,
+    "passive": true,
+    "timeToRevenue": "6-12 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Feuilleton avec choix orientant la suite. 20-30 épisodes/saison. Rétention hebdo style Netflix kids. [Prix cible : 8,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "bedtime",
+      "serie",
+      "interactive",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 323,
+    "name": "Audio choose-your-adventure pur zéro écran (5-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Audio only : narrateur propose choix, enfant répond oral. Alternative santé zéro blue light. [Prix cible : 3,99€/pack]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "bedtime",
+      "audio",
+      "sans-ecran",
+      "iap"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 324,
+    "name": "Rituel coucher co-créé parent/enfant (3-6)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Parent et enfant construisent leur rituel (bain, dents, câlin). Suivi, badges, souvenirs. [Prix cible : 4,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "bedtime",
+      "rituel",
+      "parent",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 325,
+    "name": "Scratch-like visuel par cartes/blocs (6-10)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 500,
+    "revenueMax": 8000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Programmation par blocs. 50+ défis progressifs. Alternative premium Scratch Jr daté. [Prix cible : 12,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "code",
+      "scratch",
+      "blocs",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 326,
+    "name": "Robot virtuel à programmer puzzle game (5-9)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 300,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Robot à guider par séquences programmatiques. 100+ niveaux. Accessible 5 ans. [Prix cible : 8,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "code",
+      "robot",
+      "puzzle",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 327,
+    "name": "Python for Kids gamifié (9-14)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 80,
+    "investMax": 250,
+    "revenueMin": 600,
+    "revenueMax": 9000,
+    "passive": true,
+    "timeToRevenue": "6-9 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Vrai Python via missions progressives. REPL sandboxé. Projet final mini-jeu. [Prix cible : 14,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "code",
+      "python",
+      "gamifie",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 328,
+    "name": "IA Literacy : comprendre comment l'IA pense (8-13)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Datasets, biais, prompts, reconnaissance image. Sujet 2026 brûlant. Gap famille. [Prix cible : 9,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "code",
+      "ia-literacy",
+      "ethique",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 329,
+    "name": "Logique binaire / circuits virtuels (8-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "NAND to Tetris version kids. Construis circuits logiques jusqu'à mini-ordinateur. [Prix cible : 7,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "code",
+      "logique",
+      "circuits",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 330,
+    "name": "App chores + allowance virtual-only sans carte (5-14)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 1000,
+    "revenueMax": 15000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Chores + porte-monnaie virtuel sans compte bancaire. Différenciation vs Greenlight. Prix bas, activation immédiate. [Prix cible : 4,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "autonomie",
+      "chores",
+      "allowance",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 331,
+    "name": "Routine matin/soir visuelle pictogrammes (3-8 + TDAH)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Routines pictogrammes Boardmaker-like. TSA/TDAH inclusif. Segment prime willingness to pay. [Prix cible : 19,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "autonomie",
+      "routine",
+      "tsa",
+      "tdah",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 332,
+    "name": "Coach hygiène dents/mains/bain gamifié (3-7)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Mini-routines gamifiées : brossage 2min musical, mains, bain. Stickers accumulés. [Prix cible : 3,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "autonomie",
+      "hygiene",
+      "gamifie",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 333,
+    "name": "Apprentissage argent pièces/monnaie/budget (6-11)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Reconnaissance monnaie, courses simulées, budget. Curriculum-aligned FR. [Prix cible : 5,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "autonomie",
+      "argent",
+      "finance",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 334,
+    "name": "Responsabilités animaux virtuel ↔ réel (5-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Tamagotchi où actions réelles \"promener le chien\" débloquent récompenses virtuelles. Preuve responsabilité. [Prix cible : 4,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "autonomie",
+      "animaux",
+      "virtuel",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 335,
+    "name": "GPS famille ultra-simple sans smartphone enfant (4-11)",
+    "category": "apps",
+    "difficulty": 5,
+    "investMin": 1000,
+    "investMax": 5000,
+    "revenueMin": 5000,
+    "revenueMax": 50000,
+    "passive": true,
+    "timeToRevenue": "9-18 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Tag GPS + app parent. Pas besoin d'équiper l'enfant. Hardware + app + cellular = projet lourd. [Prix cible : 9,99€/mo + device]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "securite",
+      "gps",
+      "hardware",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 1,
+    "feasibility": null
+  },
+  {
+    "id": 336,
+    "name": "Montre connectée kids companion app neutre (5-12)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 300,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Companion app tiers importe données n'importe quelle montre BLE kids. Alternative apps propriétaires fragmentées. [Prix cible : 7,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "securite",
+      "montre",
+      "ble",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 337,
+    "name": "Content filter tablette familiale iOS+Android (3-14)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 80,
+    "investMax": 300,
+    "revenueMin": 800,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "5-8 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Filtrage contenu + YouTube chaînes toxiques par catégorie. MDM + scraping YouTube. [Prix cible : 49,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "securite",
+      "filter",
+      "mdm",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 338,
+    "name": "Safe social pour pré-ados écosystème fermé (9-13)",
+    "category": "apps",
+    "difficulty": 5,
+    "investMin": 200,
+    "investMax": 800,
+    "revenueMin": 500,
+    "revenueMax": 15000,
+    "passive": true,
+    "timeToRevenue": "9-15 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Réseau social restreint aux contacts validés parents. Alternative safe Instagram/TikTok. Modération critique. [Prix cible : 6,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "securite",
+      "social",
+      "pre-ados",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 1,
+    "feasibility": null
+  },
+  {
+    "id": 339,
+    "name": "Anti-cyber-harcèlement AI alertes parents (9-14)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 80,
+    "investMax": 250,
+    "revenueMin": 1000,
+    "revenueMax": 15000,
+    "passive": true,
+    "timeToRevenue": "6-9 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "NLP FR scan messages ados pour harcèlement/grooming/suicide. Bark leader US, gap EU/FR. [Prix cible : 12,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "securite",
+      "cyber",
+      "nlp",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 340,
+    "name": "Calendrier famille partagé co-parents séparés",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 800,
+    "revenueMax": 12000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Garde alternée, activités, RDV médicaux. Export PDF pour JAF. Alternative OurFamilyWizard 144$/an. [Prix cible : 4,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "coparentalite",
+      "calendrier",
+      "divorce",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 341,
+    "name": "Journal partagé enfant entre parents divorcés",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 400,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Chaque parent documente repas/sommeil/médicaments/humeur durant sa garde. Évite conflits com. [Prix cible : 7,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "coparentalite",
+      "journal",
+      "divorce",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 342,
+    "name": "Organisateur activités extra-scolaires + carpool",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 300,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Plannifie activités multi-enfants + coordonne carpools autres parents. Effet club. [Prix cible : 29,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "logistique",
+      "carpool",
+      "activites",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 343,
+    "name": "Carnet santé numérique enfant vaccins/RDV/RX",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 400,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Vaccins scan + rappels, RDV, courbes, ordonnances. Multi-enfant. Mon Espace Santé clunky. [Prix cible : 19,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "sante",
+      "carnet",
+      "rgpd",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 344,
+    "name": "Album familial privé chronologique RGPD",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 1000,
+    "revenueMax": 15000,
+    "passive": true,
+    "timeToRevenue": "5-8 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Auto-chronologique par enfant, auto-tagging, zéro cloud public. Export livre. FamilyAlbum/Tinybeans. [Prix cible : 29,99€/an]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "album",
+      "photos",
+      "privacy",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 345,
+    "name": "Playground Classics Digital (5-11) — jeux de cour d'école",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "20 jeux cour d'école (marelle, élastique, chat perché, 1-2-3 Soleil) avec IA compagnons + mode AR. Packs régionaux. [Prix cible : 6,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "playground",
+      "culture",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 346,
+    "name": "Construit ta cabane virtuelle + défis IRL (4-9)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Cabane virtuelle puis défi IRL \"construis la avec tes coussins\". Photo, galerie famille. Pont écran/réel. [Prix cible : 5,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "cabane",
+      "irl",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 347,
+    "name": "Chasses au trésor maison générées IA (4-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 150,
+    "revenueMin": 800,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Parent décrit sa maison en 2min, IA génère chasse au trésor audio 5-15 indices adaptés. Thèmes pirate/fée/détective. [Prix cible : 4,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "chasse-tresor",
+      "ia",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 348,
+    "name": "Laboratoire scientifique fou chez lui (6-12)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 500,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "100+ expériences maison spectaculaires avec niveau danger parental codé. Alternative Pandacraft/WowBox. [Prix cible : 7,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "science",
+      "experiences",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 349,
+    "name": "Jardinage intérieur pour impatients (5-11)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Pousses rapides (haricot, lentilles, patate) time-lapse quotidien. Récompense immédiate. [Prix cible : 3,99€ + saisons]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "jardinage",
+      "nature",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 350,
+    "name": "Cirque maison virtuel + défis physiques (5-12)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 25,
+    "investMax": 80,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "30 numéros cirque (jonglage, équilibre, mime) avec entraînement + grand spectacle filmé famille. [Prix cible : 6,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "cirque",
+      "motricite",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 351,
+    "name": "Magicien du dimanche (6-11)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "40 tours magie avec tuto lent + script de présentation. Mode show 5 min enchaîné. [Prix cible : 4,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "magie",
+      "presentation",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 352,
+    "name": "Mon émission YouTube fermée (7-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 600,
+    "revenueMax": 8000,
+    "passive": true,
+    "timeToRevenue": "4-6 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Simule émission YouTube : intro, déroulé, effets, outro. Enregistrement jamais publié. Canalise envie YouTuber en safe. [Prix cible : 5,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "youtube",
+      "safe",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 353,
+    "name": "Prof virtuel junior IA Feynman inversé (7-12)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 800,
+    "revenueMax": 10000,
+    "passive": true,
+    "timeToRevenue": "5-7 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Enfant explique concept à avatar-élève IA qui pose questions. Méthode Feynman. LLM + évaluation péda. [Prix cible : 9,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "prof",
+      "ia",
+      "feynman",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 354,
+    "name": "Corrige les copies jeu de prof (8-13)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 400,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Copies fictives à corriger (orthographe, calcul, argumentation). Progression CE1→6e. Métacognition. [Prix cible : 6,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "correcteur",
+      "metacognition",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 355,
+    "name": "Gère ta classe tycoon école primaire (9-13)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 80,
+    "investMax": 300,
+    "revenueMin": 500,
+    "revenueMax": 8000,
+    "passive": true,
+    "timeToRevenue": "9-12 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Sim école : 20 élèves virtuels, résoudre problèmes (parler, pleurer, tricher). Genre tycoon inédit kids. [Prix cible : 9,99€ + DLC]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "tycoon",
+      "sim",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 356,
+    "name": "Crée ton cours pour les parents (8-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 300,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "4-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Templates slides, plan, quiz final. Enfant prépare vrai cours et le présente. Soirée-conférence domestique. [Prix cible : 5,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "presentation",
+      "cours",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 357,
+    "name": "École des dinosaures révisions déguisées (6-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 400,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Enfant enseigne aux dinos des notions récentes. Dinos posent questions rigolotes. Révisions cachées. [Prix cible : 4,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "dinosaures",
+      "revisions",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 358,
+    "name": "Maître d'école d'autrefois 1900 (7-12)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Incarne prof 19e s. : plume, ardoise, dictées. Découvre école 1900. Cohérent programme CM1-CM2. [Prix cible : 3,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "histoire",
+      "retro",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 359,
+    "name": "Quiz master invente ton quiz IA (7-13)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Enfant choisit sujet passion, IA aide formuler 10 questions. Famille joue en buzzer. Gap Kahoot famille. [Prix cible : 7,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "quiz",
+      "ia",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 360,
+    "name": "Podcast scolaire perso (8-13)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Enfant enregistre podcasts 3-5min sur acquis hebdo. Jingle, intro. Archive ou partage famille. [Prix cible : 4,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "education",
+      "podcast",
+      "expression-orale",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 361,
+    "name": "Forgeur de monstres hybrides (7-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Combine parties 40 animaux réels (croco + aigle + scorpion) pour hybrides. Stats, combats, bestiaire. [Prix cible : 4,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "monstres",
+      "zoologie",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 362,
+    "name": "L'architecte du futur 2100 (8-13)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 400,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "6-9 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Construis ville 2100 : transports propres, agri verticale. Simulation conséquences. Cities Skylines kids. [Prix cible : 8,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "ville",
+      "futur",
+      "simulation",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 363,
+    "name": "Détective d'objets perdus maison IA (6-10)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 600,
+    "revenueMax": 8000,
+    "passive": true,
+    "timeToRevenue": "6-8 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Mini-enquêtes : objet disparu dans maison, interroge personnages, résous. 100+ cas IA adaptés décor maison. [Prix cible : 5,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "detective",
+      "ia",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 364,
+    "name": "Traducteur de chats et autres animaux (5-11)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Caméra/micro détecte miaulement/aboiement, propose traductions drôles + quiz comportement animal. [Prix cible : 3,99€ + Pro]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "animaux",
+      "audio",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 365,
+    "name": "Inventeur breveté junior (7-12)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Invente objet résolvant problème quotidien, dessine, IA commente, génère faux brevet PDF imprimable. [Prix cible : 6,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "invention",
+      "creativite",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 366,
+    "name": "Le grand annuaire imaginaire (6-12)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Fiches êtres imaginaires avec champs scientifiques (habitat, nourriture, pouvoir). Bibliothèque famille. [Prix cible : 4,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "creativite",
+      "bestiaire",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 367,
+    "name": "Robinsonnade interactive (8-13)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 60,
+    "investMax": 200,
+    "revenueMin": 400,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "6-9 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Naufragé sur île, 2-3 décisions/jour, journal bord. Classique littéraire décliné interactif. [Prix cible : 7,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "survie",
+      "narrative",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 368,
+    "name": "Cuisine magique ingrédients fantastiques (5-10)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Cuisine virtuelle avec ingrédients absurdes (larmes licorne, poudre étoile). IA illustre plat + effet. [Prix cible : 4,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "cuisine",
+      "imagination",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 369,
+    "name": "20 mini-jeux à 2 sur un écran (5-11)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 30,
+    "investMax": 100,
+    "revenueMin": 400,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "3-4 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "20 mini-jeux 2 joueurs côte à côte sur même tablette. Parent vs enfant ou fratrie. Inspiré 1-2-Switch. [Prix cible : 4,99€ + packs]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "jeux",
+      "coop",
+      "2-joueurs",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 370,
+    "name": "Soirée jeux familiale clé en main (5-99)",
+    "category": "apps",
+    "difficulty": 3,
+    "investMin": 40,
+    "investMax": 120,
+    "revenueMin": 500,
+    "revenueMax": 7000,
+    "passive": true,
+    "timeToRevenue": "4-5 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "5 jeux variés 45min avec chrono et scoring. Parent tape âge+joueurs, app orchestre. [Prix cible : 6,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "jeux",
+      "soiree",
+      "orchestration",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": null
+  },
+  {
+    "id": 371,
+    "name": "Dés narratifs familiaux (4-99)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "1-2 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "3 dés (lieu + personnage + action), famille improvise histoire. Archive audio optionnelle. Rory's Story Cubes digital. [Prix cible : 2,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "jeux",
+      "narratif",
+      "improvisation",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 372,
+    "name": "Défis fratrie coop 100 défis (4-10)",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 15,
+    "investMax": 50,
+    "revenueMin": 200,
+    "revenueMax": 3000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Défis obligent frère/sœur à s'entraider (yeux bandés, construction à 2). Sans écran aussi. [Prix cible : 4,99€ one-time]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "jeux",
+      "fratrie",
+      "cooperation",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 373,
+    "name": "Banque d'idées familiale",
+    "category": "apps",
+    "difficulty": 2,
+    "investMin": 20,
+    "investMax": 80,
+    "revenueMin": 300,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Espace partagé famille idées (vacances, cadeaux, projets). Chacun propose, vote. \"Qu'est-ce qu'on fait dimanche ?\" en 1 clic. [Prix cible : 3,99€/mo]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "famille",
+      "jeux",
+      "idees",
+      "vote",
+      "sub"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": null
+  },
+  {
+    "id": 374,
+    "name": "Avatar vieillissant 80 ans temporel réel (7-14)",
+    "category": "apps",
+    "difficulty": 4,
+    "investMin": 50,
+    "investMax": 150,
+    "revenueMin": 500,
+    "revenueMax": 8000,
+    "passive": true,
+    "timeToRevenue": "6-9 mois",
+    "platforms": [
+      "App Store",
+      "Google Play"
+    ],
+    "tools": [
+      "Cursor",
+      "Claude Code",
+      "Stripe",
+      "Superwall"
+    ],
+    "description": "Avatar vieillit en temps réel : chaque anniversaire IRL débloque étapes vie (emploi, études). Concept unique moat temporel. [Prix cible : 9,99€ + saisons]",
+    "steps": [
+      "Valider concept par interviews 5-10 parents cibles",
+      "MVP no-code (FlutterFlow/Adalo) ou Swift/Kotlin selon complexité",
+      "Conformité COPPA/RGPD-K (audit juridique avant lancement)",
+      "Soft-launch TestFlight + Google Play Internal",
+      "App Store Optimization + soumission kids category",
+      "Marketing parental : Instagram parents, partenariats blogs éducation",
+      "Itérer selon reviews + métriques rétention"
+    ],
+    "tutorial": null,
+    "tags": [
+      "enfants",
+      "jeux",
+      "avatar",
+      "temporel",
+      "originalite",
+      "one-time"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 2,
+    "feasibility": null
+  },
+  {
+    "id": 375,
+    "name": "Guide PDF 100 expériences avec 10 ingrédients",
+    "category": "print-on-demand",
+    "difficulty": 2,
+    "investMin": 0,
+    "investMax": 150,
+    "revenueMin": 800,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "3-6 semaines",
+    "platforms": [
+      "Gumroad",
+      "Etsy",
+      "Payhip"
+    ],
+    "tools": [
+      "Canva Pro (13€/mois)",
+      "ChatGPT (rédaction)",
+      "Notion (gestion expériences)"
+    ],
+    "description": "PDF premium 60-80p : 100 expériences sciences pour enfants 6-12 ans avec une seule liste de courses <25€ (placard + dollar store). Marge ~95%, zéro logistique, revendable dans 30+ pays dès J+1. Positionnement : 20× moins cher qu'un kit MEL Science mais plus pédagogique grâce à la consolidation ingrédients.",
+    "steps": [
+      "Shortlister 10 ingrédients maître (bicarbonate, vinaigre, maïzena, sel, huile, levure, sucre, colorants, ballons, pailles)",
+      "Rédiger 100 fiches expérience (1 page chacune : matos, protocole, résultat, explication science, niveau âge)",
+      "Compiler liste courses consolidée + tableau croisé expérience×ingrédient",
+      "Design Canva Pro (cover + template fiche) + 3 mockups aperçu",
+      "Publier Gumroad (primary) + Etsy (SEO 'Montessori homeschool science printable')",
+      "Funnel : 1 freebie 10 expériences → email capture → upsell PDF 19,99$",
+      "Itérer selon feedback (bundle thématique saisons, version anglaise)"
+    ],
+    "tutorial": null,
+    "tags": [
+      "pdf",
+      "sciences",
+      "enfants",
+      "homeschool",
+      "montessori",
+      "etsy",
+      "gumroad",
+      "passif",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 5,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "PDF sciences homeschool : format prouvé (Etsy Montessori printable +180% depuis 2022, top sellers $20K+/an). TTM court, marge quasi-100%, aucune logistique. Différentiation forte via contrainte 'une seule liste courses'.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": true,
+          "text": "Top sellers Etsy printables homeschool 2K+ ventes/listing, fourchette 800-6000$/mo réaliste année 1 avec SEO + bundle"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "Canva + ChatGPT suffisent ; pas de code, pas de stock"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": true,
+          "text": "Production solo en 3-6 semaines, maintenance quasi-nulle après lancement"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "3,7M homeschool US 2026 (+40% vs pré-pandémie), demande 'experiments kids' haute sur Etsy/Amazon KDP"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "Canva Pro 13€ + Gumroad gratuit + Etsy 0,20$/listing = démarrage sous 50€"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 376,
+    "name": "Livre KDP : Le livre des expériences ratées célèbres",
+    "category": "kdp",
+    "difficulty": 2,
+    "investMin": 0,
+    "investMax": 300,
+    "revenueMin": 500,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "6-10 semaines",
+    "platforms": [
+      "Amazon KDP",
+      "IngramSpark"
+    ],
+    "tools": [
+      "ChatGPT (recherche)",
+      "Canva Pro (cover)",
+      "Vellum/Atticus (layout)",
+      "Fiverr (illustrations 150-300$)"
+    ],
+    "description": "Livre enfants 8-12 ans : 50 échecs scientifiques célèbres qui ont mené à des découvertes (post-it, pénicilline, vulcanisation). Angle narratif 'science = processus d'erreurs' absent du marché. Potentiel TikTok/BookTok fort car récits courts viraux.",
+    "steps": [
+      "Curation 50 échecs documentés (sources : NYT archive, Smithsonian, Wikipedia + cross-ref)",
+      "Rédiger 50 mini-chapitres (2-3 pages, structure : problème → erreur → découverte inattendue → impact)",
+      "Illustrations Fiverr (15-20 commandées à 10-20$/pièce)",
+      "Layout Vellum + cover Canva/99designs",
+      "Publication KDP paperback + Kindle + option hardcover",
+      "Funnel marketing : reels TikTok '1 échec par jour' → ventes Amazon",
+      "Suite possible : tome 2 technologie, tome 3 médecine"
+    ],
+    "tutorial": null,
+    "tags": [
+      "kdp",
+      "livre",
+      "enfants",
+      "sciences",
+      "narratif",
+      "tiktok",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 5,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Niche prouvée (Weird But True 500K+ unités/an) avec angle narratif différenciant. TTM raisonnable, risque financier contenu (~300$), fort potentiel viral TikTok qui colle à la stratégie YouTube de Guillaume.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": true,
+          "text": "500-5000$/mo plausible : KDP Weird But True catégorie vend 500K+/an, niche 'science stories kids' peu saturée"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "KDP maîtrisé, layout Vellum, cover Canva — zéro blocage technique"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": true,
+          "text": "6-10 semaines solo avec help IA pour recherche et rédaction"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "KDP workbooks/livres enfants top catégorie 2026, homeschool +40%"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "KDP gratuit, Canva 13€, Fiverr <300$ pour illustrations"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 377,
+    "name": "Livre KDP : 365 pourquoi absurdes mais vrais",
+    "category": "kdp",
+    "difficulty": 2,
+    "investMin": 0,
+    "investMax": 300,
+    "revenueMin": 500,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "6-10 semaines",
+    "platforms": [
+      "Amazon KDP",
+      "IngramSpark"
+    ],
+    "tools": [
+      "ChatGPT (recherche)",
+      "Canva Pro (cover/layout)",
+      "Fiverr (icônes)",
+      "Vellum (layout)"
+    ],
+    "description": "Livre enfants 6-10 ans : 1 question idiote par jour de l'année avec réponse scientifique rigoureuse (Pourquoi les flamants sont roses ? Pourquoi le ciel bleu devient orange au coucher ?). Format calendrier 365 entrées — cadeau Noël bankable. Concurrent direct : Weird But True (Nat Geo, 500K+/an).",
+    "steps": [
+      "Curation 365 questions 'absurdes mais fondées' (crowdsource Reddit r/explainlikeimfive + curation IA)",
+      "Rédaction réponses (80-120 mots chacune, ton joueur mais exact)",
+      "Design pages (4 questions/page, icône par question)",
+      "Cover pro (99designs ou senior Fiverr 150$)",
+      "Publication KDP paperback + Kindle + calendrier mural companion",
+      "Marketing TikTok BookTok quotidien pendant 365j (funnel organique)",
+      "Upsell : PDF version + poster 'Top 50 absurdes'"
+    ],
+    "tutorial": null,
+    "tags": [
+      "kdp",
+      "livre",
+      "enfants",
+      "questions",
+      "calendrier",
+      "cadeau",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 5,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Format directement comparable à Weird But True (bestseller 500K+/an). Angle 'calendrier 365' facilite marketing quotidien TikTok et positionne comme cadeau. Risque : concurrence à différencier par tonalité.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": true,
+          "text": "500-5000$/mo = 1-10% du volume Weird But True — atteignable en année 1 avec marketing TikTok soutenu"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "Même chaîne que 376 (KDP/Canva/Vellum)"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": true,
+          "text": "365 micro-entrées rédigées par IA + éditeur humain, timeline 2-3 mois"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "Question-format enfants = catégorie cadeaux T4 en forte croissance"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "Stack identique au 376, <300€ total"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 378,
+    "name": "Cartes dinosaures POD + QR vers vidéos 3D YouTube",
+    "category": "print-on-demand",
+    "difficulty": 3,
+    "investMin": 100,
+    "investMax": 500,
+    "revenueMin": 400,
+    "revenueMax": 4000,
+    "passive": false,
+    "timeToRevenue": "2-4 mois",
+    "platforms": [
+      "Etsy",
+      "MakePlayingCards",
+      "Amazon",
+      "YouTube"
+    ],
+    "tools": [
+      "Illustrator/Canva",
+      "Blender (modélisation dino 3D)",
+      "DaVinci Resolve",
+      "MPC/TheGameCrafter (impression)"
+    ],
+    "description": "Set 30 cartes dinosaures (anatomie + stats + époque) avec QR code renvoyant vers vidéo YouTube 3D 360° du dino. Moat = chaîne YouTube gratuite devient funnel de découverte ; ventes se font sur les cartes physiques. Synergie parfaite avec PERIPLO et la stratégie vidéo de Guillaume.",
+    "steps": [
+      "Design 30 fiches dino (recherche paléo + illustration ou stock 3D)",
+      "Créer 30 vidéos 360° courtes (Blender modeling + rendu, ou reuse datasets SketchFab sous licence)",
+      "Publier les vidéos YouTube publiques (gratuit)",
+      "Imprimer set cartes via MPC (boîte 30 cartes, ~8-12$ coût unitaire → vente 17,99$)",
+      "Lister Etsy + Amazon FBA light",
+      "Lancer chaîne YouTube 'Dinos en 360°' → 1 vidéo/semaine → funnel achats",
+      "Étendre : set mammifères préhistoriques, océans, insectes géants"
+    ],
+    "tutorial": null,
+    "tags": [
+      "pod",
+      "cartes",
+      "dinosaures",
+      "youtube",
+      "qr",
+      "physique",
+      "enfants",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Très cohérent avec écosystème Guillaume (YouTube + PERIPLO). Gros différentiateur vs cartes classiques. Risque : temps de prod vidéos 3D (30 rendus = 2-3 semaines Blender solo). TTM plus long que les PDF mais moat défendable via YouTube.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": true,
+          "text": "400-4000$/mo plausible : niche dinos enfants évergreen, Etsy cartes éducatives marge 50-60%"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": false,
+          "text": "Blender demande courbe d'apprentissage ; assets SketchFab peuvent contourner mais risques de licence à vérifier"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": true,
+          "text": "30 cartes = scope maîtrisable solo sur 2-4 mois"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "Paléontologie kids = catégorie saturée avec place pour angle original (QR + 3D)"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "MPC pour l'impression unité, YouTube gratuit pour le funnel"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 379,
+    "name": "Jeu de cartes Pont du Génie (défi construction 15 min)",
+    "category": "games",
+    "difficulty": 2,
+    "investMin": 50,
+    "investMax": 400,
+    "revenueMin": 300,
+    "revenueMax": 3000,
+    "passive": false,
+    "timeToRevenue": "3-5 mois",
+    "platforms": [
+      "Etsy",
+      "TheGameCrafter",
+      "Kickstarter",
+      "Amazon"
+    ],
+    "tools": [
+      "Canva (design cartes)",
+      "TheGameCrafter (POD)",
+      "Kickstarter"
+    ],
+    "description": "Jeu cartes 7-12 ans : chaque joueur pioche une carte défi (matériaux imposés + contrainte : franchir 30cm, soutenir 1kg, etc.) et construit un pont en 15 min. Matériel utilisateur : pâtes, spaghetti, papier, élastiques. Le jeu = les cartes défi, pas les matériaux. 50 cartes, rejouabilité élevée.",
+    "steps": [
+      "Concevoir 50 défis (combinaisons matériaux × contraintes) + règles simples",
+      "Prototype 1 playtest famille (30$ via TheGameCrafter)",
+      "Itérer 2-3 versions avec playtesters enfants 7-12",
+      "Version finale : POD TheGameCrafter à 18,99$ direct-to-consumer",
+      "Option Kickstarter si traction : goal 10k$ pour tirage série Chinese mfg (coût unit /3)",
+      "Canal Etsy secondary + Amazon si FBA rentable",
+      "Extension 'Pont du Génie — Catastrophes' (ponts à construire sous simulation séisme/vent)"
+    ],
+    "tutorial": null,
+    "tags": [
+      "jeu",
+      "cartes",
+      "construction",
+      "enfants",
+      "stem",
+      "ingenierie",
+      "pod",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "MVP testable en un après-midi playtest. Concept STEM gamifié très recherché par parents homeschool / Montessori. Risque : prouver rejouabilité des 50 défis (test critique).",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": true,
+          "text": "300-3000$/mo plausible via POD ; Kickstarter peut multiplier par 5-10 si campagne virale"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "TheGameCrafter POD à 30$/unité = prototypage trivial"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": true,
+          "text": "Design solo + playtests locaux, pas de compétence pointue requise"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "STEM kids = catégorie Etsy/Kickstarter en croissance continue"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "TGC pour la prod, Canva pour les cartes, Kickstarter pour le scale"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 380,
+    "name": "Jeu de société Écosystèmes (deck-building chaîne alimentaire)",
+    "category": "games",
+    "difficulty": 3,
+    "investMin": 500,
+    "investMax": 3000,
+    "revenueMin": 0,
+    "revenueMax": 8000,
+    "passive": false,
+    "timeToRevenue": "6-12 mois",
+    "platforms": [
+      "Kickstarter",
+      "TheGameCrafter",
+      "BoardGameGeek",
+      "Amazon"
+    ],
+    "tools": [
+      "Illustrator",
+      "TheGameCrafter (prototypes)",
+      "Kickstarter",
+      "Manufacturing partner Chine"
+    ],
+    "description": "Jeu 8-12 ans : deck-building où chaque joueur construit un écosystème équilibré (producteurs, herbivores, carnivores, décomposeurs). Mécanique moderne (comme Wingspan mais pour enfants), apprentissage écologique effet de bord du fun. Cible : Kickstarter puis retail via Cool Mini / Asmodee si traction.",
+    "steps": [
+      "Design mécanique (60-90 cartes, équilibrage itératif)",
+      "Prototypes papier + playtests famille sur 2-3 mois",
+      "Version illustrée (commissioner illustrateur, 2-3k$ budget)",
+      "Campagne Kickstarter (goal 15-25k$, stretch goals extensions océan/savane)",
+      "Production série limitée Chine via Panda GM (1000-3000 unités)",
+      "Fulfilment via ShipQuest ou équivalent EU/US",
+      "Année 2 : édition plus stratégique pour ados/adultes façon 'Wingspan Jr'"
+    ],
+    "tutorial": null,
+    "tags": [
+      "jeu",
+      "deck-building",
+      "ecosystemes",
+      "enfants",
+      "kickstarter",
+      "ecologie",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Forte ambition mais risque capital-intensif : Kickstarter <goal = perte sèche illustrateur + prototype. TTM long (6-12 mois). À retenir UNIQUEMENT si vague 2 valide le marché enfants via 379 et 378 d'abord.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": false,
+          "text": "Deck-building kids segment incertain. Wingspan-like pour enfants = pari, pas de benchmark solide. Range 0-8K reflète le binaire KS réussi/raté"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "Scope prod maîtrisé via TGC prototypes + fab Chine pour scale"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": false,
+          "text": "Logistique fulfilment Kickstarter = 3-6 mois plein temps, tendu solo"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "BGG + Kickstarter games = 300M$/an catégorie, mais segment kids sous-pénétré"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "TGC + Kickstarter + Panda GM = stack éprouvé"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 381,
+    "name": "365 prompts du dîner (jeu de cartes POD famille)",
+    "category": "print-on-demand",
+    "difficulty": 2,
+    "investMin": 50,
+    "investMax": 300,
+    "revenueMin": 500,
+    "revenueMax": 5000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "Etsy",
+      "MakePlayingCards",
+      "Amazon",
+      "Shopify"
+    ],
+    "tools": [
+      "Canva (design)",
+      "MPC (impression cartes)",
+      "ChatGPT (rédaction prompts)"
+    ],
+    "description": "Set 365 cartes : une question de conversation famille par jour pendant un an (ex. 'Si tu pouvais inviter 3 personnes mortes à dîner, qui ?'). Cible : parents qui veulent des dîners sans écran. Cadeau Noël / rentrée bankable. Refill packs annuels pour LTV.",
+    "steps": [
+      "Rédiger 365 prompts (curation IA + filtrage humain qualité)",
+      "Segmenter par catégories (histoires perso, hypothèses, philosophie enfantine, jeux de rôle)",
+      "Design cartes Canva (format 63×88mm standard)",
+      "Prototype MPC (~30$), test avec 3 familles",
+      "Vente Etsy (boîte à 19,99$) + Amazon FBA",
+      "Marketing Pinterest / Instagram parents 'no-screen dinner'",
+      "Extensions : pack enfants 5-8, pack ados 13+, pack couples"
+    ],
+    "tutorial": null,
+    "tags": [
+      "cartes",
+      "famille",
+      "dinner",
+      "conversation",
+      "pod",
+      "cadeau",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 5,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Format viral-friendly sur Pinterest/Instagram parents. Produit-cadeau solide, scalable en packs. TTM court. Risque de commoditisation : des concurrents existent (Table Topics), différentiation à travailler sur l'angle 'scientifique/famille curieuse'.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": true,
+          "text": "Table Topics vend >100K unités/an, fourchette 500-5000$/mo réaliste avec SEO + ads Pinterest"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "Canva + MPC = zéro friction"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": true,
+          "text": "Solo, 2-3 mois max"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "Catégorie 'no-screen family' en croissance 2026"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "MPC + Etsy + Amazon = stack standard POD"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 382,
+    "name": "Calendrier mural 365 découvertes scientifiques",
+    "category": "print-on-demand",
+    "difficulty": 2,
+    "investMin": 30,
+    "investMax": 200,
+    "revenueMin": 400,
+    "revenueMax": 4000,
+    "passive": true,
+    "timeToRevenue": "2-3 mois",
+    "platforms": [
+      "Etsy",
+      "Redbubble",
+      "Printful",
+      "Amazon"
+    ],
+    "tools": [
+      "Canva Pro",
+      "Printful/Printify (POD calendriers)",
+      "ChatGPT (curation découvertes)"
+    ],
+    "description": "Calendrier mural : 1 découverte scientifique par jour (date réelle de la découverte). Vente saisonnière T4 énorme. Réédition annuelle facile (bump révisions + date nouvelle). Positionnement : alternative éducative aux calendriers déco.",
+    "steps": [
+      "Curation 365 découvertes datées (Wikipedia + cross-ref sources primaires)",
+      "Design 12 pages (month + grid) via Canva Pro",
+      "Créer variantes : version anglaise + français + espagnol",
+      "Publish Printful + Etsy digital download (option imprimable DIY)",
+      "Pre-order lancement oct-nov pour T4 gift season",
+      "Partenariats micro-influencers science (Instagram)",
+      "Année 2 : réédition + version spécialisée (médecine, espace, tech)"
+    ],
+    "tutorial": null,
+    "tags": [
+      "calendrier",
+      "sciences",
+      "pod",
+      "etsy",
+      "saisonnier",
+      "cadeau",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 4,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Produit saisonnier T4 performant en POD. Réédition annuelle = revenus récurrents sans recréer. Risque : fenêtre de vente concentrée oct-déc, donc besoin de marketing timing précis.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": true,
+          "text": "Etsy calendriers éducatifs top-sellers font 5-15K€ sur T4 seul ; fourchette 400-4000$/mo annualisée plausible"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "Canva + Printful = aucun blocage"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": true,
+          "text": "Solo, curation + design 4-6 semaines"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "Calendriers muraux = catégorie évergreen, niche 'science' peu saturée"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "Printful POD calendrier = 8-12$ coût unit, vente 24,99$"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 383,
+    "name": "Physics Playground — Jeu vidéo sandbox éducatif (Steam Kids)",
+    "category": "games",
+    "difficulty": 4,
+    "investMin": 100,
+    "investMax": 1000,
+    "revenueMin": 0,
+    "revenueMax": 6000,
+    "passive": true,
+    "timeToRevenue": "4-8 mois",
+    "platforms": [
+      "itch.io",
+      "Steam Kids",
+      "Epic Games Store"
+    ],
+    "tools": [
+      "Godot / Unity",
+      "Blender (assets)",
+      "Aseprite (pixel art si retro)",
+      "Steamworks"
+    ],
+    "description": "Jeu 9-14 ans : sandbox 2D mécanique classique (gravité, frottements, leviers, ressorts) où le joueur construit des machines pour résoudre des puzzles. Référence : The Incredible Machine modernisé, Physics Playground Mac 2008. Synergie forte avec PERIPLO (compétences Godot/Unity réutilisables).",
+    "steps": [
+      "Prototype Godot moteur physique 2D + 5 puzzles test (1 mois)",
+      "Itération game design + 30 niveaux progressifs (2-3 mois)",
+      "Assets visuels minimalistes (Blender ou SVG illus)",
+      "Soft launch itch.io pay-what-you-want pour feedback",
+      "Polish + Steam Kids submission (App Fee 100$)",
+      "Marketing communities TIGSource + r/PhysicsGames + bundles éducation",
+      "Port mobile iOS/Android année 2 si traction desktop"
+    ],
+    "tutorial": null,
+    "tags": [
+      "jeu-video",
+      "godot",
+      "steam",
+      "physique",
+      "education",
+      "stem",
+      "periplo",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Investissement temps majeur (4-8 mois solo dev) mais compétences réutilisables PERIPLO. Risque revenus : Steam Kids catégorie faiblement monétisée, majorité jeux indie <1K ventes. À valider uniquement si Guillaume valide le temps d'opportunité vs autres idées (375, 377 plus rentables par mois de travail).",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": false,
+          "text": "Steam indie 2D moyen = 500-2000 ventes totales à 7,99$ sur 12 mois. Range 0-6K mensuel reflète le long tail à forte variance"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": true,
+          "text": "Godot 4 a un moteur 2D physique intégré — prototype en 2 semaines"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": false,
+          "text": "4-8 mois solo dev est le plus gros time-sink du TOP 10, coût d'opportunité élevé"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "Marché Steam Kids + itch = quelques milliers d'acheteurs cible, nichés mais présents"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": true,
+          "text": "Godot gratuit + Steamworks 100$ one-time"
+        }
+      ],
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "id": 384,
+    "name": "Sablier Deep Time — objet Kickstarter 4 échelles temporelles",
+    "category": "games",
+    "difficulty": 4,
+    "investMin": 500,
+    "investMax": 3000,
+    "revenueMin": 0,
+    "revenueMax": 10000,
+    "passive": false,
+    "timeToRevenue": "8-14 mois",
+    "platforms": [
+      "Kickstarter",
+      "Etsy",
+      "Shopify"
+    ],
+    "tools": [
+      "Fusion 360 / CAD",
+      "Prototypeur local (impression 3D + artisan sablier)",
+      "Kickstarter",
+      "Manufacturier Chine"
+    ],
+    "description": "Objet pédagogique : 4 sabliers montés en cascade représentant 4 échelles temporelles (4 milliards d'années, 4000 ans, 4 ans, 4 heures) avec sable coloré et gradué. Permet à l'enfant de visualiser l'écart vertigineux entre la durée humaine et la durée géologique. Produit poétique, press-friendly (TED/Brainpickings type).",
+    "steps": [
+      "Prototype concept CAD + 3 variantes design",
+      "Trouver artisan sablier (fournisseur Bohême ou Chine) pour MOQ bas",
+      "Prototype physique (1-3 unités, 500-1500$)",
+      "Pré-campagne landing page + email list via partenariats YouTube science",
+      "Kickstarter goal 15-25k$, stretch goals versions métaux/bois",
+      "Production 500-1000 unités + fulfilment",
+      "Retail sélectif : museums stores, Etsy premium, Uncommon Goods"
+    ],
+    "tutorial": null,
+    "tags": [
+      "objet",
+      "kickstarter",
+      "sablier",
+      "education",
+      "deep-time",
+      "presse",
+      "recherche-17"
+    ],
+    "comments": [],
+    "status": "new",
+    "rating": 3,
+    "feasibility": {
+      "verdict": "acceptee",
+      "summary": "Concept poétique fort mais projet physique lourd : dépendance fournisseur artisan, fulfilment logistique, risque Kickstarter majeur. À réserver pour phase 4 (mois 10+) après validation des cash flows via 375/376/377. Potentiel presse exceptionnel si réussi.",
+      "details": [
+        {
+          "criterion": "Credibilite revenus",
+          "ok": false,
+          "text": "Kickstarter objet design : ~40% des campagnes 15k$+ échouent. Range 0-10K reflète la binarité"
+        },
+        {
+          "criterion": "Faisabilite technique",
+          "ok": false,
+          "text": "Sablier = savoir-faire artisanal rare ; QA 4 échelles synchrones non trivial"
+        },
+        {
+          "criterion": "Echelle humaine",
+          "ok": false,
+          "text": "Prototypage + sourcing + KS + fulfilment = 8-14 mois, équivalent mi-temps d'un emploi"
+        },
+        {
+          "criterion": "Marche reel",
+          "ok": true,
+          "text": "Niche 'objets poétiques éducatifs' (Uncommon Goods, MoMA Store) monetisable à fort margin"
+        },
+        {
+          "criterion": "Outils disponibles",
+          "ok": false,
+          "text": "Pas d'écosystème POD pour sabliers multi-échelles ; dépendance fournisseurs à identifier"
+        }
+      ],
+      "date": "2026-04-19"
+    }
   }
 ]

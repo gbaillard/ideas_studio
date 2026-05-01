@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ideas Studio — SaaS factures freelance EasyTax</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: "#08090A",
+                            surface: "#0F1011",
+                            elevated: "#17181C",
+                            border: "rgba(255,255,255,0.10)",
+                            borderSubtle: "rgba(255,255,255,0.06)",
+                            textPrimary: "#E6E8EB",
+                            textSecondary: "#8B8F98",
+                            textMuted: "#6C707D",
+                            accent: "#5E6AD2",
+                            accentHover: "#6E7ADD",
+                            success: "#4CB782",
+                            warning: "#F2994A",
+                            danger: "#EB5757"
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace']
+                    },
+                    fontSize: {
+                        'xs-meta': '11px',
+                        'sm-body': '13px',
+                        'base-ui': '15px'
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #08090A;
+            color: #E6E8EB;
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-size: 14px;
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+        }
+        .sidebar-item-active {
+            background-color: rgba(255,255,255,0.05);
+            color: #E6E8EB;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="flex h-screen overflow-hidden">
+<!-- SideNavBar (240px, Left) -->
+<!-- Replicating structure from Shared Components JSON for Ideas Studio -->
+<aside class="flex flex-col h-screen fixed left-0 top-0 w-[240px] bg-[#0F1011] border-r border-white/10 z-50">
+<div class="p-4 flex items-center gap-3">
+<div class="w-6 h-6 bg-brand-accent rounded flex items-center justify-center text-[10px] font-bold text-white">IS</div>
+<div>
+<div class="text-sm font-semibold text-[#E6E8EB]">Ideas Studio</div>
+<div class="text-[11px] text-brand-textMuted leading-none">Professional Catalog</div>
+</div>
+</div>
+<div class="px-2 mt-2">
+<button class="w-full flex items-center justify-between px-3 py-1.5 text-sm-body text-brand-textSecondary hover:bg-white/5 hover:text-white rounded transition-colors mb-4 group">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-textMuted">search</span>
+<span>Search</span>
+</div>
+<span class="text-[10px] bg-white/10 px-1.5 py-0.5 rounded opacity-0 group-hover:opacity-100 transition-opacity">/</span>
+</button>
+</div>
+<nav class="flex-1 px-2 space-y-0.5 overflow-y-auto custom-scrollbar">
+<!-- Navigation items from JSON -->
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors" href="#">
+<span class="material-symbols-outlined">inbox</span>
+<span>Inbox</span>
+</a>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body bg-white/5 text-[#E6E8EB] font-medium rounded transition-colors sidebar-item-active" href="#">
+<span class="material-symbols-outlined">lightbulb</span>
+<span>My Ideas</span>
+</a>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded transition-colors" href="#">
+<span class="material-symbols-outlined">list_alt</span>
+<span>Catalog</span>
+</a>
+<div class="mt-6 mb-2 px-3 text-xs-meta font-medium text-brand-textMuted uppercase tracking-wider">Categories</div>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#E6E8EB] bg-white/5 rounded" href="#">
+<span class="w-2 h-2 rounded-full bg-brand-accent"></span>
+<span>Micro-SaaS</span>
+</a>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded" href="#">
+<span class="w-2 h-2 rounded-full bg-brand-textMuted"></span>
+<span>Mobile Apps</span>
+</a>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded" href="#">
+<span class="w-2 h-2 rounded-full bg-brand-textMuted"></span>
+<span>AI Tools</span>
+</a>
+<div class="mt-6 mb-2 px-3 text-xs-meta font-medium text-brand-textMuted uppercase tracking-wider">System</div>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span>Feasibility</span>
+</a>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span>Archive</span>
+</a>
+<a class="flex items-center gap-2.5 px-3 h-[28px] text-sm-body text-[#8B8F98] hover:bg-white/5 hover:text-[#E6E8EB] rounded" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+</nav>
+<div class="p-4 border-t border-white/5 space-y-4">
+<button class="w-full bg-brand-accent hover:bg-brand-accentHover text-white text-sm-body font-medium h-8 rounded flex items-center justify-center gap-2 transition-transform active:scale-95">
+<span class="material-symbols-outlined !text-[16px]">add</span>
+                New Idea
+            </button>
+<div class="flex items-center gap-3">
+<img alt="User Avatar" class="w-6 h-6 rounded-full" data-alt="close-up portrait of a professional male designer with a minimalist and focused expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyyJtrdD6Gnq3zl_u8odRkYCv2TSq8_EEExLnM7GnWWfEjFLHQddyGW4Vuoxrll8l90A58yQTpmhrlUKamzT2u36FHi-Sbq_WJjqBxF6k8o5Ah_M36JAaJA-W8E-J8AUC-oR9-tTTRNNLsboYg34xqzSmrqDFvPr7wATdl9XBTBSI_gnltRhojZshi_KwxbzoLYyzY0U8wdm5VAIP1lMpymKKTtuKqQg9cqvnsZYU-ENypA90lsrSiRUbVys6OYcq_rxhAHQmy1s2t"/>
+<span class="text-sm-body text-brand-textSecondary font-medium">Guillaume</span>
+<span class="material-symbols-outlined text-brand-textMuted ml-auto">notifications</span>
+</div>
+</div>
+</aside>
+<!-- Main Viewport -->
+<main class="flex-1 flex flex-col ml-[240px] bg-brand-bg h-screen overflow-hidden">
+<!-- TopNavBar (Header, 48px) -->
+<header class="h-12 border-b border-brand-borderSubtle bg-brand-surface flex items-center justify-between px-4 shrink-0">
+<div class="flex items-center gap-2 text-sm-body text-brand-textMuted">
+<span class="hover:text-brand-textSecondary cursor-pointer">Ideas Studio</span>
+<span>/</span>
+<span class="hover:text-brand-textSecondary cursor-pointer">Micro-SaaS</span>
+<span>/</span>
+<span class="text-brand-textPrimary font-medium">SaaS factures freelance EasyTax</span>
+</div>
+<div class="flex items-center gap-1.5">
+<button class="w-7 h-7 flex items-center justify-center rounded border border-brand-borderSubtle hover:bg-white/5 text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[16px]">chevron_left</span>
+</button>
+<button class="w-7 h-7 flex items-center justify-center rounded border border-brand-borderSubtle hover:bg-white/5 text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[16px]">chevron_right</span>
+</button>
+<div class="w-px h-4 bg-brand-borderSubtle mx-1"></div>
+<button class="w-7 h-7 flex items-center justify-center rounded border border-brand-borderSubtle hover:bg-white/5 text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[16px]">download</span>
+</button>
+<button class="w-7 h-7 flex items-center justify-center rounded border border-brand-borderSubtle hover:bg-white/5 text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[16px]">star</span>
+</button>
+<button class="w-7 h-7 flex items-center justify-center rounded border border-brand-borderSubtle hover:bg-white/5 text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[16px]">more_horiz</span>
+</button>
+<button class="ml-2 px-3 h-7 bg-brand-accent text-white text-xs font-medium rounded flex items-center justify-center">
+                    Share
+                </button>
+</div>
+</header>
+<!-- Main Content Area -->
+<div class="flex-1 overflow-y-auto custom-scrollbar p-6 flex gap-8 max-w-[1200px] mx-auto w-full">
+<!-- MAIN_COLUMN -->
+<div class="flex-grow max-w-[720px] space-y-8">
+<!-- Hero Section -->
+<section>
+<h1 class="text-[22px] font-semibold tracking-tight text-brand-textPrimary mb-3">SaaS factures freelance EasyTax</h1>
+<p class="text-base-ui leading-relaxed text-brand-textSecondary">
+                        Un micro-SaaS qui automatise la génération de factures pour freelances en France, avec calcul TVA, pré-remplissage client et export comptable. Cible 2-8K€/mois de MRR.
+                    </p>
+</section>
+<hr class="border-brand-borderSubtle"/>
+<!-- Étude de faisabilité -->
+<section>
+<div class="flex items-center gap-2 mb-4">
+<h2 class="text-base font-semibold text-brand-textPrimary">Étude de faisabilité</h2>
+<div class="flex items-center gap-1.5 px-2 py-0.5 bg-brand-success/10 text-brand-success rounded border border-brand-success/20">
+<span class="material-symbols-outlined !text-[14px]">check_circle</span>
+<span class="text-xs font-medium">Acceptée</span>
+</div>
+</div>
+<p class="text-sm-body text-brand-textSecondary mb-4 leading-relaxed">
+                        Marché freelance français estimé à 900K actifs en forte croissance. Les outils actuels sont soit trop complexes (ERP), soit trop basiques (Excel). Opportunité réelle sur l'automatisation de la TVA et du pré-remplissage. Go.
+                    </p>
+<div class="grid grid-cols-2 gap-y-3 gap-x-4 mb-4">
+<div class="flex items-center gap-2 text-sm-body text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[14px] text-brand-warning">info</span>
+<span>Marché saturé: <span class="text-brand-textPrimary">modéré</span></span>
+</div>
+<div class="flex items-center gap-2 text-sm-body text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[14px] text-brand-success">check_circle</span>
+<span>Différenciation possible: <span class="text-brand-textPrimary">oui</span></span>
+</div>
+<div class="flex items-center gap-2 text-sm-body text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[14px] text-brand-success">check_circle</span>
+<span>Tech stack maîtrisée: <span class="text-brand-textPrimary">oui</span></span>
+</div>
+<div class="flex items-center gap-2 text-sm-body text-brand-textSecondary">
+<span class="material-symbols-outlined !text-[14px] text-brand-success">check_circle</span>
+<span>Budget dans les clous: <span class="text-brand-textPrimary">oui</span></span>
+</div>
+</div>
+<p class="text-[12px] text-brand-textMuted italic">Étude réalisée le 2026-04-10</p>
+</section>
+<hr class="border-brand-borderSubtle"/>
+<!-- Process étape par étape -->
+<section>
+<h2 class="text-base font-semibold text-brand-textPrimary mb-5">Process étape par étape</h2>
+<div class="space-y-4">
+<div class="flex gap-4">
+<div class="font-mono text-[11px] text-brand-accent mt-1 leading-none">01</div>
+<div class="text-sm-body">
+<p class="text-brand-textPrimary font-medium">Validation marché: 10 interviews freelances</p>
+<p class="text-brand-textMuted text-xs mt-0.5">Identifier les points de friction majeurs sur la TVA.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="font-mono text-[11px] text-brand-textMuted mt-1 leading-none">02</div>
+<div class="text-sm-body">
+<p class="text-brand-textPrimary font-medium">Spécifications MVP &amp; Design Figma</p>
+<p class="text-brand-textMuted text-xs mt-0.5">Focus sur l'expérience de création de facture en &lt; 30s.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="font-mono text-[11px] text-brand-textMuted mt-1 leading-none">03</div>
+<div class="text-sm-body">
+<p class="text-brand-textPrimary font-medium">MVP en Vue + Supabase 2 semaines</p>
+<p class="text-brand-textMuted text-xs mt-0.5">Stack rapide pour itération constante.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="font-mono text-[11px] text-brand-textMuted mt-1 leading-none">04</div>
+<div class="text-sm-body">
+<p class="text-brand-textPrimary font-medium">Beta fermée avec 5 testeurs</p>
+<p class="text-brand-textMuted text-xs mt-0.5">Feedback loop serré sur les calculs comptables.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="font-mono text-[11px] text-brand-textMuted mt-1 leading-none">05</div>
+<div class="text-sm-body">
+<p class="text-brand-textPrimary font-medium">Intégration Stripe Billing</p>
+<p class="text-brand-textMuted text-xs mt-0.5">Automatisation du paiement récurrent pour le SaaS.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="font-mono text-[11px] text-brand-textMuted mt-1 leading-none">06</div>
+<div class="text-sm-body">
+<p class="text-brand-textPrimary font-medium">Landing page + waitlist Product Hunt</p>
+<p class="text-brand-textMuted text-xs mt-0.5">Lancement public et acquisition initiale.</p>
+</div>
+</div>
+</div>
+</section>
+<hr class="border-brand-borderSubtle"/>
+<!-- Brief de projet -->
+<section>
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-brand-accent">description</span>
+<h2 class="text-base font-semibold text-brand-textPrimary">Brief de projet</h2>
+</div>
+<div class="space-y-6 mb-6">
+<div class="flex gap-3">
+<div class="w-6 h-6 rounded-full bg-brand-accent flex items-center justify-center text-[10px] font-bold text-white shrink-0">G</div>
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-sm-body font-medium text-brand-textPrimary">Guillaume</span>
+<span class="text-[11px] text-brand-textMuted">2026-03-28</span>
+</div>
+<div class="text-sm-body text-brand-textSecondary leading-relaxed">
+                                    L'idée est de se concentrer sur la simplicité absolue. Un bouton "Nouvelle Facture", les données clients sont tirées par API (Sirene), le calcul de TVA est automatique selon le régime.
+                                </div>
+</div>
+</div>
+<div class="flex gap-3">
+<div class="w-6 h-6 rounded-full bg-brand-accent flex items-center justify-center text-[10px] font-bold text-white shrink-0">G</div>
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-sm-body font-medium text-brand-textPrimary">Guillaume</span>
+<span class="text-[11px] text-brand-textMuted">2026-03-30</span>
+</div>
+<div class="text-sm-body text-brand-textSecondary leading-relaxed">
+                                    V2 possible : Dashboard de suivi de trésorerie simplifié avec relances automatiques par mail.
+                                </div>
+</div>
+</div>
+</div>
+<div class="bg-brand-elevated border border-brand-border rounded p-3">
+<textarea class="w-full bg-transparent border-none focus:ring-0 text-sm-body text-brand-textPrimary resize-none h-20 placeholder:text-brand-textMuted" placeholder="Décris ta vision..."></textarea>
+<div class="flex justify-end mt-2">
+<button class="bg-brand-accent hover:bg-brand-accentHover text-white text-xs font-medium px-3 h-7 rounded transition-colors flex items-center gap-1.5">
+<span class="material-symbols-outlined !text-[14px]">add</span>
+                                Ajouter une note
+                            </button>
+</div>
+</div>
+</section>
+<hr class="border-brand-borderSubtle"/>
+<!-- Commentaires -->
+<section class="pb-20">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-brand-textMuted">chat_bubble</span>
+<h2 class="text-base font-semibold text-brand-textPrimary">Commentaires</h2>
+</div>
+<div class="space-y-8 mb-8">
+<div class="flex gap-3">
+<div class="w-6 h-6 rounded-full bg-brand-accent flex items-center justify-center text-[10px] font-bold text-white shrink-0">G</div>
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-sm-body font-medium text-brand-textPrimary">Guillaume</span>
+<span class="text-[11px] text-brand-textMuted">Il y a 2 jours</span>
+</div>
+<div class="text-sm-body text-brand-textSecondary mb-3">
+                                    Utilisons ce composant pour l'aperçu PDF, c'est super léger.
+                                </div>
+<div class="bg-brand-bg rounded border border-brand-borderSubtle p-3 font-mono text-[12px] text-brand-textSecondary">
+<span class="text-brand-accent">import</span> { PDFViewer } <span class="text-brand-accent">from</span> <span class="text-brand-success">'@easy-tax/renderer'</span>;<br/>
+<span class="text-brand-textMuted">// Initialize preview</span><br/>
+<span class="text-brand-accent">const</span> preview = <span class="text-brand-accent">new</span> PDFViewer({ theme: <span class="text-brand-success">'minimal'</span> });
+                                </div>
+</div>
+</div>
+</div>
+<div class="bg-brand-elevated border border-brand-border rounded p-3">
+<div class="flex gap-3">
+<div class="w-6 h-6 rounded-full bg-brand-accent flex items-center justify-center text-[10px] font-bold text-white shrink-0">G</div>
+<input class="flex-1 bg-transparent border-none focus:ring-0 text-sm-body text-brand-textPrimary placeholder:text-brand-textMuted" placeholder="Ajouter un commentaire..." type="text"/>
+<button class="text-brand-textMuted hover:text-brand-textPrimary">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</section>
+</div>
+<!-- RIGHT_SIDEBAR -->
+<aside class="w-[280px] flex-shrink-0 sticky top-6 h-fit space-y-6">
+<div>
+<h3 class="text-xs-meta font-medium text-brand-textMuted uppercase tracking-wider mb-4">Properties</h3>
+<div class="space-y-4">
+<!-- STATUS -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Status</div>
+<div class="flex items-center gap-2 text-brand-accent font-medium">
+<span class="material-symbols-outlined !text-[16px]">radio_button_partial</span>
+<span>En étude</span>
+</div>
+</div>
+<!-- CATEGORIE -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Catégorie</div>
+<div class="flex items-center gap-2 text-brand-textPrimary">
+<span class="w-2 h-2 rounded-full bg-brand-accent"></span>
+<span>Micro-SaaS</span>
+</div>
+</div>
+<!-- REVENU -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Revenu</div>
+<div class="text-brand-success font-medium">$2K-8K/mois</div>
+</div>
+<!-- INVEST -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Invest</div>
+<div class="text-brand-textPrimary">50-200€/mois</div>
+</div>
+<!-- DELAI -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Délai</div>
+<div class="text-brand-textPrimary">2-4 semaines</div>
+</div>
+<!-- TYPE -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Type</div>
+<div class="flex items-center gap-2 text-brand-textPrimary">
+<span class="material-symbols-outlined !text-[16px] text-brand-accent">all_inclusive</span>
+<span>Passif</span>
+</div>
+</div>
+<!-- DIFFICULTE -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Difficulté</div>
+<div class="flex items-center gap-3">
+<span class="text-brand-textPrimary">3/5</span>
+<div class="w-10 h-[3px] bg-brand-borderSubtle rounded-full overflow-hidden">
+<div class="bg-brand-accent h-full w-[60%]"></div>
+</div>
+</div>
+</div>
+<!-- RATING -->
+<div class="flex items-center text-sm-body">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase">Rating</div>
+<div class="flex items-center gap-1.5 font-semibold text-brand-textPrimary">
+<span class="material-symbols-outlined !text-[14px] text-yellow-500" style="font-variation-settings: 'FILL' 1;">star</span>
+                                4.6
+                            </div>
+</div>
+<!-- TAGS -->
+<div class="flex items-start text-sm-body py-1">
+<div class="w-[90px] text-xs-meta font-medium text-brand-textMuted uppercase mt-1">Tags</div>
+<div class="flex flex-wrap gap-1.5 flex-1">
+<span class="px-1.5 py-0.5 bg-white/5 rounded text-[10px] text-brand-textSecondary hover:text-brand-textPrimary cursor-pointer">#freelance</span>
+<span class="px-1.5 py-0.5 bg-white/5 rounded text-[10px] text-brand-textSecondary hover:text-brand-textPrimary cursor-pointer">#saas</span>
+<span class="px-1.5 py-0.5 bg-white/5 rounded text-[10px] text-brand-textSecondary hover:text-brand-textPrimary cursor-pointer">#mvp</span>
+<span class="px-1.5 py-0.5 bg-white/5 rounded text-[10px] text-brand-textSecondary hover:text-brand-textPrimary cursor-pointer">#vue</span>
+<span class="px-1.5 py-0.5 bg-white/5 rounded text-[10px] text-brand-textSecondary hover:text-brand-textPrimary cursor-pointer">#supabase</span>
+<span class="px-1.5 py-0.5 bg-white/5 rounded text-[10px] text-brand-textSecondary hover:text-brand-textPrimary cursor-pointer">#stripe</span>
+</div>
+</div>
+</div>
+</div>
+<hr class="border-brand-borderSubtle"/>
+<!-- Tutorial Link -->
+<div>
+<h3 class="text-xs-meta font-medium text-brand-textMuted uppercase tracking-wider mb-2">Tutoriel</h3>
+<a class="flex items-center gap-2 text-sm-body text-brand-accent hover:underline group" href="#">
+<span class="material-symbols-outlined !text-[16px]">open_in_new</span>
+<span class="group-hover:text-brand-accentHover">YouTube — Lancer un SaaS en 30j</span>
+</a>
+</div>
+<div class="pt-4 space-y-4">
+<div class="flex items-center justify-between text-[11px] text-brand-textMuted">
+<span>CRÉÉE LE</span>
+<span>2026-03-28</span>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 h-7 border border-brand-borderSubtle hover:bg-white/5 rounded flex items-center justify-center gap-1.5 text-xs-meta font-medium text-brand-textSecondary transition-colors">
+<span class="material-symbols-outlined !text-[14px]">chevron_left</span>
+                            Prev idea
+                        </button>
+<button class="flex-1 h-7 border border-brand-borderSubtle hover:bg-white/5 rounded flex items-center justify-center gap-1.5 text-xs-meta font-medium text-brand-textSecondary transition-colors">
+                            Next idea
+                            <span class="material-symbols-outlined !text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</aside>
+</div>
+</main>
+</body></html>

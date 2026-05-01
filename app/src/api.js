@@ -17,7 +17,7 @@ export const api = {
 
   // Comments
   getComments: (id) => request(`/ideas/${id}/comments`),
-  addComment: (id, text, date) => request(`/ideas/${id}/comments`, { method: 'POST', body: JSON.stringify({ text, date }) }),
+  addComment: (id, text, author, date) => request(`/ideas/${id}/comments`, { method: 'POST', body: JSON.stringify({ text, author, date }) }),
   deleteComment: (id, commentId) => request(`/ideas/${id}/comments/${commentId}`, { method: 'DELETE' }),
 
   // Brief notes

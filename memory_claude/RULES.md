@@ -11,7 +11,8 @@
 - Source de vérité idées : `src/data/ideas.json`
 - Ports : 8090 (dev) / 40300 (Docker prod)
 - Docker : `--restart unless-stopped`, rebuild après chaque modif significative
-- Volume Docker : `/Volumes/T500/PROJECT/VOLUME/ideas-studio/`
+- Volume Docker (canonique, `AGENTS.md §11`) : `/Volumes/T500/PROJECT/VOLUMES/IDEAS_STUDIO/db-data/`
+- ⚠️ `/Volumes/T500/PROJECT/VOLUME/ideas-studio/` (singulier/tiret) est **DEPRECATED** — a provoqué perte de données ILU-158
 
 ## Workflow des idées
 - Feasibility : verdict, summary, details[] (5 critères : Crédibilité revenus, Faisabilité technique, Échelle humaine, Marché réel, Outils disponibles), date
